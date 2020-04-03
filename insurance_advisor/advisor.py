@@ -21,8 +21,12 @@ class InsuranceAdvisor:
     def load_data(filename):
         """Load and transform data from .csv file"""
         data = pd.read_csv(filename)
+        data_original = data.copy()
 
-        # Transform numerial data into categorical bins
+        for feature in InsuranceAdvisor._feature_cols:
+            assert feature in data.columns, "data must contain all feature columns"
+
+        # Transform numerical data into categorical bins
         age_bin_edges = [-1, 20, 40, 60, 80, 100]
         age_bin_labels = ["0-20", "20-40", "40-60", "60-80", "80-100"]
         data['Alter'] = pd.cut(data['Alter'], age_bin_edges, labels=age_bin_labels)
@@ -32,7 +36,10 @@ class InsuranceAdvisor:
         data['Jahresgehalt'] = pd.cut(data['Jahresgehalt'], wage_bin_edges, labels=wage_bin_labels)
         data['Kinder'] = data['Kinder'].apply(str)
 
-        return data[InsuranceAdvisor._feature_cols], data[InsuranceAdvisor._prediction_col]
+        if InsuranceAdvisor._prediction_col in data.columns:
+            return data[InsuranceAdvisor._feature_cols], data[InsuranceAdvisor._prediction_col]
+        else:
+            return data_original[InsuranceAdvisor._feature_cols], data[InsuranceAdvisor._feature_cols]
 
     def fit(self, features, prediction, **kwargs):
         """Create a Bayesian network from the given samples"""
@@ -46,11 +53,11 @@ class InsuranceAdvisor:
 
     def predict_probabilities(self, features):
         """Get probabilities of each tarif for each row"""
-        assert self._prediction_col not in features.columns
         for feature in self._feature_cols:
-            assert feature in features.columns
+            assert feature in features.columns, "data must contain all feature columns"
 
         features = features.copy()
+        features.drop(self._prediction_col, axis=1, inplace=True, errors='ignore')
         features.insert(len(features.columns), self._prediction_col, None)
 
         # Predict probability distribution
@@ -61,6 +68,7 @@ class InsuranceAdvisor:
         return pd.DataFrame(probabilities)[self.classes_]
 
     def save_model(self):
+        """Save a fitted model"""
         id = datetime.now().replace(microsecond=0).isoformat().replace(":", "-")
         Path('model').mkdir(parents=True, exist_ok=True)
         filename = 'model/advisor-{}.json'.format(id)
@@ -70,5 +78,6 @@ class InsuranceAdvisor:
         return id
 
     def load_model(self, id):
+        """Load a previously saved model"""
         with open('model/advisor-{}.json'.format(id), 'r') as file:
             self.model = BayesianNetwork.from_json(file.read())

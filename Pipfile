@@ -12,6 +12,7 @@ seaborn = "*"
 jupyterlab = "*"
 pomegranate = "*"
 scikit-learn = "*"
+tabulate = "*"
 
 [requires]
 python_version = "3.8"
