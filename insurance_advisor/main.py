@@ -35,8 +35,8 @@ def predict(model_id, filename):
     advisor.load_model(model_id)
 
     predictions = advisor.predict(features)
-    full_table = [row.values for _, row in pd.concat([data, predictions], axis=1).iterrows()]
-    print(tabulate(full_table, headers=(InsuranceAdvisor._feature_cols + [InsuranceAdvisor._prediction_col])))
+    table = tabulate(pd.concat([data, predictions], axis=1), headers='keys', showindex=True)
+    print(table)
 
 
 if __name__ == '__main__':

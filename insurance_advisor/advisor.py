@@ -1,5 +1,5 @@
+import os
 from datetime import datetime
-from pathlib import Path
 
 import pandas as pd
 from pomegranate import BayesianNetwork
@@ -49,7 +49,7 @@ class InsuranceAdvisor:
 
     def predict(self, features):
         """Get maximum likelihood estimate for each row"""
-        return self.predict_probabilities(features).idxmax(axis='columns')
+        return self.predict_probabilities(features).idxmax(axis='columns').rename(self._prediction_col)
 
     def predict_probabilities(self, features):
         """Get probabilities of each tarif for each row"""
@@ -69,13 +69,16 @@ class InsuranceAdvisor:
 
     def save_model(self):
         """Save a fitted model"""
-        id = datetime.now().replace(microsecond=0).isoformat().replace(":", "-")
-        Path('model').mkdir(parents=True, exist_ok=True)
-        filename = 'model/advisor-{}.json'.format(id)
+        model_id = datetime.now().replace(microsecond=0).isoformat().replace(":", "-")
+
+        # Create directory and write to file
+        os.makedirs('model', exist_ok=True)
+        filename = 'model/advisor-{}.json'.format(model_id)
         with open(filename, 'w+') as file:
             file.write(self.model.to_json(indent=3))
         print("Saved to", filename)
-        return id
+
+        return model_id
 
     def load_model(self, id):
         """Load a previously saved model"""
