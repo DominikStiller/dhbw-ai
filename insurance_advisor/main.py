@@ -1,4 +1,4 @@
-from sklearn.metrics import accuracy_score, plot_confusion_matrix
+from sklearn.metrics import classification_report, plot_confusion_matrix
 import matplotlib.pyplot as plt
 import pandas as pd
 from tabulate import tabulate
@@ -10,7 +10,8 @@ def train():
     features, prediction = InsuranceAdvisor.load_data('data/dataset_train.csv')
 
     advisor = InsuranceAdvisor()
-    advisor.fit(features, prediction, algorithm='exact', reduce_dataset=False)
+    advisor.fit(features, prediction, algorithm='exact')
+    # TODO find sweet spot for pseudocount so both train and test is good
 
     model_id = advisor.save_model()
     return model_id
@@ -23,8 +24,8 @@ def evaluate(model_id):
     advisor.load_model(model_id)
 
     prediction_actual = advisor.predict(features)
-    print("Accuracy:", accuracy_score(prediction, prediction_actual))
-    plot_confusion_matrix(advisor, features, prediction, cmap='Blues')
+    print(classification_report(prediction, prediction_actual))
+    plot_confusion_matrix(advisor, features, prediction, values_format='d', cmap='Blues')
     plt.show()
 
 
@@ -40,7 +41,7 @@ def predict(model_id, filename):
 
 
 if __name__ == '__main__':
+    model_id = '2020-04-09T14-22-02'  # Accuracy: 0.82
     # model_id = train()
-    model_id = '2020-04-03T14-32-58'  # Accuracy: 0.78
-    # evaluate(model_id)
-    predict(model_id, 'data/dataset_predict.csv')
+    evaluate(model_id)
+    # predict(model_id, 'data/dataset_predict.csv')

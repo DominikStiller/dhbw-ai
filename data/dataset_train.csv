@@ -1,801 +1,701 @@
 Geschlecht,Familienstand,Alter,Kinder,Bildungsstand,Beruf,Jahresgehalt,Immobilienbesitz,Versicherungstarif
-maennlich,ledig,46,0,Lehre,kein,9800,keiner,Tarif B
-weiblich,ledig,14,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,35,0,Lehre,angestellt,68925,Einfamilienhaus,Tarif B
-maennlich,ledig,19,0,Keine,kein,8900,keiner,Tarif C
-weiblich,verheiratet,18,0,Keine,selbständig,0,keiner,Tarif B
-maennlich,verheiratet,63,0,Lehre,arbeitend,32870,keiner,Tarif B
-maennlich,ledig,61,0,Bachelor,selbständig,70400,Mehrfamilienhaus,Tarif B
-weiblich,ledig,26,0,Promotion,verbeamtet,85210,keiner,Tarif B
-weiblich,ledig,21,0,Realschule,kein,9500,keiner,Tarif C
-weiblich,verwitwet,81,1,Hauptschule,selbständig,63300,Eigentumswohnung,Tarif B
-weiblich,verheiratet,79,0,Abitur,im Ruhestand,27500,Eigentumswohnung,Tarif C
-maennlich,verheiratet,65,0,Lehre,arbeitend,13175,Einfamilienhaus,Tarif B
-weiblich,verheiratet,51,0,Lehre,angestellt,78880,keiner,Tarif A
-weiblich,ledig,11,0,Keine,kein,0,Einfamilienhaus,ablehnen
-weiblich,verwitwet,76,0,Master,arbeitend,36220,keiner,Tarif C
-weiblich,verheiratet,53,0,Bachelor,angestellt,68955,keiner,Tarif B
-maennlich,verwitwet,35,3,Lehre,arbeitend,26225,Eigentumswohnung,Tarif A
-maennlich,verwitwet,37,2,Bachelor,angestellt,111295,Villa,Tarif A
-weiblich,verheiratet,24,1,Lehre,kein,9100,keiner,Tarif B
-weiblich,verheiratet,48,0,Lehre,verbeamtet,80820,Einfamilienhaus,Tarif A
-weiblich,ledig,13,0,Keine,kein,0,keiner,ablehnen
-weiblich,verwitwet,69,0,Hauptschule,im Ruhestand,27700,keiner,Tarif D
-maennlich,verheiratet,44,0,Lehre,kein,9800,keiner,Tarif B
-weiblich,ledig,22,0,Bachelor,verbeamtet,84690,keiner,Tarif B
-weiblich,verheiratet,25,1,Lehre,arbeitend,26700,keiner,Tarif A
-weiblich,geschieden,41,0,Abitur,selbständig,91800,keiner,Tarif B
-weiblich,ledig,62,0,Lehre,kein,9900,keiner,Tarif C
-weiblich,ledig,44,0,Realschule,kein,8300,keiner,Tarif C
-maennlich,ledig,25,0,Lehre,angestellt,71575,keiner,Tarif B
-maennlich,verheiratet,29,2,Bachelor,angestellt,67840,Einfamilienhaus,Tarif A
-maennlich,geschieden,35,2,Lehre,verbeamtet,70575,keiner,Tarif A
-maennlich,verheiratet,38,2,Lehre,arbeitend,26560,Eigentumswohnung,Tarif A
-maennlich,verheiratet,51,0,Bachelor,selbständig,78300,Eigentumswohnung,Tarif A
-maennlich,verheiratet,29,2,Bachelor,verbeamtet,90595,Einfamilienhaus,Tarif A
-weiblich,verwitwet,45,0,Bachelor,angestellt,94350,Eigentumswohnung,Tarif B
-weiblich,verwitwet,35,3,Bachelor,angestellt,39450,Eigentumswohnung,Tarif A
-weiblich,verheiratet,28,2,Bachelor,kein,9900,keiner,Tarif A
-maennlich,ledig,40,0,Bachelor,selbständig,42500,keiner,Tarif B
-maennlich,ledig,29,1,Promotion,angestellt,94475,Einfamilienhaus,Tarif A
-weiblich,verheiratet,55,0,Lehre,angestellt,124825,Eigentumswohnung,Tarif A
-weiblich,geschieden,45,0,Bachelor,selbständig,74800,Eigentumswohnung,Tarif B
-weiblich,verwitwet,38,3,Abitur,verbeamtet,46690,keiner,Tarif A
-weiblich,verheiratet,48,0,Bachelor,angestellt,84340,Eigentumswohnung,Tarif A
-weiblich,geschieden,25,0,Realschule,kein,9000,keiner,Tarif C
-weiblich,verheiratet,49,0,Lehre,arbeitend,33255,keiner,Tarif B
-weiblich,verheiratet,45,1,Bachelor,arbeitend,31050,Einfamilienhaus,Tarif A
-maennlich,verheiratet,23,0,Bachelor,verbeamtet,84720,Einfamilienhaus,Tarif A
-maennlich,verheiratet,58,0,Bachelor,angestellt,66950,Einfamilienhaus,Tarif A
-weiblich,verheiratet,49,0,Bachelor,angestellt,70950,Eigentumswohnung,Tarif B
-weiblich,geschieden,48,0,Bachelor,angestellt,73480,keiner,Tarif B
-maennlich,geschieden,43,2,Master,angestellt,30870,keiner,Tarif A
-maennlich,geschieden,24,0,Bachelor,verbeamtet,88100,Eigentumswohnung,Tarif B
-weiblich,verheiratet,26,0,Abitur,kein,8900,keiner,Tarif B
-maennlich,geschieden,46,1,Bachelor,arbeitend,19340,keiner,Tarif B
-weiblich,geschieden,58,0,Lehre,kein,9900,keiner,Tarif C
-maennlich,verheiratet,46,1,Bachelor,angestellt,94900,Einfamilienhaus,Tarif A
-weiblich,verheiratet,51,0,Realschule,kein,8700,Einfamilienhaus,Tarif B
-maennlich,ledig,28,0,Abitur,arbeitend,31400,keiner,Tarif B
-weiblich,verwitwet,46,0,Master,verbeamtet,52050,keiner,Tarif B
-weiblich,verheiratet,26,0,Master,angestellt,100430,Einfamilienhaus,Tarif A
-maennlich,geschieden,42,1,Bachelor,angestellt,105300,Einfamilienhaus,Tarif A
-maennlich,geschieden,50,1,Bachelor,selbständig,36400,keiner,Tarif B
-maennlich,ledig,57,0,Lehre,kein,9600,keiner,Tarif B
-maennlich,geschieden,36,3,Realschule,arbeitend,23740,keiner,Tarif A
-maennlich,verwitwet,40,3,Lehre,angestellt,90300,keiner,Tarif A
-maennlich,verheiratet,31,1,Lehre,selbständig,99800,keiner,Tarif A
-maennlich,ledig,63,1,Bachelor,arbeitend,30440,keiner,Tarif B
-weiblich,geschieden,60,1,Lehre,arbeitend,27100,keiner,Tarif B
-weiblich,verheiratet,22,0,Abitur,kein,9300,keiner,Tarif B
-maennlich,geschieden,67,0,Bachelor,selbständig,80900,Mehrfamilienhaus,Tarif B
-weiblich,ledig,27,1,Abitur,arbeitend,29530,keiner,Tarif B
-maennlich,ledig,29,0,Bachelor,angestellt,73965,keiner,Tarif B
-weiblich,verheiratet,23,2,Bachelor,kein,8300,keiner,Tarif B
-weiblich,ledig,59,0,Lehre,selbständig,60500,keiner,Tarif B
-weiblich,verheiratet,28,2,Lehre,arbeitend,29720,keiner,Tarif A
-maennlich,verheiratet,26,0,Bachelor,angestellt,83810,keiner,Tarif A
-weiblich,verwitwet,39,2,Lehre,kein,9000,keiner,Tarif B
-weiblich,ledig,52,0,Bachelor,angestellt,59200,Einfamilienhaus,Tarif B
-maennlich,verheiratet,48,2,Lehre,angestellt,97340,Eigentumswohnung,Tarif A
-maennlich,ledig,71,0,Bachelor,selbständig,106600,Eigentumswohnung,Tarif B
-maennlich,verheiratet,23,0,Bachelor,verbeamtet,43365,Eigentumswohnung,Tarif B
-weiblich,verwitwet,37,2,Hauptschule,arbeitend,32900,keiner,Tarif B
-maennlich,verwitwet,45,2,Bachelor,angestellt,64950,keiner,Tarif A
-weiblich,ledig,24,1,Hauptschule,verbeamtet,87180,Eigentumswohnung,Tarif B
-maennlich,verheiratet,34,0,Realschule,selbständig,78300,keiner,Tarif A
-maennlich,ledig,26,0,Bachelor,angestellt,71150,Eigentumswohnung,Tarif B
-maennlich,verheiratet,95,1,Hauptschule,selbständig,41000,Einfamilienhaus,Tarif A
-weiblich,geschieden,40,2,Lehre,arbeitend,32300,keiner,Tarif B
-weiblich,verwitwet,70,0,Lehre,arbeitend,27250,keiner,Tarif C
-maennlich,ledig,64,0,Bachelor,angestellt,78040,Mehrfamilienhaus,Tarif B
-maennlich,geschieden,61,0,Lehre,angestellt,74950,keiner,Tarif B
-weiblich,ledig,17,0,Keine,kein,0,keiner,ablehnen
-maennlich,verheiratet,40,3,Master,arbeitend,32500,Eigentumswohnung,Tarif A
-maennlich,geschieden,45,1,Bachelor,verbeamtet,77800,Eigentumswohnung,Tarif A
-maennlich,geschieden,54,0,Bachelor,angestellt,83360,Einfamilienhaus,Tarif A
-weiblich,verheiratet,76,0,Bachelor,im Ruhestand,28200,keiner,Tarif C
-weiblich,verwitwet,86,0,Master,im Ruhestand,31900,keiner,Tarif D
-weiblich,verheiratet,45,0,Bachelor,angestellt,57400,keiner,Tarif B
-weiblich,ledig,13,0,Keine,kein,0,keiner,ablehnen
-maennlich,ledig,37,0,Abitur,arbeitend,28445,keiner,Tarif B
-weiblich,verwitwet,32,2,Master,angestellt,75020,keiner,Tarif A
-maennlich,verheiratet,22,0,Bachelor,angestellt,49460,keiner,Tarif B
-weiblich,ledig,11,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,55,1,Bachelor,angestellt,66075,Einfamilienhaus,Tarif A
-weiblich,geschieden,42,4,Lehre,angestellt,67180,keiner,Tarif A
-maennlich,ledig,49,0,Master,angestellt,80365,Einfamilienhaus,Tarif A
-weiblich,ledig,23,0,Lehre,kein,8800,keiner,Tarif C
-weiblich,verwitwet,38,0,Lehre,selbständig,69500,keiner,Tarif B
-weiblich,verheiratet,37,0,Lehre,kein,8700,keiner,Tarif B
-weiblich,ledig,54,0,Master,angestellt,70730,Eigentumswohnung,Tarif B
-weiblich,ledig,62,0,Bachelor,angestellt,80640,keiner,Tarif B
-maennlich,verheiratet,60,1,Bachelor,selbständig,92900,Einfamilienhaus,Tarif A
-maennlich,verwitwet,83,0,Bachelor,selbständig,57400,keiner,Tarif B
-maennlich,ledig,26,0,Lehre,kein,8700,keiner,Tarif B
-weiblich,verheiratet,19,0,Abitur,kein,9500,keiner,Tarif B
-maennlich,ledig,19,0,Hauptschule,selbständig,64200,Einfamilienhaus,Tarif B
-weiblich,verheiratet,39,2,Lehre,arbeitend,31505,keiner,Tarif A
-weiblich,geschieden,41,4,Abitur,selbständig,95200,Villa,Tarif A
-weiblich,ledig,67,0,Bachelor,im Ruhestand,23500,keiner,Tarif D
-maennlich,verheiratet,34,2,Lehre,angestellt,90600,keiner,Tarif A
-maennlich,ledig,29,0,Bachelor,kein,9000,keiner,Tarif B
-maennlich,ledig,4,0,Keine,kein,0,keiner,ablehnen
-maennlich,ledig,40,0,Master,angestellt,54700,Einfamilienhaus,Tarif B
-weiblich,ledig,15,0,Keine,kein,0,keiner,ablehnen
-maennlich,verheiratet,34,1,Bachelor,arbeitend,28220,keiner,Tarif A
-maennlich,ledig,58,0,Lehre,kein,9700,keiner,Tarif B
-weiblich,geschieden,50,0,Abitur,arbeitend,31700,keiner,Tarif B
-weiblich,ledig,15,0,Keine,kein,0,keiner,ablehnen
-maennlich,verwitwet,45,1,Lehre,arbeitend,28075,keiner,Tarif B
-maennlich,verwitwet,39,0,Master,angestellt,118045,Einfamilienhaus,Tarif A
-maennlich,verwitwet,43,2,Lehre,kein,9300,keiner,Tarif B
-weiblich,verheiratet,55,0,Bachelor,kein,9300,keiner,Tarif B
-maennlich,ledig,16,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,36,2,Realschule,angestellt,77820,Eigentumswohnung,Tarif A
-weiblich,verheiratet,46,0,Lehre,arbeitend,29180,keiner,Tarif B
-maennlich,geschieden,77,1,Lehre,angestellt,106250,Villa,Tarif A
-maennlich,geschieden,32,2,Master,angestellt,92520,keiner,Tarif A
-maennlich,verwitwet,53,0,Promotion,verbeamtet,78010,keiner,Tarif A
-weiblich,ledig,15,1,Keine,kein,0,keiner,ablehnen
-maennlich,ledig,61,0,Lehre,arbeitend,33495,keiner,Tarif B
-maennlich,geschieden,48,1,Lehre,selbständig,66700,keiner,Tarif B
-maennlich,verheiratet,64,0,Bachelor,angestellt,101200,Einfamilienhaus,Tarif A
-maennlich,verheiratet,44,0,Master,angestellt,79460,keiner,Tarif A
-weiblich,verheiratet,63,0,Lehre,kein,9300,keiner,Tarif B
-maennlich,ledig,41,0,Bachelor,verbeamtet,67845,keiner,Tarif B
-maennlich,ledig,62,0,Master,arbeitend,34690,keiner,Tarif B
-maennlich,ledig,11,0,Keine,kein,0,keiner,ablehnen
-maennlich,ledig,18,0,Hauptschule,kein,0,keiner,Tarif C
-maennlich,ledig,53,0,Master,angestellt,66125,keiner,Tarif B
-weiblich,verheiratet,33,1,Bachelor,verbeamtet,72810,keiner,Tarif A
-maennlich,verheiratet,55,0,Bachelor,verbeamtet,95900,Einfamilienhaus,Tarif A
-weiblich,verwitwet,70,1,Bachelor,arbeitend,29350,keiner,Tarif B
-maennlich,verheiratet,73,0,Lehre,arbeitend,29875,keiner,Tarif B
-weiblich,verheiratet,68,0,Master,im Ruhestand,23700,keiner,Tarif C
-maennlich,ledig,18,0,Hauptschule,kein,0,keiner,Tarif C
-maennlich,geschieden,62,0,Bachelor,arbeitend,27030,keiner,Tarif B
-maennlich,verwitwet,65,0,Realschule,selbständig,108000,Einfamilienhaus,Tarif B
-weiblich,ledig,37,0,Master,verbeamtet,76445,keiner,Tarif B
-maennlich,geschieden,41,2,Lehre,kein,9800,Einfamilienhaus,Tarif B
-maennlich,geschieden,69,0,Realschule,im Ruhestand,37600,Eigentumswohnung,Tarif C
-maennlich,ledig,8,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,41,2,Hauptschule,angestellt,81900,Mehrfamilienhaus,Tarif A
-weiblich,ledig,26,0,Lehre,kein,9700,keiner,Tarif C
-weiblich,verheiratet,62,0,Bachelor,angestellt,80850,keiner,Tarif A
-weiblich,geschieden,45,0,Lehre,angestellt,57175,keiner,Tarif B
-maennlich,ledig,17,0,Keine,selbständig,0,keiner,ablehnen
-maennlich,verwitwet,30,0,Lehre,kein,8300,keiner,Tarif B
-weiblich,geschieden,24,1,Bachelor,angestellt,53480,Eigentumswohnung,Tarif B
-maennlich,verwitwet,36,2,Master,angestellt,58660,Eigentumswohnung,Tarif A
-weiblich,verwitwet,35,0,Bachelor,angestellt,63750,keiner,Tarif B
-maennlich,ledig,13,0,Keine,kein,0,keiner,ablehnen
-weiblich,ledig,30,0,Abitur,selbständig,85500,Eigentumswohnung,Tarif B
-maennlich,verheiratet,30,0,Bachelor,angestellt,73500,Eigentumswohnung,Tarif A
-maennlich,verwitwet,33,4,Bachelor,angestellt,85690,Einfamilienhaus,Tarif A
-weiblich,verheiratet,37,3,Lehre,kein,8900,keiner,Tarif A
-weiblich,verheiratet,31,2,Keine,arbeitend,28080,Eigentumswohnung,Tarif A
-maennlich,geschieden,70,0,Hauptschule,im Ruhestand,33900,Eigentumswohnung,Tarif C
-weiblich,ledig,56,0,Realschule,selbständig,69500,Eigentumswohnung,Tarif B
-weiblich,verheiratet,35,0,Bachelor,verbeamtet,75700,keiner,Tarif A
-maennlich,geschieden,74,0,Lehre,im Ruhestand,26500,keiner,Tarif C
-maennlich,ledig,25,0,Abitur,kein,9200,keiner,Tarif B
-maennlich,geschieden,42,0,Master,selbständig,94100,Eigentumswohnung,Tarif A
-weiblich,verheiratet,32,0,Lehre,angestellt,118440,Einfamilienhaus,Tarif A
-maennlich,verheiratet,42,1,Lehre,arbeitend,24030,keiner,Tarif A
-weiblich,verheiratet,54,1,Realschule,arbeitend,33830,keiner,Tarif A
-maennlich,verheiratet,33,0,Lehre,angestellt,58995,Eigentumswohnung,Tarif A
-maennlich,ledig,26,0,Bachelor,angestellt,53570,Einfamilienhaus,Tarif B
-weiblich,verheiratet,56,1,Master,verbeamtet,86680,Mehrfamilienhaus,Tarif A
-maennlich,geschieden,47,2,Bachelor,angestellt,41945,Eigentumswohnung,Tarif A
-maennlich,verheiratet,21,0,Bachelor,selbständig,107000,keiner,Tarif A
-maennlich,verheiratet,40,4,Abitur,kein,8400,keiner,Tarif A
-maennlich,verheiratet,44,3,Bachelor,angestellt,81280,keiner,Tarif A
-maennlich,ledig,3,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,26,1,Abitur,selbständig,45400,keiner,Tarif A
-maennlich,ledig,23,0,Bachelor,arbeitend,26440,Eigentumswohnung,Tarif B
-weiblich,verheiratet,48,1,Lehre,kein,9600,keiner,Tarif B
-maennlich,verheiratet,27,0,Master,angestellt,110215,Einfamilienhaus,Tarif A
-maennlich,ledig,14,0,Keine,kein,0,keiner,ablehnen
-weiblich,geschieden,72,0,Lehre,selbständig,63400,Eigentumswohnung,Tarif C
-weiblich,geschieden,66,0,Bachelor,im Ruhestand,37800,Eigentumswohnung,Tarif D
-maennlich,verheiratet,27,0,Lehre,kein,9300,keiner,Tarif B
-weiblich,verheiratet,73,0,Bachelor,selbständig,43600,keiner,Tarif B
-maennlich,ledig,30,0,Promotion,angestellt,100050,Mehrfamilienhaus,Tarif A
-weiblich,ledig,18,0,Keine,kein,0,keiner,Tarif C
-maennlich,verheiratet,24,0,Bachelor,selbständig,107900,Einfamilienhaus,Tarif A
-maennlich,geschieden,55,0,Lehre,angestellt,85800,Einfamilienhaus,Tarif A
-weiblich,ledig,9,0,Keine,kein,0,keiner,ablehnen
-weiblich,ledig,15,0,Keine,kein,0,keiner,ablehnen
-maennlich,geschieden,52,0,Bachelor,angestellt,122500,Einfamilienhaus,Tarif A
-maennlich,verheiratet,40,2,Lehre,kein,8500,keiner,Tarif A
-weiblich,verheiratet,63,0,Bachelor,angestellt,100135,Eigentumswohnung,Tarif A
-weiblich,ledig,4,0,Keine,kein,0,keiner,ablehnen
-weiblich,ledig,21,0,Bachelor,angestellt,66760,keiner,Tarif C
-maennlich,verheiratet,73,0,Lehre,selbständig,58900,keiner,Tarif B
-maennlich,geschieden,47,2,Bachelor,angestellt,67145,Eigentumswohnung,Tarif A
-weiblich,ledig,13,0,Keine,kein,0,keiner,ablehnen
-maennlich,verheiratet,69,0,Bachelor,selbständig,63800,Eigentumswohnung,Tarif B
-weiblich,ledig,41,0,Master,selbständig,101500,Einfamilienhaus,Tarif B
-maennlich,verheiratet,28,0,Bachelor,angestellt,105060,Villa,Tarif A
-maennlich,ledig,37,0,Bachelor,verbeamtet,46335,keiner,Tarif B
-maennlich,verwitwet,53,1,Bachelor,angestellt,53475,Eigentumswohnung,Tarif B
-weiblich,verwitwet,90,0,Hauptschule,im Ruhestand,24200,keiner,Tarif D
-maennlich,ledig,30,0,Bachelor,verbeamtet,83750,Einfamilienhaus,Tarif A
-weiblich,ledig,24,1,Hauptschule,kein,8500,keiner,Tarif C
-weiblich,verheiratet,44,0,Lehre,angestellt,93180,Einfamilienhaus,Tarif A
-maennlich,verheiratet,56,0,Master,arbeitend,24260,keiner,Tarif A
-weiblich,verheiratet,50,0,Bachelor,angestellt,96800,keiner,Tarif A
-weiblich,verheiratet,39,4,Lehre,angestellt,56900,Eigentumswohnung,Tarif A
-maennlich,geschieden,77,1,Lehre,selbständig,70400,Einfamilienhaus,Tarif B
-weiblich,verheiratet,47,0,Lehre,arbeitend,29395,Einfamilienhaus,Tarif B
-maennlich,verheiratet,43,3,Lehre,arbeitend,31685,keiner,Tarif A
-maennlich,ledig,38,1,Lehre,verbeamtet,74550,keiner,Tarif B
-maennlich,ledig,16,0,Hauptschule,kein,0,keiner,ablehnen
-weiblich,ledig,9,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,34,4,Bachelor,kein,9200,keiner,Tarif A
-maennlich,ledig,17,0,Keine,kein,0,keiner,ablehnen
-weiblich,ledig,53,0,Master,selbständig,62000,Eigentumswohnung,Tarif B
-maennlich,geschieden,44,2,Bachelor,angestellt,80180,keiner,Tarif A
-weiblich,verwitwet,33,0,Realschule,arbeitend,30635,Eigentumswohnung,Tarif B
-weiblich,verheiratet,58,0,Bachelor,im Ruhestand,24400,Einfamilienhaus,Tarif B
-weiblich,verheiratet,28,3,Bachelor,angestellt,61340,keiner,Tarif A
-maennlich,verheiratet,80,0,Bachelor,selbständig,61300,keiner,Tarif B
-maennlich,verheiratet,24,0,Abitur,angestellt,45760,Einfamilienhaus,Tarif B
-weiblich,ledig,82,0,Lehre,im Ruhestand,19800,keiner,Tarif D
-maennlich,verheiratet,46,4,Lehre,arbeitend,30910,keiner,Tarif A
-weiblich,ledig,15,0,Keine,kein,0,keiner,ablehnen
-maennlich,verheiratet,34,0,Bachelor,angestellt,59510,Einfamilienhaus,Tarif A
-maennlich,ledig,80,0,Hauptschule,angestellt,75300,keiner,Tarif B
-weiblich,geschieden,62,1,Promotion,angestellt,77420,Eigentumswohnung,Tarif B
-weiblich,ledig,14,0,Keine,kein,0,keiner,ablehnen
-maennlich,verwitwet,31,6,Master,angestellt,80410,keiner,Tarif A
-maennlich,verheiratet,34,0,Master,angestellt,47610,Mehrfamilienhaus,Tarif A
-weiblich,ledig,18,0,Keine,kein,0,keiner,Tarif C
-weiblich,verheiratet,64,0,Lehre,kein,9400,keiner,Tarif B
-maennlich,verheiratet,68,0,Realschule,selbständig,76100,Eigentumswohnung,Tarif A
-maennlich,verwitwet,54,0,Bachelor,angestellt,90180,Eigentumswohnung,Tarif A
-maennlich,verwitwet,74,0,Promotion,im Ruhestand,43200,Eigentumswohnung,Tarif C
+maennlich,verwitwet,53,1,Lehre,angestellt,100680,Einfamilienhaus,Tarif A
 weiblich,ledig,59,0,Lehre,kein,9900,keiner,Tarif C
-weiblich,ledig,19,0,Keine,kein,9400,keiner,Tarif C
-maennlich,ledig,69,0,Lehre,arbeitend,33010,Eigentumswohnung,Tarif B
-weiblich,verheiratet,44,5,Abitur,angestellt,66960,keiner,Tarif A
-maennlich,ledig,15,0,Keine,kein,0,keiner,ablehnen
-maennlich,geschieden,42,6,Lehre,arbeitend,30780,keiner,Tarif A
-weiblich,verheiratet,21,1,Abitur,kein,9300,keiner,Tarif B
-maennlich,verwitwet,52,0,Lehre,kein,9000,keiner,Tarif B
-weiblich,geschieden,64,0,Promotion,im Ruhestand,28000,keiner,Tarif D
-weiblich,ledig,17,0,Realschule,kein,0,keiner,ablehnen
-weiblich,ledig,33,0,Lehre,arbeitend,28140,keiner,Tarif B
-weiblich,ledig,28,0,Bachelor,angestellt,53660,Eigentumswohnung,Tarif B
-maennlich,verheiratet,52,0,Bachelor,angestellt,81320,keiner,Tarif A
-maennlich,geschieden,35,1,Master,verbeamtet,125925,Einfamilienhaus,Tarif A
-weiblich,verheiratet,46,0,Bachelor,kein,8700,keiner,Tarif B
-weiblich,geschieden,46,1,Lehre,kein,9500,keiner,Tarif B
-maennlich,ledig,15,0,Keine,kein,0,keiner,ablehnen
-weiblich,ledig,35,0,Lehre,verbeamtet,91250,Einfamilienhaus,Tarif B
-maennlich,ledig,14,0,Keine,kein,0,keiner,ablehnen
-weiblich,geschieden,48,0,Abitur,selbständig,66100,keiner,Tarif B
-maennlich,verheiratet,29,3,Bachelor,angestellt,70385,Eigentumswohnung,Tarif A
-maennlich,verheiratet,58,0,Bachelor,angestellt,89480,Einfamilienhaus,Tarif A
-maennlich,verheiratet,26,0,Realschule,arbeitend,30240,keiner,Tarif A
-weiblich,geschieden,38,3,Realschule,angestellt,69390,keiner,Tarif A
-maennlich,ledig,11,0,Keine,kein,0,keiner,ablehnen
-maennlich,verheiratet,35,0,Bachelor,angestellt,62750,keiner,Tarif A
-maennlich,verwitwet,35,0,Promotion,angestellt,95950,keiner,Tarif A
-maennlich,verheiratet,26,2,Bachelor,selbständig,25700,keiner,Tarif A
-maennlich,ledig,14,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,32,2,Lehre,kein,9400,keiner,Tarif A
-maennlich,ledig,43,1,Master,selbständig,93000,Einfamilienhaus,Tarif A
-weiblich,verheiratet,26,1,Bachelor,angestellt,64470,keiner,Tarif A
-weiblich,verheiratet,49,0,Master,selbständig,70500,Eigentumswohnung,Tarif B
-weiblich,ledig,20,0,Bachelor,angestellt,48900,keiner,Tarif C
-weiblich,ledig,56,0,Bachelor,im Ruhestand,29100,Eigentumswohnung,Tarif C
-weiblich,ledig,29,0,Master,angestellt,55445,keiner,Tarif B
-weiblich,verheiratet,35,2,Realschule,kein,8800,keiner,Tarif A
-weiblich,verheiratet,58,0,Bachelor,angestellt,115280,Einfamilienhaus,Tarif A
-maennlich,verwitwet,31,0,Bachelor,angestellt,70415,keiner,Tarif B
-maennlich,verwitwet,63,0,Bachelor,angestellt,82540,keiner,Tarif B
-weiblich,verheiratet,60,1,Bachelor,verbeamtet,91300,Eigentumswohnung,Tarif A
-maennlich,ledig,25,0,Lehre,angestellt,46650,keiner,Tarif B
-maennlich,ledig,72,0,Master,im Ruhestand,27000,keiner,Tarif C
-weiblich,ledig,18,0,Keine,kein,0,keiner,Tarif C
-weiblich,ledig,46,0,Master,angestellt,86690,Eigentumswohnung,Tarif B
-maennlich,ledig,27,0,Bachelor,kein,9300,keiner,Tarif B
-maennlich,verheiratet,71,0,Bachelor,im Ruhestand,21500,keiner,Tarif B
-maennlich,ledig,18,0,Keine,kein,0,keiner,Tarif C
-maennlich,geschieden,45,2,Lehre,selbständig,90400,keiner,Tarif A
-maennlich,ledig,45,0,Bachelor,angestellt,71075,Eigentumswohnung,Tarif B
-maennlich,ledig,10,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,55,0,Lehre,kein,9800,keiner,Tarif B
-maennlich,ledig,15,0,Keine,kein,0,keiner,ablehnen
-weiblich,ledig,9,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,27,6,Lehre,arbeitend,25190,Eigentumswohnung,Tarif A
-maennlich,ledig,77,0,Master,selbständig,49500,Eigentumswohnung,Tarif B
-weiblich,ledig,18,0,Hauptschule,kein,0,Einfamilienhaus,Tarif C
-maennlich,verwitwet,62,0,Bachelor,angestellt,79130,Eigentumswohnung,Tarif B
-weiblich,geschieden,61,0,Lehre,kein,8800,keiner,Tarif C
-weiblich,verheiratet,67,0,Bachelor,arbeitend,25620,keiner,Tarif B
-weiblich,ledig,38,0,Lehre,angestellt,76830,Eigentumswohnung,Tarif B
-maennlich,verheiratet,63,0,Promotion,angestellt,66760,Eigentumswohnung,Tarif B
-weiblich,verwitwet,65,0,Realschule,angestellt,104825,Einfamilienhaus,Tarif B
-maennlich,verheiratet,24,3,Bachelor,angestellt,61240,keiner,Tarif A
-weiblich,geschieden,40,1,Bachelor,angestellt,79400,Eigentumswohnung,Tarif A
-maennlich,ledig,13,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,68,1,Abitur,im Ruhestand,39500,keiner,Tarif B
-weiblich,geschieden,30,0,Lehre,arbeitend,31150,Eigentumswohnung,Tarif B
-maennlich,ledig,22,0,Realschule,kein,9300,keiner,Tarif C
-weiblich,geschieden,38,2,Abitur,selbständig,103600,Einfamilienhaus,Tarif A
-weiblich,verwitwet,42,2,Hauptschule,arbeitend,26640,keiner,Tarif B
-weiblich,ledig,11,0,Keine,kein,0,keiner,ablehnen
-maennlich,ledig,27,0,Promotion,angestellt,80805,Einfamilienhaus,Tarif A
-weiblich,ledig,13,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,46,1,Bachelor,selbständig,58500,keiner,Tarif A
-maennlich,ledig,99,0,Hauptschule,selbständig,26900,keiner,Tarif B
-maennlich,ledig,23,0,Lehre,arbeitend,29970,keiner,Tarif B
-maennlich,verwitwet,43,0,Keine,selbständig,68400,Einfamilienhaus,Tarif B
-weiblich,geschieden,63,0,Master,angestellt,77080,keiner,Tarif B
-maennlich,verheiratet,26,0,Lehre,selbständig,39600,Einfamilienhaus,Tarif A
-maennlich,geschieden,48,0,Lehre,arbeitend,29440,Eigentumswohnung,Tarif B
-weiblich,verheiratet,34,0,Promotion,angestellt,89330,Einfamilienhaus,Tarif A
+weiblich,geschieden,60,1,Lehre,arbeitend,27100,keiner,Tarif B
+maennlich,verheiratet,57,0,Promotion,angestellt,82145,keiner,Tarif A
+weiblich,ledig,35,0,Lehre,arbeitend,30450,keiner,Tarif B
 weiblich,verwitwet,30,1,Bachelor,angestellt,59450,keiner,Tarif B
-maennlich,verheiratet,68,1,Master,angestellt,83740,Einfamilienhaus,Tarif A
-maennlich,ledig,6,0,Keine,kein,0,keiner,ablehnen
-maennlich,verheiratet,28,2,Lehre,kein,9800,keiner,Tarif A
-weiblich,verheiratet,34,2,Lehre,angestellt,60780,keiner,Tarif A
-weiblich,verheiratet,57,0,Bachelor,arbeitend,33215,keiner,Tarif B
-maennlich,verwitwet,61,0,Abitur,angestellt,51365,Eigentumswohnung,Tarif B
-maennlich,verheiratet,54,1,Lehre,selbständig,76000,keiner,Tarif A
-weiblich,verheiratet,61,0,Bachelor,verbeamtet,88405,keiner,Tarif A
-weiblich,verheiratet,50,0,Lehre,kein,8900,keiner,Tarif B
-weiblich,ledig,19,0,Keine,kein,8900,keiner,Tarif C
-maennlich,geschieden,37,3,Bachelor,angestellt,80900,Einfamilienhaus,Tarif A
-maennlich,verheiratet,30,1,Lehre,angestellt,94200,Mehrfamilienhaus,Tarif A
-weiblich,geschieden,65,1,Lehre,selbständig,36600,keiner,Tarif B
-maennlich,verheiratet,54,0,Bachelor,angestellt,88640,Eigentumswohnung,Tarif A
-weiblich,verheiratet,26,2,Lehre,angestellt,81320,keiner,Tarif A
-maennlich,verwitwet,36,0,Lehre,arbeitend,25900,keiner,Tarif B
-weiblich,verheiratet,29,2,Lehre,kein,9100,keiner,Tarif A
-weiblich,ledig,31,0,Master,angestellt,82520,Einfamilienhaus,Tarif B
-weiblich,geschieden,49,0,Lehre,selbständig,31800,keiner,Tarif B
-maennlich,ledig,25,0,Bachelor,selbständig,92300,Einfamilienhaus,Tarif A
-weiblich,geschieden,53,0,Lehre,selbständig,104700,Einfamilienhaus,Tarif B
-weiblich,verheiratet,75,0,Bachelor,im Ruhestand,44400,Eigentumswohnung,Tarif C
-weiblich,ledig,16,0,Realschule,kein,0,keiner,ablehnen
-maennlich,ledig,36,0,Bachelor,angestellt,80000,keiner,Tarif A
-maennlich,ledig,17,0,Keine,kein,0,keiner,ablehnen
-maennlich,ledig,8,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,23,2,Bachelor,angestellt,59475,Eigentumswohnung,Tarif A
-weiblich,ledig,14,0,Keine,kein,0,keiner,ablehnen
-weiblich,ledig,11,0,Keine,kein,0,keiner,ablehnen
-weiblich,ledig,24,0,Abitur,kein,8600,keiner,Tarif C
-weiblich,verheiratet,49,0,Master,angestellt,107010,Einfamilienhaus,Tarif A
-maennlich,ledig,27,0,Master,arbeitend,27360,Eigentumswohnung,Tarif B
-weiblich,geschieden,50,1,Hauptschule,kein,9300,keiner,Tarif B
-weiblich,verwitwet,65,1,Realschule,arbeitend,34075,Eigentumswohnung,Tarif B
-weiblich,verheiratet,41,4,Lehre,kein,9500,keiner,Tarif A
-weiblich,verwitwet,56,0,Realschule,kein,8800,keiner,Tarif C
-maennlich,ledig,15,0,Keine,kein,0,keiner,ablehnen
+weiblich,verheiratet,31,2,Keine,arbeitend,28080,Eigentumswohnung,Tarif A
+weiblich,ledig,18,0,Keine,kein,0,keiner,Tarif C
 maennlich,ledig,20,0,Bachelor,angestellt,38600,keiner,Tarif B
-weiblich,verwitwet,96,0,Bachelor,im Ruhestand,30900,keiner,Tarif D
-weiblich,ledig,42,0,Hauptschule,selbständig,65500,keiner,Tarif B
-weiblich,verheiratet,23,1,Bachelor,angestellt,81375,Eigentumswohnung,Tarif A
-maennlich,verheiratet,24,0,Lehre,arbeitend,28140,keiner,Tarif B
-weiblich,verwitwet,87,0,Realschule,im Ruhestand,27800,keiner,Tarif D
-maennlich,verheiratet,58,0,Bachelor,angestellt,59900,Einfamilienhaus,Tarif A
-maennlich,ledig,11,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,22,3,Keine,kein,8500,keiner,Tarif A
-weiblich,ledig,10,0,Keine,kein,0,Einfamilienhaus,ablehnen
-weiblich,ledig,23,0,Abitur,kein,9100,keiner,Tarif C
-maennlich,ledig,62,0,Bachelor,angestellt,135770,Villa,Tarif B
-weiblich,verheiratet,56,1,Bachelor,angestellt,98900,Eigentumswohnung,Tarif A
-maennlich,verwitwet,54,0,Bachelor,angestellt,52080,keiner,Tarif B
-maennlich,verheiratet,39,1,Bachelor,verbeamtet,83590,Einfamilienhaus,Tarif A
-maennlich,ledig,50,0,Bachelor,verbeamtet,75900,keiner,Tarif A
-weiblich,geschieden,50,0,Bachelor,kein,10000,keiner,Tarif C
-maennlich,ledig,20,0,Bachelor,kein,10000,keiner,Tarif C
-weiblich,ledig,6,0,Keine,kein,0,keiner,ablehnen
-maennlich,verheiratet,29,0,Master,kein,9300,keiner,Tarif B
-maennlich,verheiratet,30,0,Lehre,angestellt,91550,Eigentumswohnung,Tarif A
-maennlich,geschieden,44,2,Lehre,kein,8500,keiner,Tarif B
-weiblich,ledig,69,0,Bachelor,selbständig,58300,Einfamilienhaus,Tarif C
-maennlich,verheiratet,59,1,Lehre,kein,9600,keiner,Tarif A
-weiblich,geschieden,66,0,Bachelor,im Ruhestand,32600,keiner,Tarif D
-maennlich,ledig,18,0,Keine,kein,0,keiner,Tarif C
-maennlich,ledig,20,0,Master,arbeitend,23100,keiner,Tarif B
-maennlich,ledig,61,0,Lehre,kein,9200,keiner,Tarif C
-maennlich,ledig,21,0,Bachelor,angestellt,91470,keiner,Tarif B
-weiblich,ledig,8,0,Keine,kein,0,keiner,ablehnen
-maennlich,ledig,21,0,Bachelor,selbständig,42500,keiner,Tarif B
-weiblich,verwitwet,31,4,Lehre,arbeitend,26625,Eigentumswohnung,Tarif A
-weiblich,ledig,59,0,Bachelor,kein,9600,keiner,Tarif C
-weiblich,geschieden,52,0,Lehre,arbeitend,26040,keiner,Tarif B
-weiblich,verheiratet,45,0,Bachelor,angestellt,84150,keiner,Tarif A
-weiblich,verheiratet,68,0,Lehre,selbständig,93000,Eigentumswohnung,Tarif A
-weiblich,verheiratet,59,0,Bachelor,angestellt,118080,Eigentumswohnung,Tarif A
-maennlich,ledig,11,0,Keine,kein,0,keiner,ablehnen
-maennlich,geschieden,50,0,Realschule,selbständig,54000,Einfamilienhaus,Tarif B
-weiblich,verheiratet,61,1,Bachelor,angestellt,106175,Villa,Tarif A
-maennlich,geschieden,40,3,Bachelor,angestellt,62200,Eigentumswohnung,Tarif A
-maennlich,geschieden,34,0,Master,selbständig,42600,Eigentumswohnung,Tarif B
-weiblich,ledig,60,0,Master,verbeamtet,102700,Eigentumswohnung,Tarif B
-weiblich,geschieden,54,0,Bachelor,verbeamtet,73470,keiner,Tarif B
-weiblich,verheiratet,59,0,Bachelor,arbeitend,34800,Eigentumswohnung,Tarif B
-maennlich,geschieden,31,2,Bachelor,angestellt,60420,keiner,Tarif A
-weiblich,verwitwet,39,1,Lehre,kein,9100,keiner,Tarif B
-weiblich,verheiratet,58,1,Bachelor,verbeamtet,78460,Eigentumswohnung,Tarif A
-weiblich,ledig,17,0,Realschule,arbeitend,0,keiner,ablehnen
-maennlich,verheiratet,57,0,Bachelor,angestellt,84030,keiner,Tarif A
-maennlich,verheiratet,29,1,Master,angestellt,41560,Einfamilienhaus,Tarif A
-weiblich,ledig,83,0,Bachelor,im Ruhestand,31700,keiner,Tarif D
-maennlich,ledig,9,0,Keine,kein,0,keiner,ablehnen
-maennlich,verheiratet,37,7,Realschule,arbeitend,30130,Eigentumswohnung,Tarif A
-maennlich,verheiratet,51,0,Lehre,selbständig,57500,Eigentumswohnung,Tarif A
-weiblich,verheiratet,54,0,Bachelor,angestellt,130120,Einfamilienhaus,Tarif A
-weiblich,verheiratet,55,0,Master,selbständig,73400,keiner,Tarif B
-weiblich,verwitwet,34,0,Master,verbeamtet,31430,keiner,Tarif B
-maennlich,verheiratet,46,0,Lehre,selbständig,70300,Einfamilienhaus,Tarif A
-maennlich,geschieden,67,0,Hauptschule,im Ruhestand,28300,keiner,Tarif C
-maennlich,geschieden,55,0,Bachelor,kein,9100,keiner,Tarif B
-maennlich,ledig,43,0,Master,angestellt,82915,Mehrfamilienhaus,Tarif A
-weiblich,verheiratet,66,0,Master,selbständig,91800,keiner,Tarif A
-weiblich,verwitwet,35,4,Hauptschule,angestellt,54550,Einfamilienhaus,Tarif A
-weiblich,verheiratet,33,0,Lehre,arbeitend,30570,Eigentumswohnung,Tarif B
-maennlich,ledig,16,0,Keine,kein,0,keiner,ablehnen
-weiblich,geschieden,48,1,Lehre,kein,8800,keiner,Tarif B
-weiblich,verwitwet,40,2,Realschule,angestellt,74400,Einfamilienhaus,Tarif B
-weiblich,verheiratet,23,1,Keine,kein,8900,keiner,Tarif B
-weiblich,geschieden,65,1,Bachelor,kein,8900,keiner,Tarif C
-weiblich,verheiratet,56,0,Bachelor,angestellt,60100,Eigentumswohnung,Tarif B
-weiblich,verheiratet,53,0,Lehre,kein,9500,keiner,Tarif B
-weiblich,geschieden,41,0,Bachelor,verbeamtet,90235,Eigentumswohnung,Tarif B
-maennlich,ledig,21,0,Abitur,kein,9200,keiner,Tarif C
-maennlich,verheiratet,51,0,Bachelor,angestellt,52425,Einfamilienhaus,Tarif A
-weiblich,verheiratet,49,0,Bachelor,selbständig,43700,Eigentumswohnung,Tarif B
-maennlich,geschieden,41,1,Bachelor,angestellt,69750,Einfamilienhaus,Tarif B
+weiblich,verheiratet,42,1,Abitur,kein,9400,keiner,Tarif B
+weiblich,ledig,17,0,Keine,kein,0,keiner,ablehnen
+maennlich,verheiratet,21,0,Bachelor,verbeamtet,76100,Einfamilienhaus,Tarif A
+maennlich,verheiratet,54,0,Master,angestellt,69660,keiner,Tarif A
+weiblich,ledig,9,0,Keine,kein,0,keiner,ablehnen
+maennlich,verheiratet,55,1,Bachelor,selbständig,96400,Einfamilienhaus,Tarif A
+weiblich,verheiratet,18,0,Keine,selbständig,0,keiner,Tarif B
+weiblich,verheiratet,50,0,Bachelor,angestellt,96800,keiner,Tarif A
 maennlich,verheiratet,56,0,Master,angestellt,97320,keiner,Tarif A
-maennlich,geschieden,37,0,Bachelor,angestellt,42665,Mehrfamilienhaus,Tarif B
-maennlich,verheiratet,26,1,Master,selbständig,97100,Eigentumswohnung,Tarif A
-maennlich,verheiratet,57,0,Master,im Ruhestand,28200,keiner,Tarif B
-weiblich,geschieden,26,0,Lehre,kein,9000,keiner,Tarif C
+maennlich,ledig,41,0,Bachelor,angestellt,64030,Einfamilienhaus,Tarif B
+weiblich,verheiratet,40,1,Abitur,kein,9400,keiner,Tarif B
 maennlich,verheiratet,28,2,Lehre,selbständig,61800,Eigentumswohnung,Tarif A
-maennlich,verheiratet,45,0,Lehre,selbständig,40500,keiner,Tarif A
-maennlich,ledig,26,0,Master,angestellt,64670,keiner,Tarif B
+weiblich,verheiratet,66,0,Bachelor,im Ruhestand,22600,keiner,Tarif C
+maennlich,ledig,5,0,Keine,kein,0,keiner,ablehnen
+weiblich,verheiratet,51,0,Abitur,arbeitend,25015,keiner,Tarif B
+weiblich,verheiratet,49,0,Bachelor,selbständig,43700,Eigentumswohnung,Tarif B
+maennlich,geschieden,37,3,Bachelor,angestellt,80900,Einfamilienhaus,Tarif A
+maennlich,geschieden,41,2,Lehre,kein,9800,Einfamilienhaus,Tarif B
+maennlich,verheiratet,57,1,Bachelor,selbständig,70300,Eigentumswohnung,Tarif A
+maennlich,ledig,53,0,Master,angestellt,66125,keiner,Tarif B
+weiblich,verheiratet,68,1,Abitur,im Ruhestand,39500,keiner,Tarif B
+maennlich,ledig,77,0,Master,selbständig,49500,Eigentumswohnung,Tarif B
+weiblich,geschieden,50,0,Abitur,arbeitend,31700,keiner,Tarif B
+maennlich,verheiratet,54,0,Bachelor,angestellt,88640,Eigentumswohnung,Tarif A
+weiblich,ledig,35,1,Lehre,arbeitend,26050,keiner,Tarif B
+maennlich,geschieden,70,0,Hauptschule,im Ruhestand,33900,Eigentumswohnung,Tarif C
+weiblich,ledig,24,1,Hauptschule,kein,9600,keiner,Tarif C
+weiblich,geschieden,63,0,Master,angestellt,77080,keiner,Tarif B
+maennlich,verheiratet,60,1,Bachelor,angestellt,81500,Einfamilienhaus,Tarif A
+maennlich,verheiratet,27,0,Lehre,kein,9300,keiner,Tarif B
+weiblich,verheiratet,51,0,Lehre,angestellt,78880,keiner,Tarif A
+maennlich,ledig,23,1,Keine,arbeitend,26840,keiner,Tarif B
+weiblich,verwitwet,40,0,Lehre,kein,9800,keiner,Tarif C
+weiblich,verheiratet,23,2,Lehre,kein,8800,keiner,Tarif B
+weiblich,verheiratet,56,1,Master,verbeamtet,86680,Mehrfamilienhaus,Tarif A
+weiblich,verheiratet,53,0,Master,selbständig,30900,Einfamilienhaus,Tarif B
+weiblich,verheiratet,24,2,Promotion,verbeamtet,86800,Eigentumswohnung,Tarif A
+weiblich,verwitwet,42,2,Hauptschule,arbeitend,26640,keiner,Tarif B
+maennlich,verwitwet,79,0,Bachelor,selbständig,55400,keiner,Tarif B
+weiblich,verheiratet,54,0,Bachelor,angestellt,130120,Einfamilienhaus,Tarif A
+weiblich,ledig,16,0,Keine,kein,0,keiner,ablehnen
+weiblich,ledig,9,0,Keine,kein,0,keiner,ablehnen
+maennlich,verwitwet,43,0,Keine,selbständig,68400,Einfamilienhaus,Tarif B
+weiblich,geschieden,45,0,Bachelor,selbständig,74800,Eigentumswohnung,Tarif B
+weiblich,verheiratet,49,0,Bachelor,angestellt,70950,Eigentumswohnung,Tarif B
+maennlich,verwitwet,31,1,Hauptschule,kein,9600,keiner,Tarif B
+weiblich,verheiratet,45,1,Bachelor,arbeitend,31050,Einfamilienhaus,Tarif A
+weiblich,ledig,14,0,Keine,kein,0,keiner,ablehnen
+weiblich,verheiratet,63,0,Bachelor,angestellt,100135,Eigentumswohnung,Tarif A
+maennlich,geschieden,59,1,Master,im Ruhestand,45500,keiner,Tarif B
+maennlich,verheiratet,58,1,Abitur,angestellt,73700,keiner,Tarif A
+weiblich,verheiratet,56,0,Bachelor,angestellt,60100,Eigentumswohnung,Tarif B
+maennlich,verheiratet,50,1,Bachelor,angestellt,74900,keiner,Tarif A
+maennlich,verwitwet,52,0,Lehre,kein,9000,keiner,Tarif B
+maennlich,ledig,8,0,Keine,kein,0,keiner,ablehnen
+maennlich,ledig,58,0,Bachelor,angestellt,52260,Eigentumswohnung,Tarif B
+maennlich,verheiratet,44,3,Bachelor,angestellt,81280,keiner,Tarif A
+maennlich,ledig,29,0,Bachelor,angestellt,92785,Eigentumswohnung,Tarif A
+weiblich,geschieden,24,2,Promotion,angestellt,94740,keiner,Tarif A
+maennlich,verheiratet,68,0,Hauptschule,selbständig,28700,keiner,Tarif B
+maennlich,ledig,16,0,Hauptschule,kein,0,keiner,ablehnen
+maennlich,verheiratet,51,0,Lehre,verbeamtet,83645,Einfamilienhaus,Tarif A
+maennlich,ledig,30,0,Promotion,angestellt,100050,Mehrfamilienhaus,Tarif A
+weiblich,verheiratet,52,1,Master,angestellt,55060,keiner,Tarif A
+maennlich,ledig,61,0,Lehre,kein,9300,keiner,Tarif C
+maennlich,geschieden,47,2,Lehre,verbeamtet,24455,keiner,Tarif A
+maennlich,ledig,79,0,Master,arbeitend,33610,keiner,Tarif B
+weiblich,ledig,82,0,Lehre,im Ruhestand,19800,keiner,Tarif D
+weiblich,ledig,59,0,Master,angestellt,84710,keiner,Tarif B
+weiblich,verheiratet,44,2,Hauptschule,verbeamtet,72140,Eigentumswohnung,Tarif A
+weiblich,verheiratet,45,0,Bachelor,angestellt,84150,keiner,Tarif A
+maennlich,ledig,26,0,Bachelor,angestellt,53570,Einfamilienhaus,Tarif B
+maennlich,verheiratet,64,0,Bachelor,angestellt,101200,Einfamilienhaus,Tarif A
+maennlich,verheiratet,65,0,Lehre,arbeitend,13175,Einfamilienhaus,Tarif B
+weiblich,geschieden,36,0,Promotion,angestellt,78820,keiner,Tarif B
+maennlich,geschieden,74,0,Lehre,im Ruhestand,26500,keiner,Tarif C
+maennlich,verwitwet,36,2,Master,angestellt,58660,Eigentumswohnung,Tarif A
+weiblich,ledig,60,0,Master,verbeamtet,102700,Eigentumswohnung,Tarif B
+maennlich,ledig,62,0,Master,arbeitend,34690,keiner,Tarif B
+maennlich,ledig,64,0,Bachelor,angestellt,78040,Mehrfamilienhaus,Tarif B
+maennlich,verheiratet,36,3,Lehre,selbständig,106600,Eigentumswohnung,Tarif A
+maennlich,ledig,5,0,Keine,kein,0,keiner,ablehnen
+maennlich,ledig,3,0,Keine,kein,0,keiner,ablehnen
+maennlich,geschieden,67,0,Hauptschule,im Ruhestand,28300,keiner,Tarif C
+maennlich,geschieden,48,1,Lehre,selbständig,66700,keiner,Tarif B
+maennlich,verheiratet,34,0,Bachelor,angestellt,59510,Einfamilienhaus,Tarif A
+maennlich,geschieden,47,0,Hauptschule,arbeitend,31230,keiner,Tarif B
+weiblich,geschieden,43,1,Realschule,arbeitend,21765,keiner,Tarif B
+weiblich,ledig,6,1,Keine,kein,0,keiner,ablehnen
+weiblich,verheiratet,19,0,Abitur,kein,9500,keiner,Tarif B
+weiblich,geschieden,66,0,Bachelor,im Ruhestand,37800,Eigentumswohnung,Tarif D
+maennlich,verheiratet,56,0,Master,arbeitend,24260,keiner,Tarif A
+weiblich,verwitwet,33,0,Realschule,arbeitend,30635,Eigentumswohnung,Tarif B
+weiblich,verheiratet,33,2,Realschule,kein,8600,keiner,Tarif A
+weiblich,geschieden,72,1,Bachelor,arbeitend,23500,keiner,Tarif B
+weiblich,verheiratet,34,4,Bachelor,kein,9200,keiner,Tarif A
+maennlich,verheiratet,81,1,Master,im Ruhestand,20400,keiner,Tarif B
+weiblich,ledig,25,0,Lehre,arbeitend,24225,keiner,Tarif B
+maennlich,verheiratet,60,0,Bachelor,angestellt,90900,Einfamilienhaus,Tarif A
+maennlich,ledig,33,0,Abitur,selbständig,75300,keiner,Tarif A
+weiblich,ledig,59,0,Bachelor,kein,9600,keiner,Tarif C
+maennlich,ledig,25,0,Lehre,angestellt,46650,keiner,Tarif B
+maennlich,geschieden,42,6,Lehre,arbeitend,30780,keiner,Tarif A
+maennlich,verheiratet,46,0,Lehre,kein,9100,keiner,Tarif B
+maennlich,verheiratet,65,0,Bachelor,arbeitend,26525,keiner,Tarif B
+weiblich,geschieden,40,1,Bachelor,angestellt,79400,Eigentumswohnung,Tarif A
+weiblich,geschieden,48,0,Bachelor,angestellt,73480,keiner,Tarif B
+weiblich,verwitwet,45,0,Lehre,angestellt,95675,keiner,Tarif B
+maennlich,geschieden,67,0,Bachelor,selbständig,80900,Mehrfamilienhaus,Tarif B
+weiblich,verheiratet,30,2,Lehre,arbeitend,26150,Einfamilienhaus,Tarif A
+weiblich,verheiratet,46,1,Bachelor,selbständig,58500,keiner,Tarif A
+maennlich,geschieden,54,0,Bachelor,angestellt,83360,Einfamilienhaus,Tarif A
+weiblich,verheiratet,24,1,Realschule,angestellt,77020,Eigentumswohnung,Tarif A
+weiblich,geschieden,36,2,Hauptschule,angestellt,83140,Eigentumswohnung,Tarif A
+maennlich,verheiratet,22,0,Bachelor,arbeitend,25750,keiner,Tarif B
+weiblich,verheiratet,35,0,Lehre,selbständig,91700,keiner,Tarif A
+weiblich,geschieden,70,1,Abitur,arbeitend,31250,keiner,Tarif B
+weiblich,ledig,9,0,Keine,kein,0,keiner,ablehnen
+maennlich,ledig,19,0,Hauptschule,kein,8700,keiner,Tarif C
+maennlich,geschieden,40,3,Bachelor,angestellt,62200,Eigentumswohnung,Tarif A
+maennlich,verheiratet,55,0,Lehre,arbeitend,35300,Eigentumswohnung,Tarif A
+maennlich,verheiratet,30,0,Lehre,angestellt,91550,Eigentumswohnung,Tarif A
+weiblich,verheiratet,28,2,Lehre,arbeitend,29720,keiner,Tarif A
+weiblich,verheiratet,66,1,Lehre,arbeitend,26790,keiner,Tarif B
+weiblich,verheiratet,55,0,Hauptschule,selbständig,57300,keiner,Tarif B
+maennlich,verheiratet,51,0,Lehre,selbständig,57500,Eigentumswohnung,Tarif A
+weiblich,ledig,69,0,Bachelor,selbständig,58300,Einfamilienhaus,Tarif C
+maennlich,verheiratet,37,7,Realschule,arbeitend,30130,Eigentumswohnung,Tarif A
+maennlich,ledig,68,0,Hauptschule,im Ruhestand,25700,keiner,Tarif C
+weiblich,ledig,24,0,Abitur,kein,8600,keiner,Tarif C
+weiblich,ledig,17,0,Realschule,kein,0,keiner,ablehnen
+maennlich,ledig,15,0,Keine,kein,0,keiner,ablehnen
+weiblich,verwitwet,81,1,Hauptschule,selbständig,63300,Eigentumswohnung,Tarif B
+maennlich,verheiratet,55,0,Bachelor,verbeamtet,95900,Einfamilienhaus,Tarif A
+maennlich,ledig,72,0,Master,im Ruhestand,27000,keiner,Tarif C
+maennlich,ledig,4,0,Keine,kein,0,keiner,ablehnen
+maennlich,ledig,10,0,Keine,kein,0,keiner,ablehnen
+weiblich,ledig,37,0,Master,verbeamtet,76445,keiner,Tarif B
+weiblich,ledig,38,0,Master,verbeamtet,68110,Einfamilienhaus,Tarif B
+weiblich,verheiratet,27,0,Bachelor,verbeamtet,66785,keiner,Tarif B
+maennlich,verheiratet,71,0,Bachelor,im Ruhestand,21500,keiner,Tarif B
 weiblich,verheiratet,60,1,Bachelor,angestellt,101200,Mehrfamilienhaus,Tarif A
-weiblich,verheiratet,47,0,Abitur,arbeitend,30095,keiner,Tarif B
-weiblich,verheiratet,43,0,Bachelor,angestellt,86860,Einfamilienhaus,Tarif A
+weiblich,verheiratet,32,2,Abitur,angestellt,65080,keiner,Tarif A
+maennlich,ledig,14,0,Keine,kein,0,keiner,ablehnen
+weiblich,verheiratet,30,2,Realschule,verbeamtet,82200,Einfamilienhaus,Tarif A
+maennlich,verheiratet,33,1,Bachelor,angestellt,65820,Eigentumswohnung,Tarif A
+maennlich,verheiratet,21,0,Abitur,kein,9300,keiner,Tarif B
+weiblich,verheiratet,31,0,Promotion,verbeamtet,72170,keiner,Tarif B
+maennlich,verwitwet,36,0,Lehre,arbeitend,25900,keiner,Tarif B
+weiblich,ledig,15,0,Keine,kein,0,keiner,ablehnen
+weiblich,verheiratet,56,1,Lehre,angestellt,80980,Einfamilienhaus,Tarif A
+weiblich,geschieden,48,1,Lehre,kein,8800,keiner,Tarif B
+weiblich,ledig,80,0,Lehre,angestellt,99600,keiner,Tarif B
+weiblich,verwitwet,76,0,Lehre,arbeitend,18760,Einfamilienhaus,Tarif C
+maennlich,geschieden,35,1,Master,verbeamtet,125925,Einfamilienhaus,Tarif A
+maennlich,geschieden,50,0,Lehre,arbeitend,24700,keiner,Tarif B
+maennlich,verheiratet,63,0,Lehre,arbeitend,32870,keiner,Tarif B
+weiblich,verwitwet,65,1,Realschule,arbeitend,34075,Eigentumswohnung,Tarif B
+maennlich,ledig,28,0,Master,verbeamtet,77940,Eigentumswohnung,Tarif A
+maennlich,ledig,42,0,Lehre,kein,9300,keiner,Tarif B
+maennlich,ledig,25,0,Master,verbeamtet,41500,keiner,Tarif B
+weiblich,verheiratet,24,1,Abitur,kein,9300,keiner,Tarif B
+maennlich,verheiratet,48,3,Master,angestellt,83500,keiner,Tarif A
+weiblich,ledig,18,0,Keine,arbeitend,0,keiner,Tarif C
+weiblich,verheiratet,34,0,Promotion,angestellt,89330,Einfamilienhaus,Tarif A
+maennlich,verheiratet,51,0,Bachelor,selbständig,78300,Eigentumswohnung,Tarif A
+maennlich,ledig,41,1,Bachelor,angestellt,96465,Eigentumswohnung,Tarif A
+maennlich,verwitwet,30,0,Lehre,kein,8300,keiner,Tarif B
+maennlich,ledig,56,0,Master,angestellt,51240,Eigentumswohnung,Tarif B
+maennlich,verheiratet,40,3,Master,arbeitend,32500,Eigentumswohnung,Tarif A
+weiblich,ledig,17,0,Hauptschule,arbeitend,0,keiner,ablehnen
+maennlich,geschieden,44,2,Bachelor,angestellt,80180,keiner,Tarif A
+maennlich,ledig,12,0,Keine,kein,0,keiner,ablehnen
+maennlich,verheiratet,50,0,Bachelor,angestellt,50550,Einfamilienhaus,Tarif A
+weiblich,verwitwet,75,0,Lehre,im Ruhestand,31600,keiner,Tarif D
+maennlich,verheiratet,30,1,Bachelor,verbeamtet,52700,keiner,Tarif A
+weiblich,verheiratet,66,0,Lehre,arbeitend,34870,keiner,Tarif B
+maennlich,geschieden,63,1,Bachelor,angestellt,73735,Einfamilienhaus,Tarif B
+maennlich,ledig,25,0,Bachelor,angestellt,56350,Eigentumswohnung,Tarif B
+maennlich,geschieden,47,0,Hauptschule,angestellt,98220,Einfamilienhaus,Tarif A
+maennlich,verheiratet,24,3,Bachelor,angestellt,61240,keiner,Tarif A
+maennlich,geschieden,50,1,Bachelor,selbständig,36400,keiner,Tarif B
+maennlich,verwitwet,54,0,Bachelor,angestellt,90180,Eigentumswohnung,Tarif A
+maennlich,ledig,69,0,Lehre,arbeitend,33010,Eigentumswohnung,Tarif B
+weiblich,verheiratet,30,2,Hauptschule,arbeitend,25100,keiner,Tarif A
+maennlich,verwitwet,35,0,Promotion,angestellt,95950,keiner,Tarif A
+weiblich,ledig,56,0,Bachelor,im Ruhestand,29100,Eigentumswohnung,Tarif C
+weiblich,ledig,28,0,Bachelor,angestellt,86720,Einfamilienhaus,Tarif B
+weiblich,verheiratet,20,1,Bachelor,verbeamtet,81800,keiner,Tarif A
+maennlich,verheiratet,43,2,Bachelor,selbständig,75700,Einfamilienhaus,Tarif A
+weiblich,verheiratet,61,1,Bachelor,angestellt,106175,Villa,Tarif A
+maennlich,verheiratet,40,2,Lehre,kein,8500,keiner,Tarif A
+maennlich,geschieden,40,1,Keine,angestellt,57600,keiner,Tarif B
+weiblich,verheiratet,54,0,Bachelor,angestellt,61870,Einfamilienhaus,Tarif B
+maennlich,ledig,46,0,Lehre,kein,9800,keiner,Tarif B
+weiblich,geschieden,34,0,Lehre,arbeitend,30160,keiner,Tarif B
+weiblich,verwitwet,39,2,Realschule,angestellt,51325,Eigentumswohnung,Tarif B
+maennlich,geschieden,48,0,Lehre,arbeitend,29440,Eigentumswohnung,Tarif B
+maennlich,verwitwet,52,0,Master,verbeamtet,75780,keiner,Tarif A
+maennlich,ledig,46,0,Bachelor,angestellt,67310,Eigentumswohnung,Tarif B
+maennlich,ledig,19,0,Hauptschule,selbständig,64200,Einfamilienhaus,Tarif B
+maennlich,ledig,32,0,Promotion,angestellt,82080,Mehrfamilienhaus,Tarif A
+maennlich,verheiratet,62,1,Lehre,kein,9200,keiner,Tarif B
+weiblich,ledig,24,0,Abitur,arbeitend,29960,keiner,Tarif C
+weiblich,ledig,14,0,Keine,kein,0,keiner,ablehnen
+maennlich,ledig,16,0,Hauptschule,kein,0,keiner,ablehnen
+weiblich,verheiratet,61,0,Bachelor,verbeamtet,88405,keiner,Tarif A
+weiblich,ledig,25,0,Bachelor,angestellt,84075,keiner,Tarif B
+weiblich,verheiratet,51,0,Master,angestellt,70595,Eigentumswohnung,Tarif B
+maennlich,verwitwet,44,2,Bachelor,selbständig,29700,keiner,Tarif A
+maennlich,ledig,20,0,Master,arbeitend,23100,keiner,Tarif B
+weiblich,verheiratet,58,0,Bachelor,angestellt,115280,Einfamilienhaus,Tarif A
+maennlich,ledig,2,0,Keine,kein,0,keiner,ablehnen
+maennlich,verheiratet,29,3,Bachelor,angestellt,70385,Eigentumswohnung,Tarif A
+weiblich,ledig,10,0,Keine,kein,0,keiner,ablehnen
 maennlich,verheiratet,69,0,Lehre,arbeitend,34055,keiner,Tarif B
-maennlich,verheiratet,69,1,Bachelor,im Ruhestand,29100,keiner,Tarif B
+maennlich,verheiratet,34,0,Master,angestellt,47610,Mehrfamilienhaus,Tarif A
+weiblich,geschieden,62,1,Promotion,angestellt,77420,Eigentumswohnung,Tarif B
+weiblich,geschieden,66,0,Master,selbständig,69300,Einfamilienhaus,Tarif C
+maennlich,ledig,11,0,Keine,kein,0,keiner,ablehnen
+weiblich,ledig,41,0,Master,selbständig,101500,Einfamilienhaus,Tarif B
+maennlich,verwitwet,35,3,Lehre,arbeitend,26225,Eigentumswohnung,Tarif A
+maennlich,verheiratet,39,0,Lehre,kein,8400,keiner,Tarif B
+weiblich,ledig,67,0,Bachelor,im Ruhestand,23500,keiner,Tarif D
+weiblich,verwitwet,69,0,Hauptschule,im Ruhestand,27700,keiner,Tarif D
+weiblich,ledig,11,1,Keine,kein,0,keiner,ablehnen
+maennlich,geschieden,33,2,Bachelor,arbeitend,25410,keiner,Tarif A
+maennlich,ledig,26,0,Bachelor,angestellt,71150,Eigentumswohnung,Tarif B
+maennlich,verheiratet,27,0,Master,angestellt,110215,Einfamilienhaus,Tarif A
+maennlich,verheiratet,44,0,Lehre,kein,9800,keiner,Tarif B
+maennlich,verheiratet,69,0,Master,im Ruhestand,46400,keiner,Tarif B
+weiblich,verheiratet,51,0,Lehre,selbständig,58600,keiner,Tarif B
+weiblich,ledig,22,0,Keine,kein,8500,keiner,Tarif C
+weiblich,geschieden,38,2,Realschule,kein,9300,keiner,Tarif B
+weiblich,verheiratet,40,2,Hauptschule,angestellt,104000,Villa,Tarif A
+maennlich,geschieden,47,4,Bachelor,angestellt,123155,Einfamilienhaus,Tarif A
+maennlich,verheiratet,60,0,Lehre,selbständig,94300,keiner,Tarif A
+maennlich,geschieden,43,2,Bachelor,selbständig,62600,keiner,Tarif A
+weiblich,verheiratet,23,2,Bachelor,angestellt,59475,Eigentumswohnung,Tarif A
+weiblich,geschieden,30,3,Abitur,arbeitend,23750,keiner,Tarif A
+weiblich,verheiratet,33,2,Abitur,kein,8200,keiner,Tarif A
+maennlich,verheiratet,95,1,Hauptschule,selbständig,41000,Einfamilienhaus,Tarif A
+maennlich,ledig,13,0,Keine,kein,0,keiner,ablehnen
+maennlich,ledig,17,0,Keine,selbständig,0,keiner,ablehnen
+weiblich,ledig,27,0,Realschule,verbeamtet,79070,keiner,Tarif B
+maennlich,ledig,8,0,Keine,kein,0,keiner,ablehnen
+maennlich,ledig,30,0,Master,angestellt,54050,keiner,Tarif B
+maennlich,geschieden,64,1,Bachelor,angestellt,117660,Einfamilienhaus,Tarif A
+weiblich,verheiratet,64,0,Lehre,kein,9400,keiner,Tarif B
+weiblich,verheiratet,58,0,Bachelor,im Ruhestand,24400,Einfamilienhaus,Tarif B
+maennlich,verheiratet,34,1,Lehre,angestellt,57740,keiner,Tarif A
+weiblich,ledig,35,0,Lehre,verbeamtet,91250,Einfamilienhaus,Tarif B
+weiblich,verheiratet,28,2,Abitur,angestellt,84240,Eigentumswohnung,Tarif A
+maennlich,ledig,4,0,Keine,kein,0,keiner,ablehnen
+maennlich,geschieden,55,0,Bachelor,kein,9100,keiner,Tarif B
+weiblich,geschieden,40,2,Lehre,arbeitend,32300,keiner,Tarif B
+weiblich,ledig,42,0,Hauptschule,selbständig,65500,keiner,Tarif B
+maennlich,verwitwet,36,2,Hauptschule,angestellt,123160,Villa,Tarif A
+weiblich,verheiratet,39,4,Lehre,angestellt,56900,Eigentumswohnung,Tarif A
+maennlich,ledig,27,0,Promotion,angestellt,80805,Einfamilienhaus,Tarif A
+weiblich,ledig,25,0,Abitur,kein,9700,keiner,Tarif C
+weiblich,verheiratet,33,2,Bachelor,angestellt,62125,keiner,Tarif A
+weiblich,verheiratet,42,0,Bachelor,arbeitend,30780,Eigentumswohnung,Tarif B
+maennlich,geschieden,44,2,Lehre,kein,8500,keiner,Tarif B
+weiblich,ledig,26,0,Promotion,verbeamtet,85210,keiner,Tarif B
+weiblich,ledig,62,0,Bachelor,angestellt,80640,keiner,Tarif B
+maennlich,verheiratet,32,2,Bachelor,angestellt,99840,Einfamilienhaus,Tarif A
+maennlich,ledig,13,0,Keine,kein,0,keiner,ablehnen
+weiblich,verheiratet,28,3,Bachelor,angestellt,61340,keiner,Tarif A
+maennlich,ledig,27,0,Bachelor,kein,9300,keiner,Tarif B
+maennlich,verwitwet,34,2,Bachelor,selbständig,103900,Villa,Tarif A
+maennlich,geschieden,47,2,Bachelor,angestellt,67145,Eigentumswohnung,Tarif A
+weiblich,verheiratet,47,0,Lehre,arbeitend,29395,Einfamilienhaus,Tarif B
+maennlich,geschieden,48,1,Lehre,selbständig,68300,keiner,Tarif B
+weiblich,verwitwet,72,0,Lehre,im Ruhestand,28300,Eigentumswohnung,Tarif D
+maennlich,geschieden,73,0,Bachelor,im Ruhestand,28100,keiner,Tarif C
+maennlich,verheiratet,24,0,Lehre,angestellt,34660,Einfamilienhaus,Tarif B
+maennlich,ledig,18,0,Keine,kein,0,keiner,Tarif C
+maennlich,verheiratet,34,1,Bachelor,arbeitend,28220,keiner,Tarif A
+weiblich,verheiratet,31,2,Master,arbeitend,30845,keiner,Tarif A
+weiblich,verheiratet,23,1,Keine,kein,8900,keiner,Tarif B
+maennlich,geschieden,77,1,Lehre,angestellt,106250,Villa,Tarif A
+weiblich,verwitwet,38,3,Abitur,verbeamtet,46690,keiner,Tarif A
+weiblich,verheiratet,37,0,Bachelor,selbständig,106200,Einfamilienhaus,Tarif A
+weiblich,ledig,29,1,Lehre,angestellt,64060,Einfamilienhaus,Tarif B
+maennlich,verwitwet,37,2,Bachelor,angestellt,111295,Villa,Tarif A
+weiblich,verheiratet,32,0,Promotion,angestellt,69620,Eigentumswohnung,Tarif B
+maennlich,ledig,18,0,Keine,kein,0,keiner,Tarif C
+weiblich,verheiratet,26,0,Master,angestellt,100430,Einfamilienhaus,Tarif A
+weiblich,verheiratet,32,1,Lehre,arbeitend,25900,Eigentumswohnung,Tarif A
+maennlich,verwitwet,81,0,Lehre,im Ruhestand,23000,keiner,Tarif C
+weiblich,geschieden,60,1,Lehre,arbeitend,33200,Mehrfamilienhaus,Tarif B
+maennlich,geschieden,32,0,Promotion,verbeamtet,72400,keiner,Tarif B
+weiblich,verheiratet,44,0,Lehre,angestellt,93180,Einfamilienhaus,Tarif A
+weiblich,geschieden,24,1,Bachelor,angestellt,53480,Eigentumswohnung,Tarif B
+weiblich,ledig,9,0,Keine,kein,0,keiner,ablehnen
+weiblich,ledig,9,0,Keine,kein,0,keiner,ablehnen
+weiblich,verheiratet,48,0,Lehre,verbeamtet,80820,Einfamilienhaus,Tarif A
+maennlich,ledig,45,0,Bachelor,angestellt,54025,Eigentumswohnung,Tarif B
+maennlich,verheiratet,60,1,Bachelor,selbständig,92900,Einfamilienhaus,Tarif A
+maennlich,verheiratet,26,2,Master,kein,9600,keiner,Tarif A
+weiblich,geschieden,31,0,Lehre,kein,9300,keiner,Tarif C
+maennlich,geschieden,47,2,Bachelor,angestellt,41945,Eigentumswohnung,Tarif A
+maennlich,geschieden,43,0,Bachelor,selbständig,76300,Eigentumswohnung,Tarif A
+weiblich,ledig,10,0,Keine,kein,0,keiner,ablehnen
+weiblich,geschieden,53,0,Abitur,kein,8800,keiner,Tarif C
+weiblich,ledig,20,0,Bachelor,angestellt,48900,keiner,Tarif C
+maennlich,verwitwet,46,0,Lehre,arbeitend,30110,keiner,Tarif B
+weiblich,ledig,24,1,Hauptschule,verbeamtet,87180,Eigentumswohnung,Tarif B
+maennlich,ledig,74,0,Lehre,im Ruhestand,37600,keiner,Tarif C
+maennlich,verheiratet,75,0,Lehre,arbeitend,36600,keiner,Tarif B
+maennlich,verheiratet,26,0,Bachelor,angestellt,83810,keiner,Tarif A
+maennlich,ledig,20,0,Abitur,kein,8700,keiner,Tarif C
+weiblich,verheiratet,25,1,Keine,angestellt,107500,Villa,Tarif A
+maennlich,geschieden,30,0,Bachelor,angestellt,87900,Einfamilienhaus,Tarif A
+maennlich,geschieden,33,1,Bachelor,angestellt,89120,Mehrfamilienhaus,Tarif A
+maennlich,verheiratet,34,1,Bachelor,angestellt,72850,Eigentumswohnung,Tarif A
+maennlich,ledig,11,0,Keine,kein,0,keiner,ablehnen
+maennlich,verwitwet,47,2,Keine,kein,10000,keiner,Tarif B
+maennlich,verheiratet,30,0,Abitur,arbeitend,23750,keiner,Tarif A
+maennlich,ledig,25,0,Lehre,angestellt,71575,keiner,Tarif B
+weiblich,geschieden,32,2,Lehre,kein,8200,keiner,Tarif B
+weiblich,geschieden,49,0,Bachelor,angestellt,65770,Eigentumswohnung,Tarif B
+maennlich,verheiratet,46,0,Lehre,selbständig,70300,Einfamilienhaus,Tarif A
+maennlich,verheiratet,26,0,Bachelor,selbständig,67200,Eigentumswohnung,Tarif A
+weiblich,verheiratet,22,0,Abitur,kein,9300,keiner,Tarif B
+weiblich,verwitwet,65,0,Realschule,angestellt,104825,Einfamilienhaus,Tarif B
+weiblich,geschieden,65,1,Lehre,selbständig,36600,keiner,Tarif B
+weiblich,verheiratet,79,0,Abitur,im Ruhestand,27500,Eigentumswohnung,Tarif C
+weiblich,verheiratet,32,2,Lehre,kein,9400,keiner,Tarif A
+maennlich,verheiratet,24,1,Lehre,kein,9900,keiner,Tarif B
+weiblich,verheiratet,23,1,Bachelor,angestellt,81375,Eigentumswohnung,Tarif A
+maennlich,ledig,18,0,Keine,kein,0,keiner,Tarif C
+weiblich,ledig,28,0,Bachelor,angestellt,53660,Eigentumswohnung,Tarif B
+maennlich,verheiratet,29,2,Bachelor,angestellt,67840,Einfamilienhaus,Tarif A
+maennlich,geschieden,50,1,Lehre,kein,9200,keiner,Tarif B
+weiblich,verheiratet,68,0,Realschule,verbeamtet,62400,keiner,Tarif B
+maennlich,geschieden,47,4,Lehre,kein,9100,keiner,Tarif A
+weiblich,verheiratet,25,0,Lehre,angestellt,96325,Einfamilienhaus,Tarif A
+weiblich,geschieden,37,2,Realschule,selbständig,75100,keiner,Tarif A
+weiblich,verheiratet,42,1,Abitur,kein,9400,keiner,Tarif B
+maennlich,ledig,28,0,Master,angestellt,56580,Eigentumswohnung,Tarif B
+weiblich,verwitwet,60,0,Bachelor,angestellt,49500,keiner,Tarif B
+maennlich,verwitwet,72,1,Lehre,im Ruhestand,26200,keiner,Tarif C
+maennlich,ledig,21,0,Bachelor,angestellt,91470,keiner,Tarif B
+weiblich,ledig,69,0,Lehre,im Ruhestand,21800,Einfamilienhaus,Tarif D
+weiblich,verwitwet,96,0,Bachelor,im Ruhestand,30900,keiner,Tarif D
+weiblich,ledig,29,1,Lehre,kein,9700,keiner,Tarif B
+weiblich,geschieden,42,4,Lehre,angestellt,67180,keiner,Tarif A
+weiblich,geschieden,31,0,Hauptschule,kein,9100,keiner,Tarif C
+weiblich,geschieden,41,0,Abitur,selbständig,91800,keiner,Tarif B
+weiblich,verheiratet,67,1,Bachelor,im Ruhestand,27400,Eigentumswohnung,Tarif B
+weiblich,verheiratet,48,0,Bachelor,angestellt,76260,Eigentumswohnung,Tarif A
+weiblich,verheiratet,30,3,Realschule,verbeamtet,73600,keiner,Tarif A
+weiblich,geschieden,38,2,Abitur,selbständig,103600,Einfamilienhaus,Tarif A
+maennlich,verheiratet,69,0,Bachelor,selbständig,63800,Eigentumswohnung,Tarif B
+maennlich,ledig,42,0,Lehre,verbeamtet,77760,keiner,Tarif A
+maennlich,verheiratet,31,3,Bachelor,angestellt,81510,keiner,Tarif A
+weiblich,verheiratet,62,0,Bachelor,angestellt,80850,keiner,Tarif A
+maennlich,geschieden,77,1,Lehre,selbständig,70400,Einfamilienhaus,Tarif B
+maennlich,verheiratet,83,1,Bachelor,selbständig,64500,keiner,Tarif A
+weiblich,geschieden,48,0,Abitur,selbständig,66100,keiner,Tarif B
+maennlich,ledig,28,0,Abitur,arbeitend,31400,keiner,Tarif B
+weiblich,ledig,10,0,Keine,kein,0,Einfamilienhaus,ablehnen
+maennlich,verwitwet,65,0,Realschule,selbständig,108000,Einfamilienhaus,Tarif B
+weiblich,ledig,27,0,Bachelor,selbständig,105000,Villa,Tarif B
+maennlich,verheiratet,55,0,Bachelor,verbeamtet,99125,Einfamilienhaus,Tarif A
+maennlich,verheiratet,21,0,Bachelor,angestellt,48880,keiner,Tarif B
+maennlich,ledig,22,0,Realschule,kein,9300,keiner,Tarif C
+weiblich,geschieden,30,0,Lehre,kein,9500,keiner,Tarif C
+maennlich,geschieden,34,0,Master,selbständig,42600,Eigentumswohnung,Tarif B
+weiblich,ledig,29,0,Bachelor,kein,9600,keiner,Tarif C
+maennlich,ledig,13,0,Keine,kein,0,keiner,ablehnen
+maennlich,geschieden,41,1,Bachelor,angestellt,69750,Einfamilienhaus,Tarif B
+maennlich,verheiratet,38,3,Hauptschule,kein,9600,keiner,Tarif A
+maennlich,geschieden,46,1,Lehre,selbständig,16500,keiner,Tarif B
+maennlich,ledig,49,0,Master,angestellt,80365,Einfamilienhaus,Tarif A
+maennlich,geschieden,64,0,Lehre,kein,9800,keiner,Tarif C
+weiblich,geschieden,40,2,Bachelor,selbständig,57000,Eigentumswohnung,Tarif B
+weiblich,verwitwet,72,1,Lehre,im Ruhestand,45200,Einfamilienhaus,Tarif C
+maennlich,geschieden,35,2,Lehre,verbeamtet,70575,keiner,Tarif A
+weiblich,verheiratet,24,2,Keine,kein,9000,keiner,Tarif B
+maennlich,verheiratet,28,0,Bachelor,angestellt,105060,Villa,Tarif A
+maennlich,ledig,10,0,Keine,kein,0,keiner,ablehnen
+weiblich,verheiratet,35,2,Realschule,kein,8800,keiner,Tarif A
+maennlich,ledig,19,0,Keine,kein,8900,keiner,Tarif C
+maennlich,ledig,57,0,Lehre,kein,9600,keiner,Tarif B
+weiblich,ledig,24,1,Hauptschule,kein,8500,keiner,Tarif C
+maennlich,ledig,71,0,Bachelor,selbständig,106600,Eigentumswohnung,Tarif B
+maennlich,geschieden,32,2,Master,angestellt,92520,keiner,Tarif A
+weiblich,verheiratet,36,2,Abitur,arbeitend,31900,Eigentumswohnung,Tarif A
+weiblich,ledig,29,0,Master,angestellt,55445,keiner,Tarif B
+weiblich,ledig,13,0,Keine,kein,0,keiner,ablehnen
+weiblich,ledig,59,0,Bachelor,verbeamtet,87495,Einfamilienhaus,Tarif B
+maennlich,verheiratet,68,1,Master,angestellt,83740,Einfamilienhaus,Tarif A
+maennlich,ledig,29,0,Bachelor,kein,9000,keiner,Tarif B
+weiblich,verheiratet,65,0,Lehre,angestellt,90750,keiner,Tarif A
+maennlich,geschieden,36,2,Lehre,selbständig,58600,keiner,Tarif A
+weiblich,ledig,19,0,Keine,kein,8700,keiner,Tarif C
+maennlich,verheiratet,29,2,Bachelor,verbeamtet,90595,Einfamilienhaus,Tarif A
+weiblich,verheiratet,48,0,Bachelor,verbeamtet,80920,keiner,Tarif A
+weiblich,ledig,15,1,Keine,kein,0,keiner,ablehnen
+weiblich,verheiratet,28,2,Bachelor,kein,9900,keiner,Tarif A
+weiblich,verwitwet,76,0,Master,arbeitend,36220,keiner,Tarif C
+maennlich,ledig,27,0,Master,arbeitend,27360,Eigentumswohnung,Tarif B
+maennlich,verheiratet,80,0,Bachelor,im Ruhestand,27200,keiner,Tarif B
+weiblich,geschieden,49,0,Lehre,selbständig,31800,keiner,Tarif B
+weiblich,geschieden,60,0,Lehre,arbeitend,25600,keiner,Tarif B
+maennlich,ledig,14,0,Keine,kein,0,keiner,ablehnen
+weiblich,verheiratet,28,2,Lehre,selbständig,64900,Eigentumswohnung,Tarif A
+weiblich,verwitwet,31,4,Lehre,arbeitend,26625,Eigentumswohnung,Tarif A
+weiblich,ledig,15,0,Keine,kein,0,keiner,ablehnen
+weiblich,ledig,11,0,Keine,kein,0,keiner,ablehnen
+weiblich,ledig,11,0,Keine,kein,0,keiner,ablehnen
+maennlich,ledig,19,0,Realschule,kein,8800,keiner,Tarif C
+weiblich,verheiratet,63,1,Bachelor,verbeamtet,95990,Eigentumswohnung,Tarif A
+maennlich,ledig,22,1,Realschule,kein,9000,keiner,Tarif B
+weiblich,verwitwet,38,3,Bachelor,verbeamtet,46290,keiner,Tarif A
+weiblich,verheiratet,37,3,Lehre,kein,8900,keiner,Tarif A
+weiblich,verheiratet,48,1,Lehre,kein,9600,keiner,Tarif B
+maennlich,ledig,14,0,Keine,kein,0,keiner,ablehnen
+maennlich,verheiratet,67,1,Lehre,im Ruhestand,26500,Eigentumswohnung,Tarif B
+maennlich,verwitwet,74,0,Promotion,im Ruhestand,43200,Eigentumswohnung,Tarif C
+maennlich,verwitwet,38,0,Lehre,arbeitend,30720,keiner,Tarif B
+weiblich,verheiratet,59,0,Bachelor,arbeitend,34800,Eigentumswohnung,Tarif B
+weiblich,verheiratet,22,2,Bachelor,arbeitend,25950,keiner,Tarif A
+weiblich,verheiratet,36,3,Realschule,angestellt,86000,Eigentumswohnung,Tarif A
+weiblich,verwitwet,70,0,Lehre,arbeitend,27250,keiner,Tarif C
+maennlich,ledig,61,0,Lehre,arbeitend,33495,keiner,Tarif B
+maennlich,geschieden,55,0,Lehre,angestellt,85800,Einfamilienhaus,Tarif A
+maennlich,verheiratet,58,0,Bachelor,im Ruhestand,39300,keiner,Tarif B
+weiblich,verheiratet,53,0,Lehre,kein,9500,keiner,Tarif B
+maennlich,geschieden,46,0,Bachelor,angestellt,81670,keiner,Tarif A
+maennlich,geschieden,24,0,Bachelor,verbeamtet,88100,Eigentumswohnung,Tarif B
+maennlich,ledig,11,0,Keine,kein,0,keiner,ablehnen
+weiblich,geschieden,33,3,Abitur,selbständig,69600,keiner,Tarif A
+maennlich,verheiratet,59,1,Lehre,kein,9600,keiner,Tarif A
+weiblich,ledig,28,1,Lehre,angestellt,112640,Eigentumswohnung,Tarif A
+weiblich,geschieden,51,1,Lehre,arbeitend,30035,Eigentumswohnung,Tarif B
+maennlich,geschieden,51,0,Master,verbeamtet,45950,Eigentumswohnung,Tarif B
+maennlich,ledig,35,0,Bachelor,angestellt,67850,keiner,Tarif B
+maennlich,ledig,27,0,Bachelor,angestellt,83810,Einfamilienhaus,Tarif A
+maennlich,verwitwet,40,3,Lehre,angestellt,90300,keiner,Tarif A
+maennlich,geschieden,35,0,Lehre,arbeitend,24375,keiner,Tarif B
+maennlich,verheiratet,47,2,Master,angestellt,87405,Eigentumswohnung,Tarif A
+weiblich,ledig,9,0,Keine,kein,0,keiner,ablehnen
+weiblich,ledig,30,0,Lehre,selbständig,106700,Einfamilienhaus,Tarif B
+weiblich,verheiratet,28,2,Lehre,kein,9700,keiner,Tarif A
+maennlich,ledig,10,0,Keine,kein,0,keiner,ablehnen
+weiblich,ledig,49,0,Bachelor,angestellt,78420,keiner,Tarif B
+weiblich,verheiratet,62,0,Master,angestellt,52530,keiner,Tarif B
+maennlich,ledig,63,0,Bachelor,verbeamtet,95075,Eigentumswohnung,Tarif B
+weiblich,verheiratet,33,0,Lehre,arbeitend,30570,Eigentumswohnung,Tarif B
+weiblich,verheiratet,22,1,Abitur,kein,9400,keiner,Tarif B
+maennlich,verheiratet,21,0,Bachelor,selbständig,107000,keiner,Tarif A
+maennlich,verheiratet,67,0,Bachelor,angestellt,95375,Eigentumswohnung,Tarif A
+maennlich,ledig,28,0,Master,verbeamtet,90140,Einfamilienhaus,Tarif A
+weiblich,verheiratet,26,0,Abitur,kein,8900,keiner,Tarif B
+weiblich,verwitwet,36,2,Bachelor,angestellt,81780,Einfamilienhaus,Tarif A
+weiblich,geschieden,51,0,Bachelor,verbeamtet,73305,Einfamilienhaus,Tarif B
+weiblich,geschieden,49,1,Bachelor,angestellt,113680,Einfamilienhaus,Tarif A
+weiblich,ledig,9,0,Keine,kein,0,keiner,ablehnen
+weiblich,ledig,18,0,Keine,kein,0,keiner,Tarif C
+maennlich,ledig,16,0,Keine,kein,0,keiner,ablehnen
+weiblich,geschieden,52,0,Lehre,arbeitend,26040,keiner,Tarif B
+maennlich,verwitwet,33,2,Promotion,selbständig,102000,Mehrfamilienhaus,Tarif A
+weiblich,verheiratet,38,2,Realschule,selbständig,101700,Einfamilienhaus,Tarif A
+maennlich,verheiratet,61,0,Bachelor,angestellt,76060,keiner,Tarif A
+weiblich,verheiratet,33,3,Realschule,angestellt,97040,Eigentumswohnung,Tarif A
+maennlich,ledig,54,0,Master,angestellt,39180,keiner,Tarif B
+maennlich,verheiratet,58,0,Bachelor,verbeamtet,84910,Einfamilienhaus,Tarif A
+maennlich,verheiratet,26,2,Bachelor,selbständig,25700,keiner,Tarif A
+weiblich,verheiratet,29,2,Lehre,selbständig,92900,Einfamilienhaus,Tarif A
+maennlich,geschieden,34,0,Bachelor,angestellt,53730,keiner,Tarif B
+weiblich,verheiratet,51,0,Realschule,kein,8700,Einfamilienhaus,Tarif B
+maennlich,verheiratet,67,1,Master,selbständig,74400,Eigentumswohnung,Tarif A
+maennlich,ledig,17,0,Keine,kein,0,keiner,ablehnen
+weiblich,ledig,11,0,Keine,kein,0,keiner,ablehnen
+weiblich,ledig,11,0,Keine,kein,0,keiner,ablehnen
+weiblich,verwitwet,35,0,Bachelor,angestellt,63750,keiner,Tarif B
+weiblich,geschieden,65,0,Bachelor,arbeitend,30600,keiner,Tarif C
+weiblich,ledig,10,0,Keine,kein,0,keiner,ablehnen
+weiblich,ledig,16,0,Realschule,kein,0,keiner,ablehnen
+maennlich,ledig,45,0,Bachelor,angestellt,71075,Eigentumswohnung,Tarif B
+maennlich,ledig,9,0,Keine,kein,0,keiner,ablehnen
+maennlich,ledig,60,0,Bachelor,angestellt,63700,Einfamilienhaus,Tarif B
+weiblich,verwitwet,45,0,Bachelor,angestellt,94350,Eigentumswohnung,Tarif B
+maennlich,verheiratet,68,0,Lehre,im Ruhestand,26300,keiner,Tarif B
+weiblich,ledig,19,0,Keine,arbeitend,22535,keiner,Tarif C
+maennlich,verheiratet,63,0,Lehre,arbeitend,28310,keiner,Tarif B
+maennlich,ledig,14,0,Keine,kein,0,keiner,ablehnen
+weiblich,verheiratet,41,4,Lehre,kein,9500,keiner,Tarif A
+maennlich,verheiratet,57,0,Master,im Ruhestand,28200,keiner,Tarif B
+weiblich,verwitwet,87,0,Realschule,im Ruhestand,27800,keiner,Tarif D
+weiblich,verheiratet,60,0,Lehre,kein,9600,keiner,Tarif B
+weiblich,ledig,14,0,Keine,kein,0,keiner,ablehnen
+weiblich,verheiratet,24,0,Abitur,kein,8500,keiner,Tarif B
+weiblich,verheiratet,33,1,Keine,arbeitend,27175,Einfamilienhaus,Tarif A
+maennlich,verheiratet,26,0,Master,angestellt,62110,keiner,Tarif A
+weiblich,verheiratet,53,0,Abitur,selbständig,64200,keiner,Tarif B
+maennlich,verheiratet,71,1,Realschule,im Ruhestand,38300,Eigentumswohnung,Tarif B
+weiblich,geschieden,61,0,Lehre,kein,8800,keiner,Tarif C
+maennlich,verheiratet,58,0,Bachelor,angestellt,66950,Einfamilienhaus,Tarif A
+maennlich,ledig,26,0,Bachelor,selbständig,58300,Einfamilienhaus,Tarif B
+weiblich,verwitwet,37,2,Hauptschule,arbeitend,32900,keiner,Tarif B
+weiblich,verheiratet,22,0,Bachelor,angestellt,48660,keiner,Tarif B
+weiblich,ledig,23,0,Lehre,kein,8800,keiner,Tarif C
+maennlich,verwitwet,62,0,Bachelor,angestellt,79130,Eigentumswohnung,Tarif B
+maennlich,verwitwet,31,6,Master,angestellt,80410,keiner,Tarif A
+weiblich,ledig,66,1,Bachelor,im Ruhestand,30500,keiner,Tarif C
+weiblich,verheiratet,34,2,Lehre,angestellt,60780,keiner,Tarif A
 weiblich,ledig,12,0,Keine,kein,0,keiner,ablehnen
 maennlich,verwitwet,35,0,Bachelor,angestellt,61100,keiner,Tarif B
-maennlich,verwitwet,44,2,Bachelor,selbständig,29700,keiner,Tarif A
-maennlich,verheiratet,34,2,Master,verbeamtet,69170,Einfamilienhaus,Tarif A
-maennlich,ledig,26,0,Bachelor,selbständig,58300,Einfamilienhaus,Tarif B
-maennlich,ledig,6,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,24,1,Abitur,kein,9300,keiner,Tarif B
-maennlich,verwitwet,47,2,Bachelor,verbeamtet,46850,Mehrfamilienhaus,Tarif A
-weiblich,ledig,21,0,Realschule,kein,8500,keiner,Tarif C
-maennlich,ledig,79,0,Master,arbeitend,33610,keiner,Tarif B
-maennlich,verheiratet,27,1,Bachelor,angestellt,86915,Eigentumswohnung,Tarif A
-weiblich,ledig,41,1,Abitur,arbeitend,28080,keiner,Tarif B
-maennlich,verheiratet,64,1,Master,angestellt,94800,Mehrfamilienhaus,Tarif A
-maennlich,geschieden,61,1,Lehre,selbständig,38100,Eigentumswohnung,Tarif B
-weiblich,verheiratet,33,2,Realschule,kein,8600,keiner,Tarif A
-weiblich,ledig,6,1,Keine,kein,0,keiner,ablehnen
-weiblich,verwitwet,72,1,Lehre,im Ruhestand,45200,Einfamilienhaus,Tarif C
-weiblich,verwitwet,45,0,Bachelor,selbständig,105800,Einfamilienhaus,Tarif B
-maennlich,verheiratet,60,0,Lehre,kein,8800,keiner,Tarif B
-maennlich,verheiratet,33,2,Promotion,angestellt,57265,keiner,Tarif A
-weiblich,ledig,12,1,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,38,0,Bachelor,angestellt,66620,Eigentumswohnung,Tarif B
-weiblich,geschieden,38,0,Lehre,verbeamtet,72070,keiner,Tarif B
+maennlich,ledig,26,0,Lehre,kein,8700,keiner,Tarif B
+weiblich,geschieden,67,0,Bachelor,im Ruhestand,25800,keiner,Tarif D
+maennlich,verheiratet,34,0,Realschule,selbständig,78300,keiner,Tarif A
+weiblich,verheiratet,30,1,Abitur,kein,8600,keiner,Tarif B
+maennlich,verheiratet,23,0,Bachelor,angestellt,64450,Eigentumswohnung,Tarif B
+weiblich,ledig,46,0,Master,angestellt,86690,Eigentumswohnung,Tarif B
+maennlich,geschieden,45,2,Bachelor,angestellt,108225,Einfamilienhaus,Tarif A
+weiblich,verheiratet,52,0,Bachelor,angestellt,84100,Einfamilienhaus,Tarif A
+weiblich,verwitwet,56,0,Realschule,kein,8800,keiner,Tarif C
+weiblich,ledig,29,1,Lehre,angestellt,92185,Villa,Tarif A
 maennlich,geschieden,36,3,Bachelor,angestellt,70860,Eigentumswohnung,Tarif A
-maennlich,verheiratet,58,0,Bachelor,angestellt,101390,Eigentumswohnung,Tarif A
-weiblich,verheiratet,20,1,Bachelor,verbeamtet,81800,keiner,Tarif A
-maennlich,geschieden,50,0,Bachelor,arbeitend,33150,keiner,Tarif B
-weiblich,verheiratet,25,1,Keine,angestellt,107500,Villa,Tarif A
-maennlich,geschieden,40,0,Bachelor,verbeamtet,84700,Einfamilienhaus,Tarif A
-weiblich,ledig,23,0,Realschule,arbeitend,28970,Eigentumswohnung,Tarif C
-maennlich,geschieden,46,1,Lehre,selbständig,16500,keiner,Tarif B
-maennlich,ledig,13,0,Keine,kein,0,keiner,ablehnen
-maennlich,geschieden,37,4,Lehre,kein,9600,keiner,Tarif A
-maennlich,verheiratet,26,0,Master,angestellt,65900,keiner,Tarif A
-maennlich,geschieden,40,0,Promotion,selbständig,75200,Mehrfamilienhaus,Tarif A
-maennlich,ledig,63,0,Lehre,kein,9300,keiner,Tarif C
-weiblich,verheiratet,32,1,Lehre,arbeitend,25900,Eigentumswohnung,Tarif A
-weiblich,geschieden,45,0,Bachelor,angestellt,55050,Mehrfamilienhaus,Tarif B
-weiblich,ledig,11,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,38,3,Hauptschule,kein,9400,keiner,Tarif A
-maennlich,ledig,9,0,Keine,kein,0,keiner,ablehnen
-weiblich,ledig,15,0,Keine,kein,0,keiner,ablehnen
-maennlich,ledig,5,0,Keine,kein,0,keiner,ablehnen
-maennlich,ledig,12,0,Keine,kein,0,keiner,ablehnen
-maennlich,verwitwet,79,0,Bachelor,selbständig,55400,keiner,Tarif B
-weiblich,geschieden,38,3,Lehre,kein,8900,keiner,Tarif B
-weiblich,verheiratet,30,0,Master,angestellt,76500,Eigentumswohnung,Tarif A
-weiblich,verheiratet,42,0,Bachelor,arbeitend,30780,Eigentumswohnung,Tarif B
-maennlich,ledig,18,0,Keine,kein,0,keiner,Tarif C
-maennlich,verheiratet,56,0,Bachelor,angestellt,70340,Mehrfamilienhaus,Tarif A
-maennlich,geschieden,47,0,Hauptschule,angestellt,98220,Einfamilienhaus,Tarif A
-maennlich,geschieden,50,0,Bachelor,kein,8900,keiner,Tarif B
-maennlich,verheiratet,32,2,Bachelor,angestellt,99840,Einfamilienhaus,Tarif A
-weiblich,verheiratet,68,0,Realschule,verbeamtet,62400,keiner,Tarif B
-weiblich,verheiratet,66,1,Lehre,arbeitend,26790,keiner,Tarif B
-weiblich,ledig,25,0,Master,selbständig,70400,Eigentumswohnung,Tarif B
-maennlich,geschieden,30,0,Bachelor,angestellt,87900,Einfamilienhaus,Tarif A
-maennlich,ledig,45,0,Bachelor,angestellt,54025,Eigentumswohnung,Tarif B
-maennlich,verheiratet,29,1,Bachelor,kein,8800,keiner,Tarif A
-weiblich,ledig,59,0,Master,angestellt,84710,keiner,Tarif B
-maennlich,verwitwet,50,0,Hauptschule,arbeitend,27850,Eigentumswohnung,Tarif B
-weiblich,ledig,35,1,Lehre,arbeitend,26050,keiner,Tarif B
-weiblich,ledig,14,0,Keine,kein,0,keiner,ablehnen
-weiblich,verwitwet,40,0,Lehre,kein,9800,keiner,Tarif C
-maennlich,verheiratet,67,1,Master,selbständig,74400,Eigentumswohnung,Tarif A
-maennlich,verheiratet,26,0,Master,angestellt,62110,keiner,Tarif A
-weiblich,geschieden,37,0,Bachelor,angestellt,87010,Eigentumswohnung,Tarif B
-weiblich,verheiratet,30,3,Realschule,verbeamtet,73600,keiner,Tarif A
-maennlich,verheiratet,80,0,Bachelor,im Ruhestand,27200,keiner,Tarif B
+weiblich,verheiratet,38,0,Bachelor,angestellt,66620,Eigentumswohnung,Tarif B
+weiblich,verheiratet,63,0,Lehre,kein,9300,keiner,Tarif B
+maennlich,verheiratet,45,0,Lehre,selbständig,40500,keiner,Tarif A
+weiblich,verheiratet,54,1,Realschule,arbeitend,33830,keiner,Tarif A
+maennlich,ledig,80,0,Hauptschule,angestellt,75300,keiner,Tarif B
 weiblich,verwitwet,60,1,Master,angestellt,127200,Einfamilienhaus,Tarif A
-maennlich,ledig,74,0,Lehre,im Ruhestand,37600,keiner,Tarif C
-maennlich,verheiratet,68,0,Hauptschule,selbständig,28700,keiner,Tarif B
-weiblich,verheiratet,23,2,Lehre,selbständig,82600,keiner,Tarif A
-weiblich,verheiratet,41,3,Abitur,kein,8700,keiner,Tarif A
-maennlich,verheiratet,46,3,Lehre,selbständig,60700,keiner,Tarif A
-maennlich,geschieden,39,0,Bachelor,angestellt,100220,Mehrfamilienhaus,Tarif A
-maennlich,ledig,27,0,Bachelor,angestellt,83810,Einfamilienhaus,Tarif A
-maennlich,ledig,79,0,Bachelor,im Ruhestand,29500,keiner,Tarif C
-weiblich,verheiratet,22,1,Abitur,kein,9400,keiner,Tarif B
-weiblich,verheiratet,40,1,Abitur,kein,9400,keiner,Tarif B
-maennlich,geschieden,59,1,Master,im Ruhestand,45500,keiner,Tarif B
-weiblich,geschieden,53,0,Abitur,kein,8800,keiner,Tarif C
-maennlich,verheiratet,55,0,Bachelor,verbeamtet,99125,Einfamilienhaus,Tarif A
-weiblich,verheiratet,25,1,Keine,arbeitend,29850,keiner,Tarif A
-maennlich,verheiratet,44,0,Bachelor,angestellt,60040,Mehrfamilienhaus,Tarif A
-weiblich,verheiratet,42,2,Lehre,arbeitend,29060,keiner,Tarif A
-weiblich,verheiratet,33,2,Bachelor,angestellt,62125,keiner,Tarif A
-weiblich,verwitwet,31,2,Abitur,arbeitend,30645,Eigentumswohnung,Tarif B
-maennlich,verheiratet,26,0,Master,angestellt,57990,Eigentumswohnung,Tarif A
-maennlich,verheiratet,35,3,Bachelor,verbeamtet,86250,Eigentumswohnung,Tarif A
-maennlich,ledig,10,0,Keine,kein,0,keiner,ablehnen
-maennlich,ledig,54,0,Master,angestellt,39180,keiner,Tarif B
-maennlich,verheiratet,45,2,Bachelor,verbeamtet,102100,Eigentumswohnung,Tarif A
-maennlich,verwitwet,37,3,Lehre,kein,9800,keiner,Tarif A
-weiblich,verheiratet,30,2,Lehre,arbeitend,26150,Einfamilienhaus,Tarif A
-maennlich,geschieden,53,0,Master,angestellt,74215,keiner,Tarif B
-weiblich,verheiratet,53,0,Abitur,selbständig,64200,keiner,Tarif B
-maennlich,verheiratet,61,1,Bachelor,verbeamtet,82585,keiner,Tarif A
-weiblich,geschieden,33,0,Master,angestellt,93745,Einfamilienhaus,Tarif B
-weiblich,geschieden,51,1,Lehre,arbeitend,30035,Eigentumswohnung,Tarif B
-weiblich,ledig,14,0,Keine,kein,0,Einfamilienhaus,ablehnen
-maennlich,verwitwet,53,1,Lehre,angestellt,100680,Einfamilienhaus,Tarif A
-weiblich,verheiratet,21,1,Abitur,kein,8600,keiner,Tarif B
-maennlich,ledig,5,0,Keine,kein,0,keiner,ablehnen
-weiblich,ledig,9,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,28,2,Lehre,selbständig,64900,Eigentumswohnung,Tarif A
-maennlich,ledig,37,0,Master,angestellt,89280,keiner,Tarif A
-maennlich,verwitwet,37,4,Bachelor,angestellt,93335,Mehrfamilienhaus,Tarif A
-maennlich,verheiratet,30,0,Abitur,arbeitend,23750,keiner,Tarif A
-weiblich,verheiratet,60,0,Lehre,kein,9600,keiner,Tarif B
-weiblich,verheiratet,30,1,Abitur,angestellt,84700,keiner,Tarif A
-weiblich,geschieden,89,0,Abitur,im Ruhestand,28000,Eigentumswohnung,Tarif D
-maennlich,geschieden,41,1,Lehre,angestellt,98570,Villa,Tarif A
-maennlich,verheiratet,50,1,Bachelor,angestellt,74900,keiner,Tarif A
-maennlich,verheiratet,46,0,Lehre,kein,9100,keiner,Tarif B
-maennlich,ledig,28,0,Master,verbeamtet,77940,Eigentumswohnung,Tarif A
-maennlich,ledig,54,0,Lehre,angestellt,45130,keiner,Tarif B
-maennlich,verheiratet,66,0,Lehre,selbständig,93000,Eigentumswohnung,Tarif A
-weiblich,verheiratet,28,2,Abitur,angestellt,84240,Eigentumswohnung,Tarif A
-weiblich,verheiratet,48,0,Bachelor,angestellt,76260,Eigentumswohnung,Tarif A
-maennlich,verheiratet,43,2,Bachelor,selbständig,75700,Einfamilienhaus,Tarif A
-maennlich,verheiratet,65,0,Bachelor,arbeitend,26525,keiner,Tarif B
-weiblich,verheiratet,22,2,Bachelor,arbeitend,25950,keiner,Tarif A
-weiblich,geschieden,47,0,Lehre,arbeitend,26390,keiner,Tarif B
-weiblich,geschieden,31,0,Lehre,kein,9300,keiner,Tarif C
-weiblich,ledig,59,0,Bachelor,verbeamtet,87495,Einfamilienhaus,Tarif B
-weiblich,verheiratet,44,0,Bachelor,selbständig,108500,Einfamilienhaus,Tarif A
-weiblich,verheiratet,25,0,Lehre,angestellt,96325,Einfamilienhaus,Tarif A
-weiblich,verheiratet,66,0,Bachelor,im Ruhestand,25000,Eigentumswohnung,Tarif C
-weiblich,ledig,26,0,Hauptschule,selbständig,72900,keiner,Tarif B
-maennlich,verheiratet,75,0,Lehre,arbeitend,36600,keiner,Tarif B
-weiblich,verheiratet,56,0,Master,im Ruhestand,32700,keiner,Tarif B
-maennlich,geschieden,47,2,Lehre,verbeamtet,24455,keiner,Tarif A
-maennlich,verwitwet,52,0,Master,verbeamtet,75780,keiner,Tarif A
-maennlich,geschieden,57,0,Hauptschule,selbständig,43600,Eigentumswohnung,Tarif B
-weiblich,verheiratet,36,3,Realschule,angestellt,86000,Eigentumswohnung,Tarif A
-weiblich,verheiratet,56,0,Bachelor,verbeamtet,68180,Eigentumswohnung,Tarif B
-maennlich,ledig,23,1,Keine,arbeitend,26840,keiner,Tarif B
-maennlich,geschieden,54,0,Lehre,arbeitend,30890,keiner,Tarif B
-weiblich,ledig,29,0,Bachelor,kein,9600,keiner,Tarif C
-maennlich,geschieden,35,0,Lehre,arbeitend,24375,keiner,Tarif B
-weiblich,ledig,13,0,Keine,kein,0,keiner,ablehnen
-weiblich,geschieden,30,3,Abitur,arbeitend,23750,keiner,Tarif A
-maennlich,geschieden,55,0,Bachelor,selbständig,63800,keiner,Tarif B
-maennlich,verheiratet,36,0,Abitur,angestellt,79300,Eigentumswohnung,Tarif A
-maennlich,geschieden,40,1,Keine,angestellt,57600,keiner,Tarif B
-weiblich,verheiratet,24,0,Abitur,kein,8500,keiner,Tarif B
-weiblich,geschieden,49,1,Bachelor,angestellt,113680,Einfamilienhaus,Tarif A
-weiblich,ledig,14,0,Keine,kein,0,keiner,ablehnen
-weiblich,ledig,20,0,Bachelor,angestellt,111600,keiner,Tarif B
-maennlich,ledig,22,1,Realschule,kein,9000,keiner,Tarif B
-weiblich,verheiratet,59,0,Bachelor,selbständig,92400,Eigentumswohnung,Tarif A
-maennlich,ledig,42,0,Lehre,verbeamtet,77760,keiner,Tarif A
-maennlich,geschieden,46,0,Bachelor,angestellt,81670,keiner,Tarif A
-weiblich,verheiratet,33,1,Keine,arbeitend,27175,Einfamilienhaus,Tarif A
-weiblich,verheiratet,31,2,Master,arbeitend,30845,keiner,Tarif A
-maennlich,ledig,20,0,Abitur,kein,8700,keiner,Tarif C
-weiblich,geschieden,43,1,Realschule,arbeitend,21765,keiner,Tarif B
-maennlich,ledig,60,0,Bachelor,angestellt,63700,Einfamilienhaus,Tarif B
-weiblich,verwitwet,72,0,Lehre,im Ruhestand,28300,Eigentumswohnung,Tarif D
-maennlich,ledig,28,0,Master,verbeamtet,90140,Einfamilienhaus,Tarif A
-weiblich,ledig,11,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,36,2,Abitur,arbeitend,31900,Eigentumswohnung,Tarif A
-weiblich,geschieden,65,0,Bachelor,arbeitend,30600,keiner,Tarif C
-maennlich,verheiratet,81,1,Master,im Ruhestand,20400,keiner,Tarif B
-maennlich,geschieden,34,0,Bachelor,angestellt,53730,keiner,Tarif B
-maennlich,geschieden,32,0,Promotion,verbeamtet,72400,keiner,Tarif B
-weiblich,geschieden,32,2,Lehre,kein,8200,keiner,Tarif B
-maennlich,geschieden,33,1,Bachelor,angestellt,89120,Mehrfamilienhaus,Tarif A
+weiblich,verheiratet,28,1,Lehre,arbeitend,30960,keiner,Tarif A
+weiblich,ledig,11,0,Keine,kein,0,Einfamilienhaus,ablehnen
+weiblich,geschieden,50,1,Hauptschule,kein,9300,keiner,Tarif B
+weiblich,verheiratet,64,0,Bachelor,angestellt,100080,Einfamilienhaus,Tarif A
+maennlich,geschieden,45,1,Bachelor,angestellt,98425,Eigentumswohnung,Tarif A
+weiblich,geschieden,73,1,Bachelor,im Ruhestand,42400,Einfamilienhaus,Tarif C
+maennlich,verheiratet,58,0,Bachelor,angestellt,59900,Einfamilienhaus,Tarif A
+weiblich,ledig,39,0,Lehre,selbständig,106900,Einfamilienhaus,Tarif B
+weiblich,verheiratet,49,0,Master,angestellt,107010,Einfamilienhaus,Tarif A
+weiblich,geschieden,46,1,Lehre,kein,9500,keiner,Tarif B
+maennlich,ledig,63,1,Bachelor,arbeitend,30440,keiner,Tarif B
+maennlich,geschieden,31,2,Bachelor,angestellt,60420,keiner,Tarif A
 weiblich,geschieden,30,2,Abitur,verbeamtet,59700,keiner,Tarif B
 weiblich,verheiratet,53,0,Bachelor,selbständig,99300,keiner,Tarif A
-weiblich,verheiratet,37,0,Bachelor,selbständig,106200,Einfamilienhaus,Tarif A
-weiblich,ledig,26,0,Bachelor,angestellt,66730,Einfamilienhaus,Tarif B
-maennlich,verheiratet,21,0,Bachelor,verbeamtet,76100,Einfamilienhaus,Tarif A
-weiblich,verwitwet,77,0,Lehre,selbständig,48200,Einfamilienhaus,Tarif C
-weiblich,geschieden,33,0,Lehre,kein,8700,keiner,Tarif C
-maennlich,verwitwet,36,2,Hauptschule,angestellt,123160,Villa,Tarif A
-maennlich,ledig,11,0,Keine,kein,0,keiner,ablehnen
-maennlich,ledig,18,0,Keine,kein,0,keiner,Tarif C
-maennlich,geschieden,43,2,Bachelor,selbständig,62600,keiner,Tarif A
-maennlich,geschieden,55,0,Lehre,arbeitend,29900,keiner,Tarif B
-maennlich,ledig,27,0,Lehre,kein,9100,keiner,Tarif B
-maennlich,verheiratet,60,0,Bachelor,angestellt,90900,Einfamilienhaus,Tarif A
-maennlich,verheiratet,40,2,Bachelor,angestellt,82000,keiner,Tarif A
-weiblich,ledig,25,0,Abitur,kein,9700,keiner,Tarif C
-weiblich,geschieden,38,2,Realschule,kein,9300,keiner,Tarif B
-maennlich,geschieden,42,1,Master,angestellt,98440,Mehrfamilienhaus,Tarif A
-maennlich,ledig,10,0,Keine,kein,0,keiner,ablehnen
-weiblich,ledig,25,0,Lehre,arbeitend,24225,keiner,Tarif B
-weiblich,geschieden,73,1,Bachelor,im Ruhestand,42400,Einfamilienhaus,Tarif C
-maennlich,ledig,13,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,48,0,Bachelor,verbeamtet,80920,keiner,Tarif A
-maennlich,verheiratet,58,1,Abitur,angestellt,73700,keiner,Tarif A
-weiblich,ledig,9,0,Keine,kein,0,keiner,ablehnen
-weiblich,ledig,17,0,Keine,kein,0,keiner,ablehnen
-maennlich,verheiratet,26,2,Master,kein,9600,keiner,Tarif A
-weiblich,ledig,10,0,Keine,kein,0,keiner,ablehnen
-weiblich,ledig,18,0,Keine,arbeitend,0,keiner,Tarif C
-weiblich,verheiratet,56,1,Lehre,angestellt,80980,Einfamilienhaus,Tarif A
-maennlich,verheiratet,47,3,Bachelor,verbeamtet,84135,Mehrfamilienhaus,Tarif A
-maennlich,ledig,19,0,Hauptschule,kein,8700,keiner,Tarif C
-maennlich,verheiratet,31,3,Bachelor,angestellt,81510,keiner,Tarif A
-weiblich,verheiratet,64,0,Bachelor,selbständig,40700,Eigentumswohnung,Tarif B
-weiblich,ledig,27,0,Realschule,verbeamtet,79070,keiner,Tarif B
-weiblich,verheiratet,30,4,Realschule,kein,8600,keiner,Tarif A
-weiblich,verwitwet,79,0,Abitur,arbeitend,34210,keiner,Tarif C
-weiblich,verheiratet,51,0,Master,angestellt,70595,Eigentumswohnung,Tarif B
-weiblich,verheiratet,23,2,Lehre,kein,8800,keiner,Tarif B
-maennlich,verheiratet,57,0,Promotion,angestellt,82145,keiner,Tarif A
-weiblich,ledig,24,0,Abitur,arbeitend,29960,keiner,Tarif C
-maennlich,ledig,25,0,Abitur,kein,8900,keiner,Tarif B
-maennlich,verheiratet,22,0,Bachelor,arbeitend,25750,keiner,Tarif B
-maennlich,verheiratet,26,0,Bachelor,selbständig,67200,Eigentumswohnung,Tarif A
-maennlich,verwitwet,72,1,Lehre,im Ruhestand,26200,keiner,Tarif C
-maennlich,ledig,3,0,Keine,kein,0,keiner,ablehnen
-maennlich,ledig,30,0,Master,angestellt,54050,keiner,Tarif B
-maennlich,verwitwet,38,0,Lehre,arbeitend,30720,keiner,Tarif B
-maennlich,verheiratet,60,0,Lehre,selbständig,94300,keiner,Tarif A
-maennlich,geschieden,33,2,Bachelor,arbeitend,25410,keiner,Tarif A
-maennlich,ledig,10,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,34,3,Lehre,kein,9000,keiner,Tarif A
-weiblich,verheiratet,35,0,Lehre,selbständig,91700,keiner,Tarif A
-maennlich,ledig,16,0,Hauptschule,kein,0,keiner,ablehnen
-weiblich,geschieden,24,2,Promotion,angestellt,94740,keiner,Tarif A
-weiblich,verheiratet,31,0,Promotion,verbeamtet,72170,keiner,Tarif B
-weiblich,verwitwet,34,4,Lehre,kein,9700,keiner,Tarif A
-weiblich,ledig,27,1,Bachelor,angestellt,67385,Eigentumswohnung,Tarif B
-maennlich,ledig,68,0,Hauptschule,im Ruhestand,25700,keiner,Tarif C
-maennlich,verheiratet,60,0,Lehre,kein,8700,keiner,Tarif B
-maennlich,geschieden,67,0,Bachelor,im Ruhestand,46700,keiner,Tarif C
-weiblich,geschieden,49,0,Bachelor,angestellt,65770,Eigentumswohnung,Tarif B
-maennlich,ledig,32,0,Promotion,angestellt,82080,Mehrfamilienhaus,Tarif A
-weiblich,ledig,29,1,Lehre,angestellt,92185,Villa,Tarif A
-weiblich,verheiratet,54,0,Bachelor,selbständig,75700,keiner,Tarif A
-weiblich,ledig,19,0,Keine,kein,8700,keiner,Tarif C
-maennlich,ledig,56,0,Bachelor,selbständig,94100,keiner,Tarif A
-maennlich,ledig,11,1,Keine,kein,0,keiner,ablehnen
-maennlich,ledig,35,0,Bachelor,angestellt,67850,keiner,Tarif B
-maennlich,geschieden,43,0,Bachelor,selbständig,76300,Eigentumswohnung,Tarif A
-weiblich,verwitwet,30,0,Master,angestellt,68000,keiner,Tarif B
-weiblich,verwitwet,91,0,Lehre,im Ruhestand,26000,keiner,Tarif D
-weiblich,geschieden,67,0,Bachelor,im Ruhestand,25800,keiner,Tarif D
-maennlich,ledig,2,0,Keine,kein,0,keiner,ablehnen
-maennlich,verheiratet,23,0,Bachelor,angestellt,64450,Eigentumswohnung,Tarif B
-maennlich,verheiratet,71,1,Realschule,im Ruhestand,38300,Eigentumswohnung,Tarif B
-weiblich,ledig,50,0,Bachelor,verbeamtet,95850,keiner,Tarif B
-maennlich,ledig,42,0,Lehre,kein,9300,keiner,Tarif B
-maennlich,ledig,6,0,Keine,kein,0,keiner,ablehnen
-maennlich,geschieden,61,1,Abitur,selbständig,72200,keiner,Tarif B
-maennlich,ledig,17,0,Hauptschule,kein,0,keiner,ablehnen
-maennlich,verwitwet,47,2,Keine,kein,10000,keiner,Tarif B
-weiblich,verwitwet,82,0,Lehre,selbständig,102000,Mehrfamilienhaus,Tarif B
-weiblich,verheiratet,52,1,Master,angestellt,55060,keiner,Tarif A
-weiblich,ledig,28,0,Bachelor,angestellt,86720,Einfamilienhaus,Tarif B
-weiblich,ledig,55,0,Bachelor,angestellt,88850,keiner,Tarif B
-maennlich,ledig,16,0,Keine,kein,0,keiner,ablehnen
-maennlich,ledig,28,0,Master,verbeamtet,89940,Einfamilienhaus,Tarif A
-weiblich,ledig,80,0,Lehre,angestellt,99600,keiner,Tarif B
-weiblich,ledig,17,0,Hauptschule,kein,0,keiner,ablehnen
-maennlich,ledig,8,0,Keine,kein,0,keiner,ablehnen
-weiblich,verwitwet,45,0,Lehre,angestellt,95675,keiner,Tarif B
-weiblich,geschieden,36,0,Promotion,angestellt,78820,keiner,Tarif B
-weiblich,verheiratet,24,1,Realschule,angestellt,77020,Eigentumswohnung,Tarif A
-maennlich,ledig,14,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,30,2,Hauptschule,arbeitend,25100,keiner,Tarif A
-maennlich,verheiratet,58,1,Lehre,angestellt,92950,keiner,Tarif A
-weiblich,verheiratet,69,0,Realschule,angestellt,98270,keiner,Tarif A
-weiblich,ledig,25,0,Bachelor,angestellt,84075,keiner,Tarif B
-weiblich,verheiratet,42,1,Abitur,kein,9400,keiner,Tarif B
-weiblich,verheiratet,27,0,Bachelor,verbeamtet,66785,keiner,Tarif B
-maennlich,verheiratet,63,1,Bachelor,angestellt,67060,Eigentumswohnung,Tarif A
-maennlich,verheiratet,62,1,Lehre,kein,9200,keiner,Tarif B
-weiblich,verheiratet,60,1,Bachelor,angestellt,66400,keiner,Tarif A
-maennlich,geschieden,57,1,Lehre,arbeitend,31730,keiner,Tarif B
-weiblich,verwitwet,38,3,Bachelor,verbeamtet,46290,keiner,Tarif A
-maennlich,verheiratet,57,0,Bachelor,angestellt,57230,keiner,Tarif A
-maennlich,ledig,41,0,Bachelor,angestellt,64030,Einfamilienhaus,Tarif B
-maennlich,ledig,46,0,Bachelor,angestellt,67310,Eigentumswohnung,Tarif B
-weiblich,ledig,14,0,Keine,kein,0,keiner,ablehnen
-maennlich,ledig,26,0,Master,arbeitend,25550,keiner,Tarif B
-weiblich,ledig,49,0,Bachelor,angestellt,78420,keiner,Tarif B
-weiblich,ledig,53,0,Bachelor,angestellt,78375,Mehrfamilienhaus,Tarif B
-weiblich,ledig,10,0,Keine,kein,0,keiner,ablehnen
-weiblich,verheiratet,32,2,Abitur,angestellt,65080,keiner,Tarif A
-maennlich,verwitwet,46,0,Lehre,arbeitend,30110,keiner,Tarif B
-weiblich,geschieden,41,0,Bachelor,angestellt,80695,Einfamilienhaus,Tarif B
-maennlich,ledig,20,0,Abitur,kein,9900,keiner,Tarif C
-maennlich,verheiratet,36,3,Lehre,selbständig,106600,Eigentumswohnung,Tarif A
-weiblich,ledig,28,0,Lehre,arbeitend,25600,keiner,Tarif B
-maennlich,geschieden,36,2,Lehre,selbständig,58600,keiner,Tarif A
-maennlich,ledig,22,0,Abitur,selbständig,106500,keiner,Tarif B
-weiblich,ledig,29,1,Lehre,kein,9700,keiner,Tarif B
-maennlich,ledig,63,0,Bachelor,arbeitend,31555,keiner,Tarif B
-weiblich,geschieden,71,1,Bachelor,selbständig,70200,Einfamilienhaus,Tarif B
-maennlich,ledig,16,0,Keine,kein,0,keiner,ablehnen
 weiblich,verheiratet,46,1,Lehre,selbständig,74200,keiner,Tarif A
-weiblich,geschieden,60,1,Lehre,arbeitend,33200,Mehrfamilienhaus,Tarif B
-maennlich,ledig,72,0,Realschule,im Ruhestand,30700,keiner,Tarif C
-maennlich,verheiratet,64,0,Lehre,kein,9900,keiner,Tarif B
-maennlich,verheiratet,55,1,Bachelor,selbständig,96400,Einfamilienhaus,Tarif A
-weiblich,ledig,10,0,Keine,kein,0,keiner,ablehnen
-weiblich,geschieden,60,0,Lehre,arbeitend,25600,keiner,Tarif B
-maennlich,ledig,56,0,Master,angestellt,51240,Eigentumswohnung,Tarif B
-weiblich,geschieden,34,0,Lehre,arbeitend,30160,keiner,Tarif B
+weiblich,verheiratet,25,1,Keine,arbeitend,29850,keiner,Tarif A
+maennlich,verheiratet,61,1,Bachelor,verbeamtet,82585,keiner,Tarif A
+maennlich,verheiratet,56,0,Bachelor,verbeamtet,104120,keiner,Tarif A
+maennlich,verheiratet,57,0,Bachelor,selbständig,109200,Eigentumswohnung,Tarif A
+weiblich,verwitwet,35,3,Bachelor,angestellt,39450,Eigentumswohnung,Tarif A
+maennlich,verwitwet,63,0,Bachelor,angestellt,82540,keiner,Tarif B
+maennlich,verheiratet,29,1,Bachelor,kein,8800,keiner,Tarif A
+weiblich,ledig,24,0,Bachelor,selbständig,78200,Einfamilienhaus,Tarif B
+maennlich,verheiratet,51,0,Bachelor,angestellt,52425,Einfamilienhaus,Tarif A
+weiblich,ledig,17,0,Keine,kein,0,keiner,ablehnen
+maennlich,ledig,38,1,Lehre,verbeamtet,74550,keiner,Tarif B
+weiblich,ledig,14,0,Keine,kein,0,keiner,ablehnen
+weiblich,verheiratet,66,0,Bachelor,im Ruhestand,25000,Eigentumswohnung,Tarif C
+weiblich,verheiratet,46,0,Bachelor,kein,8700,keiner,Tarif B
+weiblich,ledig,13,0,Keine,kein,0,keiner,ablehnen
+maennlich,verwitwet,47,0,Bachelor,verbeamtet,93380,Einfamilienhaus,Tarif A
+weiblich,geschieden,66,0,Bachelor,arbeitend,35900,keiner,Tarif C
+maennlich,verheiratet,49,0,Lehre,angestellt,80865,Einfamilienhaus,Tarif A
+weiblich,ledig,12,1,Keine,kein,0,keiner,ablehnen
+weiblich,geschieden,41,0,Bachelor,verbeamtet,90235,Eigentumswohnung,Tarif B
+weiblich,verheiratet,30,4,Realschule,kein,8600,keiner,Tarif A
+weiblich,verheiratet,62,0,Abitur,angestellt,50110,keiner,Tarif B
+maennlich,ledig,21,0,Bachelor,selbständig,42500,keiner,Tarif B
+maennlich,ledig,43,0,Master,angestellt,82915,Mehrfamilienhaus,Tarif A
+weiblich,ledig,28,0,Bachelor,angestellt,49640,Eigentumswohnung,Tarif B
+maennlich,verheiratet,47,2,Bachelor,angestellt,34135,Einfamilienhaus,Tarif A
+maennlich,verheiratet,59,0,Lehre,angestellt,67970,keiner,Tarif A
+maennlich,verheiratet,27,0,Bachelor,angestellt,51795,Einfamilienhaus,Tarif A
+weiblich,geschieden,38,3,Realschule,angestellt,69390,keiner,Tarif A
+maennlich,verheiratet,47,3,Bachelor,verbeamtet,84135,Mehrfamilienhaus,Tarif A
+maennlich,geschieden,54,0,Lehre,arbeitend,30890,keiner,Tarif B
+maennlich,verheiratet,26,0,Realschule,arbeitend,30240,keiner,Tarif A
+weiblich,verheiratet,48,0,Bachelor,angestellt,84340,Eigentumswohnung,Tarif A
+weiblich,verheiratet,59,0,Bachelor,selbständig,92400,Eigentumswohnung,Tarif A
+maennlich,verheiratet,40,4,Abitur,kein,8400,keiner,Tarif A
+weiblich,verwitwet,45,0,Bachelor,selbständig,105800,Einfamilienhaus,Tarif B
+maennlich,verheiratet,24,0,Lehre,arbeitend,28140,keiner,Tarif B
+weiblich,verwitwet,91,0,Lehre,im Ruhestand,26000,keiner,Tarif D
+weiblich,ledig,31,0,Master,angestellt,82520,Einfamilienhaus,Tarif B
+weiblich,verheiratet,33,1,Bachelor,verbeamtet,72810,keiner,Tarif A
+weiblich,verwitwet,90,0,Hauptschule,im Ruhestand,24200,keiner,Tarif D
+maennlich,verheiratet,23,0,Bachelor,verbeamtet,43365,Eigentumswohnung,Tarif B
+maennlich,geschieden,59,1,Master,angestellt,120270,Einfamilienhaus,Tarif A
+maennlich,ledig,18,0,Keine,kein,0,keiner,Tarif C
+weiblich,verheiratet,56,1,Bachelor,angestellt,98900,Eigentumswohnung,Tarif A
+weiblich,geschieden,45,0,Bachelor,angestellt,55050,Mehrfamilienhaus,Tarif B
+maennlich,verheiratet,66,0,Lehre,selbständig,93000,Eigentumswohnung,Tarif A
+weiblich,geschieden,71,1,Bachelor,selbständig,70200,Einfamilienhaus,Tarif B
+weiblich,ledig,21,0,Bachelor,angestellt,66760,keiner,Tarif C
+weiblich,verwitwet,82,0,Lehre,selbständig,102000,Mehrfamilienhaus,Tarif B
+maennlich,ledig,6,0,Keine,kein,0,keiner,ablehnen
+maennlich,ledig,23,0,Lehre,arbeitend,29970,keiner,Tarif B
+weiblich,verwitwet,35,4,Hauptschule,angestellt,54550,Einfamilienhaus,Tarif A
+maennlich,ledig,14,0,Keine,kein,0,keiner,ablehnen
+maennlich,verheiratet,42,1,Lehre,arbeitend,24030,keiner,Tarif A
+maennlich,geschieden,42,0,Master,selbständig,94100,Eigentumswohnung,Tarif A
+weiblich,ledig,6,0,Keine,kein,0,keiner,ablehnen
+weiblich,ledig,14,0,Keine,kein,0,Einfamilienhaus,ablehnen
+weiblich,verheiratet,26,1,Bachelor,angestellt,64470,keiner,Tarif A
+weiblich,verheiratet,41,2,Hauptschule,angestellt,81900,Mehrfamilienhaus,Tarif A
+weiblich,verheiratet,44,5,Abitur,angestellt,66960,keiner,Tarif A
+weiblich,verheiratet,69,0,Realschule,angestellt,98270,keiner,Tarif A
+maennlich,verheiratet,38,2,Master,angestellt,66220,Eigentumswohnung,Tarif A
+maennlich,verwitwet,80,1,Bachelor,im Ruhestand,28400,keiner,Tarif C
+maennlich,geschieden,57,1,Lehre,arbeitend,31730,keiner,Tarif B
+weiblich,geschieden,38,0,Lehre,verbeamtet,72070,keiner,Tarif B
+maennlich,verheiratet,29,1,Master,angestellt,41560,Einfamilienhaus,Tarif A
 maennlich,geschieden,39,1,Lehre,arbeitend,29115,keiner,Tarif B
-maennlich,verheiratet,62,0,Lehre,kein,8600,keiner,Tarif B
-weiblich,verheiratet,67,1,Bachelor,im Ruhestand,27400,Eigentumswohnung,Tarif B
-maennlich,geschieden,47,0,Hauptschule,arbeitend,31230,keiner,Tarif B
-maennlich,verheiratet,50,0,Lehre,arbeitend,33050,keiner,Tarif A
-maennlich,ledig,48,0,Bachelor,selbständig,70400,Eigentumswohnung,Tarif B
-weiblich,geschieden,51,0,Bachelor,verbeamtet,73305,Einfamilienhaus,Tarif B
+weiblich,ledig,64,0,Lehre,kein,8600,keiner,Tarif C
+weiblich,verheiratet,31,1,Bachelor,selbständig,101500,Mehrfamilienhaus,Tarif A
+maennlich,geschieden,42,1,Bachelor,angestellt,105300,Einfamilienhaus,Tarif A
+weiblich,ledig,62,0,Lehre,kein,9900,keiner,Tarif C
+weiblich,verheiratet,68,1,Bachelor,im Ruhestand,24900,keiner,Tarif B
+weiblich,verheiratet,60,1,Bachelor,verbeamtet,91300,Eigentumswohnung,Tarif A
+maennlich,ledig,36,0,Bachelor,angestellt,80000,keiner,Tarif A
+maennlich,ledig,16,0,Keine,kein,0,keiner,ablehnen
+weiblich,verheiratet,37,2,Abitur,kein,8700,keiner,Tarif A
+weiblich,geschieden,52,0,Hauptschule,arbeitend,31020,keiner,Tarif B
+maennlich,verheiratet,43,3,Lehre,arbeitend,31685,keiner,Tarif A
+maennlich,geschieden,52,0,Bachelor,angestellt,122500,Einfamilienhaus,Tarif A
+weiblich,ledig,19,0,Keine,kein,9400,keiner,Tarif C
+weiblich,ledig,20,0,Lehre,arbeitend,29300,keiner,Tarif C
+maennlich,verheiratet,80,0,Bachelor,selbständig,61300,keiner,Tarif B
+maennlich,verheiratet,48,2,Lehre,angestellt,97340,Eigentumswohnung,Tarif A
+weiblich,ledig,41,1,Lehre,arbeitend,31595,keiner,Tarif B
+weiblich,verheiratet,35,0,Lehre,angestellt,68925,Einfamilienhaus,Tarif B
+maennlich,ledig,37,0,Abitur,arbeitend,28445,keiner,Tarif B
+maennlich,geschieden,62,0,Bachelor,arbeitend,27030,keiner,Tarif B
+maennlich,ledig,8,0,Keine,kein,0,keiner,ablehnen
+maennlich,ledig,10,0,Keine,kein,0,keiner,ablehnen
+maennlich,geschieden,50,0,Bachelor,arbeitend,33150,keiner,Tarif B
+weiblich,ledig,83,0,Bachelor,im Ruhestand,31700,keiner,Tarif D
+maennlich,geschieden,39,0,Bachelor,angestellt,100220,Mehrfamilienhaus,Tarif A
+maennlich,verheiratet,45,2,Lehre,arbeitend,26750,keiner,Tarif A
+weiblich,ledig,68,0,Promotion,arbeitend,26620,Eigentumswohnung,Tarif C
+weiblich,verwitwet,34,4,Lehre,kein,9700,keiner,Tarif A
+weiblich,verwitwet,34,0,Master,verbeamtet,31430,keiner,Tarif B
+weiblich,geschieden,25,0,Realschule,kein,9000,keiner,Tarif C
+maennlich,verheiratet,68,0,Realschule,selbständig,76100,Eigentumswohnung,Tarif A
 maennlich,ledig,36,0,Bachelor,kein,9600,keiner,Tarif B
-maennlich,ledig,33,0,Abitur,selbständig,75300,keiner,Tarif A
-weiblich,verheiratet,36,3,Lehre,verbeamtet,74800,keiner,Tarif A
-maennlich,verheiratet,34,1,Bachelor,angestellt,72850,Eigentumswohnung,Tarif A
-maennlich,verheiratet,30,1,Bachelor,verbeamtet,52700,keiner,Tarif A
-maennlich,geschieden,45,2,Bachelor,angestellt,108225,Einfamilienhaus,Tarif A
-maennlich,ledig,28,0,Master,angestellt,56580,Eigentumswohnung,Tarif B
-weiblich,ledig,11,1,Keine,kein,0,keiner,ablehnen
-maennlich,geschieden,50,1,Lehre,kein,9200,keiner,Tarif B
-weiblich,verwitwet,39,0,Bachelor,angestellt,66655,keiner,Tarif B
-weiblich,geschieden,30,1,Bachelor,selbständig,68000,Einfamilienhaus,Tarif B
-weiblich,verheiratet,66,0,Bachelor,im Ruhestand,22600,keiner,Tarif C
-weiblich,geschieden,74,0,Master,im Ruhestand,43300,keiner,Tarif D
-maennlich,geschieden,63,1,Bachelor,angestellt,73735,Einfamilienhaus,Tarif B
-weiblich,verheiratet,64,0,Bachelor,angestellt,100080,Einfamilienhaus,Tarif A
-maennlich,verheiratet,61,0,Bachelor,angestellt,76060,keiner,Tarif A
-weiblich,verwitwet,60,0,Bachelor,angestellt,49500,keiner,Tarif B
-weiblich,ledig,7,0,Keine,kein,0,keiner,ablehnen
+maennlich,ledig,19,0,Hauptschule,kein,9500,keiner,Tarif C
+maennlich,geschieden,40,0,Promotion,selbständig,75200,Mehrfamilienhaus,Tarif A
+maennlich,ledig,79,0,Bachelor,im Ruhestand,29500,keiner,Tarif C
+maennlich,verheiratet,40,2,Bachelor,angestellt,82000,keiner,Tarif A
+weiblich,verheiratet,56,0,Bachelor,verbeamtet,68180,Eigentumswohnung,Tarif B
+weiblich,verheiratet,66,0,Bachelor,im Ruhestand,46500,keiner,Tarif C
+maennlich,verwitwet,43,2,Lehre,kein,9300,keiner,Tarif B
+weiblich,ledig,26,0,Lehre,kein,9700,keiner,Tarif C
+weiblich,ledig,22,0,Bachelor,verbeamtet,84690,keiner,Tarif B
+weiblich,geschieden,50,0,Bachelor,kein,10000,keiner,Tarif C
+maennlich,geschieden,24,3,Bachelor,angestellt,81400,Mehrfamilienhaus,Tarif A
+maennlich,ledig,20,0,Abitur,kein,8600,keiner,Tarif C
+maennlich,verheiratet,34,2,Master,verbeamtet,69170,Einfamilienhaus,Tarif A
+maennlich,ledig,20,0,Abitur,kein,9900,keiner,Tarif C
+weiblich,verheiratet,26,2,Lehre,angestellt,81320,keiner,Tarif A
+maennlich,geschieden,37,0,Bachelor,angestellt,42665,Mehrfamilienhaus,Tarif B
+weiblich,ledig,19,0,Keine,kein,8900,keiner,Tarif C
 weiblich,ledig,10,0,Keine,kein,0,keiner,ablehnen
-maennlich,ledig,66,0,Bachelor,arbeitend,33470,keiner,Tarif B
-maennlich,geschieden,47,4,Lehre,kein,9100,keiner,Tarif A
-maennlich,ledig,13,0,Keine,kein,0,keiner,ablehnen
+maennlich,ledig,37,0,Bachelor,verbeamtet,46335,keiner,Tarif B
+maennlich,ledig,54,0,Lehre,angestellt,45130,keiner,Tarif B
+maennlich,ledig,5,1,Keine,kein,0,keiner,ablehnen
+maennlich,verheiratet,36,0,Abitur,angestellt,79300,Eigentumswohnung,Tarif A
+weiblich,verwitwet,39,1,Lehre,kein,9100,keiner,Tarif B
+maennlich,ledig,3,0,Keine,kein,0,keiner,ablehnen
+weiblich,ledig,52,0,Bachelor,angestellt,59200,Einfamilienhaus,Tarif B
+maennlich,ledig,11,0,Keine,kein,0,keiner,ablehnen
+weiblich,ledig,15,0,Keine,kein,0,keiner,ablehnen
+weiblich,geschieden,53,0,Lehre,selbständig,104700,Einfamilienhaus,Tarif B
+weiblich,verheiratet,68,0,Master,im Ruhestand,23700,keiner,Tarif C
+weiblich,verheiratet,32,0,Lehre,angestellt,118440,Einfamilienhaus,Tarif A
+weiblich,verheiratet,25,1,Lehre,arbeitend,26700,keiner,Tarif A
+weiblich,ledig,11,0,Keine,kein,0,keiner,ablehnen
+weiblich,geschieden,30,1,Bachelor,selbständig,68000,Einfamilienhaus,Tarif B
+maennlich,verheiratet,51,0,Lehre,arbeitend,26970,keiner,Tarif A
+weiblich,verheiratet,55,0,Lehre,angestellt,124825,Eigentumswohnung,Tarif A
+weiblich,ledig,33,0,Lehre,arbeitend,28140,keiner,Tarif B
+maennlich,geschieden,61,1,Abitur,selbständig,72200,keiner,Tarif B
+weiblich,verheiratet,44,2,Hauptschule,kein,8100,keiner,Tarif A
+maennlich,ledig,16,0,Keine,kein,0,keiner,ablehnen
+weiblich,verheiratet,55,0,Bachelor,kein,9300,keiner,Tarif B
+weiblich,geschieden,30,2,Lehre,kein,8900,keiner,Tarif B
+maennlich,verheiratet,73,0,Lehre,arbeitend,29875,keiner,Tarif B
+maennlich,ledig,23,0,Bachelor,arbeitend,26440,Eigentumswohnung,Tarif B
+maennlich,verheiratet,52,0,Bachelor,angestellt,81320,keiner,Tarif A
+weiblich,geschieden,89,0,Abitur,im Ruhestand,28000,Eigentumswohnung,Tarif D
+weiblich,ledig,14,0,Keine,kein,0,keiner,ablehnen
