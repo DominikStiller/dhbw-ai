@@ -10,4 +10,4 @@ def plot_model(model_id):
         model = BayesianNetwork.from_json(file.read())
     model.plot('graph.pdf')
 
-plot_model('2020-04-09T14-22-02')
+plot_model('default')
