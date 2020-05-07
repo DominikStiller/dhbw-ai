@@ -11,5 +11,5 @@ while True:
         break
 
 train.to_csv('data/dataset_train.csv', index=False)
-test.to_csv('data/dataset_test.csv', index=False)
-test.drop('Versicherungstarif', axis='columns').to_csv('data/dataset_predict.csv', index=False)
+test.to_csv('data/dataset_evaluate.csv', index=False)
+test.drop('Versicherungstarif', axis='columns').head(n=10).to_csv('data/dataset_predict.csv', index=False)

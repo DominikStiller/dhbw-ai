@@ -1,0 +1,2628 @@
+{
+   "class" : "BayesianNetwork",
+   "name" : "Insurance Advisor",
+   "structure" : [
+      [],
+      [
+         8
+      ],
+      [
+         8
+      ],
+      [
+         8
+      ],
+      [
+         2
+      ],
+      [
+         8
+      ],
+      [
+         5
+      ],
+      [
+         6
+      ],
+      [
+         0
+      ]
+   ],
+   "states" : [
+      {
+         "class" : "State",
+         "distribution" : {
+            "class" : "Distribution",
+            "dtype" : "str",
+            "name" : "DiscreteDistribution",
+            "parameters" : [
+               {
+                  "maennlich" : 0.4942857142857143,
+                  "weiblich" : 0.5057142857142857
+               }
+            ],
+            "frozen" : false
+         },
+         "name" : "Geschlecht",
+         "weight" : 1.0
+      },
+      {
+         "class" : "State",
+         "distribution" : {
+            "class" : "Distribution",
+            "name" : "ConditionalProbabilityTable",
+            "table" : [
+               [
+                  "Tarif A",
+                  "geschieden",
+                  "0.169811320754717"
+               ],
+               [
+                  "Tarif A",
+                  "ledig",
+                  "0.05660377358490567"
+               ],
+               [
+                  "Tarif A",
+                  "verheiratet",
+                  "0.690566037735849"
+               ],
+               [
+                  "Tarif A",
+                  "verwitwet",
+                  "0.0830188679245283"
+               ],
+               [
+                  "Tarif B",
+                  "geschieden",
+                  "0.2546816479400749"
+               ],
+               [
+                  "Tarif B",
+                  "ledig",
+                  "0.3183520599250937"
+               ],
+               [
+                  "Tarif B",
+                  "verheiratet",
+                  "0.31460674157303375"
+               ],
+               [
+                  "Tarif B",
+                  "verwitwet",
+                  "0.11235955056179775"
+               ],
+               [
+                  "Tarif C",
+                  "geschieden",
+                  "0.21333333333333335"
+               ],
+               [
+                  "Tarif C",
+                  "ledig",
+                  "0.5866666666666667"
+               ],
+               [
+                  "Tarif C",
+                  "verheiratet",
+                  "0.06666666666666667"
+               ],
+               [
+                  "Tarif C",
+                  "verwitwet",
+                  "0.13333333333333333"
+               ],
+               [
+                  "Tarif D",
+                  "geschieden",
+                  "0.21428571428571425"
+               ],
+               [
+                  "Tarif D",
+                  "ledig",
+                  "0.2857142857142857"
+               ],
+               [
+                  "Tarif D",
+                  "verheiratet",
+                  "0.0"
+               ],
+               [
+                  "Tarif D",
+                  "verwitwet",
+                  "0.5"
+               ],
+               [
+                  "ablehnen",
+                  "geschieden",
+                  "0.0"
+               ],
+               [
+                  "ablehnen",
+                  "ledig",
+                  "1.0"
+               ],
+               [
+                  "ablehnen",
+                  "verheiratet",
+                  "0.0"
+               ],
+               [
+                  "ablehnen",
+                  "verwitwet",
+                  "0.0"
+               ]
+            ],
+            "dtypes" : [
+               "str",
+               "str",
+               "float"
+            ],
+            "parents" : [
+               {
+                  "class" : "Distribution",
+                  "name" : "ConditionalProbabilityTable",
+                  "table" : [
+                     [
+                        "maennlich",
+                        "ablehnen",
+                        "0.10982658959537571"
+                     ],
+                     [
+                        "maennlich",
+                        "Tarif A",
+                        "0.4479768786127168"
+                     ],
+                     [
+                        "maennlich",
+                        "Tarif D",
+                        "0.0"
+                     ],
+                     [
+                        "maennlich",
+                        "Tarif B",
+                        "0.36705202312138724"
+                     ],
+                     [
+                        "maennlich",
+                        "Tarif C",
+                        "0.07514450867052024"
+                     ],
+                     [
+                        "weiblich",
+                        "ablehnen",
+                        "0.11581920903954801"
+                     ],
+                     [
+                        "weiblich",
+                        "Tarif A",
+                        "0.3107344632768362"
+                     ],
+                     [
+                        "weiblich",
+                        "Tarif D",
+                        "0.03954802259887006"
+                     ],
+                     [
+                        "weiblich",
+                        "Tarif B",
+                        "0.3954802259887006"
+                     ],
+                     [
+                        "weiblich",
+                        "Tarif C",
+                        "0.1384180790960452"
+                     ]
+                  ],
+                  "dtypes" : [
+                     "str",
+                     "str",
+                     "float"
+                  ],
+                  "parents" : [
+                     {
+                        "class" : "Distribution",
+                        "dtype" : "str",
+                        "name" : "DiscreteDistribution",
+                        "parameters" : [
+                           {
+                              "maennlich" : 0.4942857142857143,
+                              "weiblich" : 0.5057142857142857
+                           }
+                        ],
+                        "frozen" : false
+                     }
+                  ]
+               }
+            ]
+         },
+         "name" : "Familienstand",
+         "weight" : 1.0
+      },
+      {
+         "class" : "State",
+         "distribution" : {
+            "class" : "Distribution",
+            "name" : "ConditionalProbabilityTable",
+            "table" : [
+               [
+                  "Tarif A",
+                  "0-20",
+                  "0.0037735849056603783"
+               ],
+               [
+                  "Tarif A",
+                  "20-40",
+                  "0.5283018867924528"
+               ],
+               [
+                  "Tarif A",
+                  "40-60",
+                  "0.39245283018867927"
+               ],
+               [
+                  "Tarif A",
+                  "60-80",
+                  "0.06792452830188679"
+               ],
+               [
+                  "Tarif A",
+                  "80-100",
+                  "0.0075471698113207565"
+               ],
+               [
+                  "Tarif B",
+                  "0-20",
+                  "0.018726591760299626"
+               ],
+               [
+                  "Tarif B",
+                  "20-40",
+                  "0.3970037453183521"
+               ],
+               [
+                  "Tarif B",
+                  "40-60",
+                  "0.3632958801498128"
+               ],
+               [
+                  "Tarif B",
+                  "60-80",
+                  "0.20973782771535582"
+               ],
+               [
+                  "Tarif B",
+                  "80-100",
+                  "0.011235955056179777"
+               ],
+               [
+                  "Tarif C",
+                  "0-20",
+                  "0.26666666666666666"
+               ],
+               [
+                  "Tarif C",
+                  "20-40",
+                  "0.21333333333333335"
+               ],
+               [
+                  "Tarif C",
+                  "40-60",
+                  "0.07999999999999999"
+               ],
+               [
+                  "Tarif C",
+                  "60-80",
+                  "0.4266666666666667"
+               ],
+               [
+                  "Tarif C",
+                  "80-100",
+                  "0.013333333333333338"
+               ],
+               [
+                  "Tarif D",
+                  "0-20",
+                  "0.0"
+               ],
+               [
+                  "Tarif D",
+                  "20-40",
+                  "0.0"
+               ],
+               [
+                  "Tarif D",
+                  "40-60",
+                  "0.0"
+               ],
+               [
+                  "Tarif D",
+                  "60-80",
+                  "0.5"
+               ],
+               [
+                  "Tarif D",
+                  "80-100",
+                  "0.5"
+               ],
+               [
+                  "ablehnen",
+                  "0-20",
+                  "1.0"
+               ],
+               [
+                  "ablehnen",
+                  "20-40",
+                  "0.0"
+               ],
+               [
+                  "ablehnen",
+                  "40-60",
+                  "0.0"
+               ],
+               [
+                  "ablehnen",
+                  "60-80",
+                  "0.0"
+               ],
+               [
+                  "ablehnen",
+                  "80-100",
+                  "0.0"
+               ]
+            ],
+            "dtypes" : [
+               "str",
+               "str",
+               "float"
+            ],
+            "parents" : [
+               {
+                  "class" : "Distribution",
+                  "name" : "ConditionalProbabilityTable",
+                  "table" : [
+                     [
+                        "maennlich",
+                        "ablehnen",
+                        "0.10982658959537571"
+                     ],
+                     [
+                        "maennlich",
+                        "Tarif A",
+                        "0.4479768786127168"
+                     ],
+                     [
+                        "maennlich",
+                        "Tarif D",
+                        "0.0"
+                     ],
+                     [
+                        "maennlich",
+                        "Tarif B",
+                        "0.36705202312138724"
+                     ],
+                     [
+                        "maennlich",
+                        "Tarif C",
+                        "0.07514450867052024"
+                     ],
+                     [
+                        "weiblich",
+                        "ablehnen",
+                        "0.11581920903954801"
+                     ],
+                     [
+                        "weiblich",
+                        "Tarif A",
+                        "0.3107344632768362"
+                     ],
+                     [
+                        "weiblich",
+                        "Tarif D",
+                        "0.03954802259887006"
+                     ],
+                     [
+                        "weiblich",
+                        "Tarif B",
+                        "0.3954802259887006"
+                     ],
+                     [
+                        "weiblich",
+                        "Tarif C",
+                        "0.1384180790960452"
+                     ]
+                  ],
+                  "dtypes" : [
+                     "str",
+                     "str",
+                     "float"
+                  ],
+                  "parents" : [
+                     {
+                        "class" : "Distribution",
+                        "dtype" : "str",
+                        "name" : "DiscreteDistribution",
+                        "parameters" : [
+                           {
+                              "maennlich" : 0.4942857142857143,
+                              "weiblich" : 0.5057142857142857
+                           }
+                        ],
+                        "frozen" : false
+                     }
+                  ]
+               }
+            ]
+         },
+         "name" : "Alter",
+         "weight" : 1.0
+      },
+      {
+         "class" : "State",
+         "distribution" : {
+            "class" : "Distribution",
+            "name" : "ConditionalProbabilityTable",
+            "table" : [
+               [
+                  "Tarif A",
+                  "0",
+                  "0.37358490566037733"
+               ],
+               [
+                  "Tarif A",
+                  "1",
+                  "0.21886792452830187"
+               ],
+               [
+                  "Tarif A",
+                  "2",
+                  "0.2490566037735849"
+               ],
+               [
+                  "Tarif A",
+                  "3",
+                  "0.10188679245283021"
+               ],
+               [
+                  "Tarif A",
+                  "4",
+                  "0.04150943396226415"
+               ],
+               [
+                  "Tarif A",
+                  "5",
+                  "0.0037735849056603783"
+               ],
+               [
+                  "Tarif A",
+                  "6",
+                  "0.0075471698113207565"
+               ],
+               [
+                  "Tarif A",
+                  "7",
+                  "0.0037735849056603783"
+               ],
+               [
+                  "Tarif B",
+                  "0",
+                  "0.7265917602996255"
+               ],
+               [
+                  "Tarif B",
+                  "1",
+                  "0.2172284644194757"
+               ],
+               [
+                  "Tarif B",
+                  "2",
+                  "0.05617977528089887"
+               ],
+               [
+                  "Tarif B",
+                  "3",
+                  "0.0"
+               ],
+               [
+                  "Tarif B",
+                  "4",
+                  "0.0"
+               ],
+               [
+                  "Tarif B",
+                  "5",
+                  "0.0"
+               ],
+               [
+                  "Tarif B",
+                  "6",
+                  "0.0"
+               ],
+               [
+                  "Tarif B",
+                  "7",
+                  "0.0"
+               ],
+               [
+                  "Tarif C",
+                  "0",
+                  "0.9066666666666666"
+               ],
+               [
+                  "Tarif C",
+                  "1",
+                  "0.09333333333333334"
+               ],
+               [
+                  "Tarif C",
+                  "2",
+                  "0.0"
+               ],
+               [
+                  "Tarif C",
+                  "3",
+                  "0.0"
+               ],
+               [
+                  "Tarif C",
+                  "4",
+                  "0.0"
+               ],
+               [
+                  "Tarif C",
+                  "5",
+                  "0.0"
+               ],
+               [
+                  "Tarif C",
+                  "6",
+                  "0.0"
+               ],
+               [
+                  "Tarif C",
+                  "7",
+                  "0.0"
+               ],
+               [
+                  "Tarif D",
+                  "0",
+                  "1.0"
+               ],
+               [
+                  "Tarif D",
+                  "1",
+                  "0.0"
+               ],
+               [
+                  "Tarif D",
+                  "2",
+                  "0.0"
+               ],
+               [
+                  "Tarif D",
+                  "3",
+                  "0.0"
+               ],
+               [
+                  "Tarif D",
+                  "4",
+                  "0.0"
+               ],
+               [
+                  "Tarif D",
+                  "5",
+                  "0.0"
+               ],
+               [
+                  "Tarif D",
+                  "6",
+                  "0.0"
+               ],
+               [
+                  "Tarif D",
+                  "7",
+                  "0.0"
+               ],
+               [
+                  "ablehnen",
+                  "0",
+                  "0.9367088607594937"
+               ],
+               [
+                  "ablehnen",
+                  "1",
+                  "0.06329113924050633"
+               ],
+               [
+                  "ablehnen",
+                  "2",
+                  "0.0"
+               ],
+               [
+                  "ablehnen",
+                  "3",
+                  "0.0"
+               ],
+               [
+                  "ablehnen",
+                  "4",
+                  "0.0"
+               ],
+               [
+                  "ablehnen",
+                  "5",
+                  "0.0"
+               ],
+               [
+                  "ablehnen",
+                  "6",
+                  "0.0"
+               ],
+               [
+                  "ablehnen",
+                  "7",
+                  "0.0"
+               ]
+            ],
+            "dtypes" : [
+               "str",
+               "str",
+               "float"
+            ],
+            "parents" : [
+               {
+                  "class" : "Distribution",
+                  "name" : "ConditionalProbabilityTable",
+                  "table" : [
+                     [
+                        "maennlich",
+                        "ablehnen",
+                        "0.10982658959537571"
+                     ],
+                     [
+                        "maennlich",
+                        "Tarif A",
+                        "0.4479768786127168"
+                     ],
+                     [
+                        "maennlich",
+                        "Tarif D",
+                        "0.0"
+                     ],
+                     [
+                        "maennlich",
+                        "Tarif B",
+                        "0.36705202312138724"
+                     ],
+                     [
+                        "maennlich",
+                        "Tarif C",
+                        "0.07514450867052024"
+                     ],
+                     [
+                        "weiblich",
+                        "ablehnen",
+                        "0.11581920903954801"
+                     ],
+                     [
+                        "weiblich",
+                        "Tarif A",
+                        "0.3107344632768362"
+                     ],
+                     [
+                        "weiblich",
+                        "Tarif D",
+                        "0.03954802259887006"
+                     ],
+                     [
+                        "weiblich",
+                        "Tarif B",
+                        "0.3954802259887006"
+                     ],
+                     [
+                        "weiblich",
+                        "Tarif C",
+                        "0.1384180790960452"
+                     ]
+                  ],
+                  "dtypes" : [
+                     "str",
+                     "str",
+                     "float"
+                  ],
+                  "parents" : [
+                     {
+                        "class" : "Distribution",
+                        "dtype" : "str",
+                        "name" : "DiscreteDistribution",
+                        "parameters" : [
+                           {
+                              "maennlich" : 0.4942857142857143,
+                              "weiblich" : 0.5057142857142857
+                           }
+                        ],
+                        "frozen" : false
+                     }
+                  ]
+               }
+            ]
+         },
+         "name" : "Kinder",
+         "weight" : 1.0
+      },
+      {
+         "class" : "State",
+         "distribution" : {
+            "class" : "Distribution",
+            "name" : "ConditionalProbabilityTable",
+            "table" : [
+               [
+                  "0-20",
+                  "Abitur",
+                  "0.0380952380952381"
+               ],
+               [
+                  "0-20",
+                  "Bachelor",
+                  "0.028571428571428577"
+               ],
+               [
+                  "0-20",
+                  "Hauptschule",
+                  "0.057142857142857134"
+               ],
+               [
+                  "0-20",
+                  "Keine",
+                  "0.8285714285714286"
+               ],
+               [
+                  "0-20",
+                  "Lehre",
+                  "0.009523809523809526"
+               ],
+               [
+                  "0-20",
+                  "Master",
+                  "0.009523809523809526"
+               ],
+               [
+                  "0-20",
+                  "Promotion",
+                  "0.0"
+               ],
+               [
+                  "0-20",
+                  "Realschule",
+                  "0.028571428571428577"
+               ],
+               [
+                  "20-40",
+                  "Abitur",
+                  "0.10305343511450381"
+               ],
+               [
+                  "20-40",
+                  "Bachelor",
+                  "0.32824427480916024"
+               ],
+               [
+                  "20-40",
+                  "Hauptschule",
+                  "0.045801526717557245"
+               ],
+               [
+                  "20-40",
+                  "Keine",
+                  "0.03435114503816794"
+               ],
+               [
+                  "20-40",
+                  "Lehre",
+                  "0.25572519083969464"
+               ],
+               [
+                  "20-40",
+                  "Master",
+                  "0.09923664122137404"
+               ],
+               [
+                  "20-40",
+                  "Promotion",
+                  "0.0534351145038168"
+               ],
+               [
+                  "20-40",
+                  "Realschule",
+                  "0.08015267175572519"
+               ],
+               [
+                  "40-60",
+                  "Abitur",
+                  "0.04830917874396135"
+               ],
+               [
+                  "40-60",
+                  "Bachelor",
+                  "0.43478260869565216"
+               ],
+               [
+                  "40-60",
+                  "Hauptschule",
+                  "0.04830917874396135"
+               ],
+               [
+                  "40-60",
+                  "Keine",
+                  "0.009661835748792274"
+               ],
+               [
+                  "40-60",
+                  "Lehre",
+                  "0.30917874396135264"
+               ],
+               [
+                  "40-60",
+                  "Master",
+                  "0.12560386473429952"
+               ],
+               [
+                  "40-60",
+                  "Promotion",
+                  "0.004830917874396137"
+               ],
+               [
+                  "40-60",
+                  "Realschule",
+                  "0.01932367149758454"
+               ],
+               [
+                  "60-80",
+                  "Abitur",
+                  "0.04424778761061946"
+               ],
+               [
+                  "60-80",
+                  "Bachelor",
+                  "0.39823008849557523"
+               ],
+               [
+                  "60-80",
+                  "Hauptschule",
+                  "0.05309734513274337"
+               ],
+               [
+                  "60-80",
+                  "Keine",
+                  "0.0"
+               ],
+               [
+                  "60-80",
+                  "Lehre",
+                  "0.30973451327433627"
+               ],
+               [
+                  "60-80",
+                  "Master",
+                  "0.10619469026548671"
+               ],
+               [
+                  "60-80",
+                  "Promotion",
+                  "0.026548672566371685"
+               ],
+               [
+                  "60-80",
+                  "Realschule",
+                  "0.06194690265486725"
+               ],
+               [
+                  "80-100",
+                  "Abitur",
+                  "0.07692307692307693"
+               ],
+               [
+                  "80-100",
+                  "Bachelor",
+                  "0.23076923076923078"
+               ],
+               [
+                  "80-100",
+                  "Hauptschule",
+                  "0.23076923076923078"
+               ],
+               [
+                  "80-100",
+                  "Keine",
+                  "0.0"
+               ],
+               [
+                  "80-100",
+                  "Lehre",
+                  "0.30769230769230765"
+               ],
+               [
+                  "80-100",
+                  "Master",
+                  "0.07692307692307693"
+               ],
+               [
+                  "80-100",
+                  "Promotion",
+                  "0.0"
+               ],
+               [
+                  "80-100",
+                  "Realschule",
+                  "0.07692307692307693"
+               ]
+            ],
+            "dtypes" : [
+               "str",
+               "str",
+               "float"
+            ],
+            "parents" : [
+               {
+                  "class" : "Distribution",
+                  "name" : "ConditionalProbabilityTable",
+                  "table" : [
+                     [
+                        "ablehnen",
+                        "20-40",
+                        "0.0"
+                     ],
+                     [
+                        "ablehnen",
+                        "40-60",
+                        "0.0"
+                     ],
+                     [
+                        "ablehnen",
+                        "0-20",
+                        "1.0"
+                     ],
+                     [
+                        "ablehnen",
+                        "80-100",
+                        "0.0"
+                     ],
+                     [
+                        "ablehnen",
+                        "60-80",
+                        "0.0"
+                     ],
+                     [
+                        "Tarif A",
+                        "20-40",
+                        "0.5283018867924528"
+                     ],
+                     [
+                        "Tarif A",
+                        "40-60",
+                        "0.39245283018867927"
+                     ],
+                     [
+                        "Tarif A",
+                        "0-20",
+                        "0.0037735849056603783"
+                     ],
+                     [
+                        "Tarif A",
+                        "80-100",
+                        "0.0075471698113207565"
+                     ],
+                     [
+                        "Tarif A",
+                        "60-80",
+                        "0.06792452830188679"
+                     ],
+                     [
+                        "Tarif D",
+                        "20-40",
+                        "0.0"
+                     ],
+                     [
+                        "Tarif D",
+                        "40-60",
+                        "0.0"
+                     ],
+                     [
+                        "Tarif D",
+                        "0-20",
+                        "0.0"
+                     ],
+                     [
+                        "Tarif D",
+                        "80-100",
+                        "0.5"
+                     ],
+                     [
+                        "Tarif D",
+                        "60-80",
+                        "0.5"
+                     ],
+                     [
+                        "Tarif B",
+                        "20-40",
+                        "0.3970037453183521"
+                     ],
+                     [
+                        "Tarif B",
+                        "40-60",
+                        "0.3632958801498128"
+                     ],
+                     [
+                        "Tarif B",
+                        "0-20",
+                        "0.018726591760299626"
+                     ],
+                     [
+                        "Tarif B",
+                        "80-100",
+                        "0.011235955056179777"
+                     ],
+                     [
+                        "Tarif B",
+                        "60-80",
+                        "0.20973782771535582"
+                     ],
+                     [
+                        "Tarif C",
+                        "20-40",
+                        "0.21333333333333335"
+                     ],
+                     [
+                        "Tarif C",
+                        "40-60",
+                        "0.07999999999999999"
+                     ],
+                     [
+                        "Tarif C",
+                        "0-20",
+                        "0.26666666666666666"
+                     ],
+                     [
+                        "Tarif C",
+                        "80-100",
+                        "0.013333333333333338"
+                     ],
+                     [
+                        "Tarif C",
+                        "60-80",
+                        "0.4266666666666667"
+                     ]
+                  ],
+                  "dtypes" : [
+                     "str",
+                     "str",
+                     "float"
+                  ],
+                  "parents" : [
+                     {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                           [
+                              "maennlich",
+                              "ablehnen",
+                              "0.10982658959537571"
+                           ],
+                           [
+                              "maennlich",
+                              "Tarif A",
+                              "0.4479768786127168"
+                           ],
+                           [
+                              "maennlich",
+                              "Tarif D",
+                              "0.0"
+                           ],
+                           [
+                              "maennlich",
+                              "Tarif B",
+                              "0.36705202312138724"
+                           ],
+                           [
+                              "maennlich",
+                              "Tarif C",
+                              "0.07514450867052024"
+                           ],
+                           [
+                              "weiblich",
+                              "ablehnen",
+                              "0.11581920903954801"
+                           ],
+                           [
+                              "weiblich",
+                              "Tarif A",
+                              "0.3107344632768362"
+                           ],
+                           [
+                              "weiblich",
+                              "Tarif D",
+                              "0.03954802259887006"
+                           ],
+                           [
+                              "weiblich",
+                              "Tarif B",
+                              "0.3954802259887006"
+                           ],
+                           [
+                              "weiblich",
+                              "Tarif C",
+                              "0.1384180790960452"
+                           ]
+                        ],
+                        "dtypes" : [
+                           "str",
+                           "str",
+                           "float"
+                        ],
+                        "parents" : [
+                           {
+                              "class" : "Distribution",
+                              "dtype" : "str",
+                              "name" : "DiscreteDistribution",
+                              "parameters" : [
+                                 {
+                                    "maennlich" : 0.4942857142857143,
+                                    "weiblich" : 0.5057142857142857
+                                 }
+                              ],
+                              "frozen" : false
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "name" : "Bildungsstand",
+         "weight" : 1.0
+      },
+      {
+         "class" : "State",
+         "distribution" : {
+            "class" : "Distribution",
+            "name" : "ConditionalProbabilityTable",
+            "table" : [
+               [
+                  "Tarif A",
+                  "angestellt",
+                  "0.5245283018867924"
+               ],
+               [
+                  "Tarif A",
+                  "arbeitend",
+                  "0.1132075471698113"
+               ],
+               [
+                  "Tarif A",
+                  "im Ruhestand",
+                  "0.0"
+               ],
+               [
+                  "Tarif A",
+                  "kein",
+                  "0.07547169811320754"
+               ],
+               [
+                  "Tarif A",
+                  "selbst\u00e4ndig",
+                  "0.16226415094339622"
+               ],
+               [
+                  "Tarif A",
+                  "verbeamtet",
+                  "0.12452830188679248"
+               ],
+               [
+                  "Tarif B",
+                  "angestellt",
+                  "0.26217228464419473"
+               ],
+               [
+                  "Tarif B",
+                  "arbeitend",
+                  "0.22846441947565543"
+               ],
+               [
+                  "Tarif B",
+                  "im Ruhestand",
+                  "0.052434456928838954"
+               ],
+               [
+                  "Tarif B",
+                  "kein",
+                  "0.19850187265917604"
+               ],
+               [
+                  "Tarif B",
+                  "selbst\u00e4ndig",
+                  "0.16104868913857678"
+               ],
+               [
+                  "Tarif B",
+                  "verbeamtet",
+                  "0.09737827715355805"
+               ],
+               [
+                  "Tarif C",
+                  "angestellt",
+                  "0.026666666666666665"
+               ],
+               [
+                  "Tarif C",
+                  "arbeitend",
+                  "0.13333333333333333"
+               ],
+               [
+                  "Tarif C",
+                  "im Ruhestand",
+                  "0.28"
+               ],
+               [
+                  "Tarif C",
+                  "kein",
+                  "0.5333333333333333"
+               ],
+               [
+                  "Tarif C",
+                  "selbst\u00e4ndig",
+                  "0.026666666666666665"
+               ],
+               [
+                  "Tarif C",
+                  "verbeamtet",
+                  "0.0"
+               ],
+               [
+                  "Tarif D",
+                  "angestellt",
+                  "0.0"
+               ],
+               [
+                  "Tarif D",
+                  "arbeitend",
+                  "0.0"
+               ],
+               [
+                  "Tarif D",
+                  "im Ruhestand",
+                  "1.0"
+               ],
+               [
+                  "Tarif D",
+                  "kein",
+                  "0.0"
+               ],
+               [
+                  "Tarif D",
+                  "selbst\u00e4ndig",
+                  "0.0"
+               ],
+               [
+                  "Tarif D",
+                  "verbeamtet",
+                  "0.0"
+               ],
+               [
+                  "ablehnen",
+                  "angestellt",
+                  "0.0"
+               ],
+               [
+                  "ablehnen",
+                  "arbeitend",
+                  "0.012658227848101266"
+               ],
+               [
+                  "ablehnen",
+                  "im Ruhestand",
+                  "0.0"
+               ],
+               [
+                  "ablehnen",
+                  "kein",
+                  "0.9746835443037974"
+               ],
+               [
+                  "ablehnen",
+                  "selbst\u00e4ndig",
+                  "0.012658227848101266"
+               ],
+               [
+                  "ablehnen",
+                  "verbeamtet",
+                  "0.0"
+               ]
+            ],
+            "dtypes" : [
+               "str",
+               "str",
+               "float"
+            ],
+            "parents" : [
+               {
+                  "class" : "Distribution",
+                  "name" : "ConditionalProbabilityTable",
+                  "table" : [
+                     [
+                        "maennlich",
+                        "ablehnen",
+                        "0.10982658959537571"
+                     ],
+                     [
+                        "maennlich",
+                        "Tarif A",
+                        "0.4479768786127168"
+                     ],
+                     [
+                        "maennlich",
+                        "Tarif D",
+                        "0.0"
+                     ],
+                     [
+                        "maennlich",
+                        "Tarif B",
+                        "0.36705202312138724"
+                     ],
+                     [
+                        "maennlich",
+                        "Tarif C",
+                        "0.07514450867052024"
+                     ],
+                     [
+                        "weiblich",
+                        "ablehnen",
+                        "0.11581920903954801"
+                     ],
+                     [
+                        "weiblich",
+                        "Tarif A",
+                        "0.3107344632768362"
+                     ],
+                     [
+                        "weiblich",
+                        "Tarif D",
+                        "0.03954802259887006"
+                     ],
+                     [
+                        "weiblich",
+                        "Tarif B",
+                        "0.3954802259887006"
+                     ],
+                     [
+                        "weiblich",
+                        "Tarif C",
+                        "0.1384180790960452"
+                     ]
+                  ],
+                  "dtypes" : [
+                     "str",
+                     "str",
+                     "float"
+                  ],
+                  "parents" : [
+                     {
+                        "class" : "Distribution",
+                        "dtype" : "str",
+                        "name" : "DiscreteDistribution",
+                        "parameters" : [
+                           {
+                              "maennlich" : 0.4942857142857143,
+                              "weiblich" : 0.5057142857142857
+                           }
+                        ],
+                        "frozen" : false
+                     }
+                  ]
+               }
+            ]
+         },
+         "name" : "Beruf",
+         "weight" : 1.0
+      },
+      {
+         "class" : "State",
+         "distribution" : {
+            "class" : "Distribution",
+            "name" : "ConditionalProbabilityTable",
+            "table" : [
+               [
+                  "angestellt",
+                  "0-20000",
+                  "0.0"
+               ],
+               [
+                  "angestellt",
+                  "100000-120000",
+                  "0.11374407582938388"
+               ],
+               [
+                  "angestellt",
+                  "120000-140000",
+                  "0.03317535545023697"
+               ],
+               [
+                  "angestellt",
+                  "20000-40000",
+                  "0.023696682464454975"
+               ],
+               [
+                  "angestellt",
+                  "40000-60000",
+                  "0.18957345971563982"
+               ],
+               [
+                  "angestellt",
+                  "60000-80000",
+                  "0.2938388625592417"
+               ],
+               [
+                  "angestellt",
+                  "80000-100000",
+                  "0.3459715639810427"
+               ],
+               [
+                  "arbeitend",
+                  "0-20000",
+                  "0.03921568627450981"
+               ],
+               [
+                  "arbeitend",
+                  "100000-120000",
+                  "0.0"
+               ],
+               [
+                  "arbeitend",
+                  "120000-140000",
+                  "0.0"
+               ],
+               [
+                  "arbeitend",
+                  "20000-40000",
+                  "0.9607843137254902"
+               ],
+               [
+                  "arbeitend",
+                  "40000-60000",
+                  "0.0"
+               ],
+               [
+                  "arbeitend",
+                  "60000-80000",
+                  "0.0"
+               ],
+               [
+                  "arbeitend",
+                  "80000-100000",
+                  "0.0"
+               ],
+               [
+                  "im Ruhestand",
+                  "0-20000",
+                  "0.020408163265306117"
+               ],
+               [
+                  "im Ruhestand",
+                  "100000-120000",
+                  "0.0"
+               ],
+               [
+                  "im Ruhestand",
+                  "120000-140000",
+                  "0.0"
+               ],
+               [
+                  "im Ruhestand",
+                  "20000-40000",
+                  "0.8571428571428571"
+               ],
+               [
+                  "im Ruhestand",
+                  "40000-60000",
+                  "0.12244897959183675"
+               ],
+               [
+                  "im Ruhestand",
+                  "60000-80000",
+                  "0.0"
+               ],
+               [
+                  "im Ruhestand",
+                  "80000-100000",
+                  "0.0"
+               ],
+               [
+                  "kein",
+                  "0-20000",
+                  "1.0"
+               ],
+               [
+                  "kein",
+                  "100000-120000",
+                  "0.0"
+               ],
+               [
+                  "kein",
+                  "120000-140000",
+                  "0.0"
+               ],
+               [
+                  "kein",
+                  "20000-40000",
+                  "0.0"
+               ],
+               [
+                  "kein",
+                  "40000-60000",
+                  "0.0"
+               ],
+               [
+                  "kein",
+                  "60000-80000",
+                  "0.0"
+               ],
+               [
+                  "kein",
+                  "80000-100000",
+                  "0.0"
+               ],
+               [
+                  "selbst\u00e4ndig",
+                  "0-20000",
+                  "0.033707865168539325"
+               ],
+               [
+                  "selbst\u00e4ndig",
+                  "100000-120000",
+                  "0.20224719101123595"
+               ],
+               [
+                  "selbst\u00e4ndig",
+                  "120000-140000",
+                  "0.0"
+               ],
+               [
+                  "selbst\u00e4ndig",
+                  "20000-40000",
+                  "0.07865168539325842"
+               ],
+               [
+                  "selbst\u00e4ndig",
+                  "40000-60000",
+                  "0.16853932584269662"
+               ],
+               [
+                  "selbst\u00e4ndig",
+                  "60000-80000",
+                  "0.39325842696629215"
+               ],
+               [
+                  "selbst\u00e4ndig",
+                  "80000-100000",
+                  "0.12359550561797751"
+               ],
+               [
+                  "verbeamtet",
+                  "0-20000",
+                  "0.0"
+               ],
+               [
+                  "verbeamtet",
+                  "100000-120000",
+                  "0.033898305084745756"
+               ],
+               [
+                  "verbeamtet",
+                  "120000-140000",
+                  "0.016949152542372878"
+               ],
+               [
+                  "verbeamtet",
+                  "20000-40000",
+                  "0.033898305084745756"
+               ],
+               [
+                  "verbeamtet",
+                  "40000-60000",
+                  "0.13559322033898305"
+               ],
+               [
+                  "verbeamtet",
+                  "60000-80000",
+                  "0.33898305084745767"
+               ],
+               [
+                  "verbeamtet",
+                  "80000-100000",
+                  "0.4406779661016949"
+               ]
+            ],
+            "dtypes" : [
+               "str",
+               "str",
+               "float"
+            ],
+            "parents" : [
+               {
+                  "class" : "Distribution",
+                  "name" : "ConditionalProbabilityTable",
+                  "table" : [
+                     [
+                        "ablehnen",
+                        "arbeitend",
+                        "0.012658227848101266"
+                     ],
+                     [
+                        "ablehnen",
+                        "verbeamtet",
+                        "0.0"
+                     ],
+                     [
+                        "ablehnen",
+                        "selbst\u00e4ndig",
+                        "0.012658227848101266"
+                     ],
+                     [
+                        "ablehnen",
+                        "angestellt",
+                        "0.0"
+                     ],
+                     [
+                        "ablehnen",
+                        "im Ruhestand",
+                        "0.0"
+                     ],
+                     [
+                        "ablehnen",
+                        "kein",
+                        "0.9746835443037974"
+                     ],
+                     [
+                        "Tarif A",
+                        "arbeitend",
+                        "0.1132075471698113"
+                     ],
+                     [
+                        "Tarif A",
+                        "verbeamtet",
+                        "0.12452830188679248"
+                     ],
+                     [
+                        "Tarif A",
+                        "selbst\u00e4ndig",
+                        "0.16226415094339622"
+                     ],
+                     [
+                        "Tarif A",
+                        "angestellt",
+                        "0.5245283018867924"
+                     ],
+                     [
+                        "Tarif A",
+                        "im Ruhestand",
+                        "0.0"
+                     ],
+                     [
+                        "Tarif A",
+                        "kein",
+                        "0.07547169811320754"
+                     ],
+                     [
+                        "Tarif D",
+                        "arbeitend",
+                        "0.0"
+                     ],
+                     [
+                        "Tarif D",
+                        "verbeamtet",
+                        "0.0"
+                     ],
+                     [
+                        "Tarif D",
+                        "selbst\u00e4ndig",
+                        "0.0"
+                     ],
+                     [
+                        "Tarif D",
+                        "angestellt",
+                        "0.0"
+                     ],
+                     [
+                        "Tarif D",
+                        "im Ruhestand",
+                        "1.0"
+                     ],
+                     [
+                        "Tarif D",
+                        "kein",
+                        "0.0"
+                     ],
+                     [
+                        "Tarif B",
+                        "arbeitend",
+                        "0.22846441947565543"
+                     ],
+                     [
+                        "Tarif B",
+                        "verbeamtet",
+                        "0.09737827715355805"
+                     ],
+                     [
+                        "Tarif B",
+                        "selbst\u00e4ndig",
+                        "0.16104868913857678"
+                     ],
+                     [
+                        "Tarif B",
+                        "angestellt",
+                        "0.26217228464419473"
+                     ],
+                     [
+                        "Tarif B",
+                        "im Ruhestand",
+                        "0.052434456928838954"
+                     ],
+                     [
+                        "Tarif B",
+                        "kein",
+                        "0.19850187265917604"
+                     ],
+                     [
+                        "Tarif C",
+                        "arbeitend",
+                        "0.13333333333333333"
+                     ],
+                     [
+                        "Tarif C",
+                        "verbeamtet",
+                        "0.0"
+                     ],
+                     [
+                        "Tarif C",
+                        "selbst\u00e4ndig",
+                        "0.026666666666666665"
+                     ],
+                     [
+                        "Tarif C",
+                        "angestellt",
+                        "0.026666666666666665"
+                     ],
+                     [
+                        "Tarif C",
+                        "im Ruhestand",
+                        "0.28"
+                     ],
+                     [
+                        "Tarif C",
+                        "kein",
+                        "0.5333333333333333"
+                     ]
+                  ],
+                  "dtypes" : [
+                     "str",
+                     "str",
+                     "float"
+                  ],
+                  "parents" : [
+                     {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                           [
+                              "maennlich",
+                              "ablehnen",
+                              "0.10982658959537571"
+                           ],
+                           [
+                              "maennlich",
+                              "Tarif A",
+                              "0.4479768786127168"
+                           ],
+                           [
+                              "maennlich",
+                              "Tarif D",
+                              "0.0"
+                           ],
+                           [
+                              "maennlich",
+                              "Tarif B",
+                              "0.36705202312138724"
+                           ],
+                           [
+                              "maennlich",
+                              "Tarif C",
+                              "0.07514450867052024"
+                           ],
+                           [
+                              "weiblich",
+                              "ablehnen",
+                              "0.11581920903954801"
+                           ],
+                           [
+                              "weiblich",
+                              "Tarif A",
+                              "0.3107344632768362"
+                           ],
+                           [
+                              "weiblich",
+                              "Tarif D",
+                              "0.03954802259887006"
+                           ],
+                           [
+                              "weiblich",
+                              "Tarif B",
+                              "0.3954802259887006"
+                           ],
+                           [
+                              "weiblich",
+                              "Tarif C",
+                              "0.1384180790960452"
+                           ]
+                        ],
+                        "dtypes" : [
+                           "str",
+                           "str",
+                           "float"
+                        ],
+                        "parents" : [
+                           {
+                              "class" : "Distribution",
+                              "dtype" : "str",
+                              "name" : "DiscreteDistribution",
+                              "parameters" : [
+                                 {
+                                    "maennlich" : 0.4942857142857143,
+                                    "weiblich" : 0.5057142857142857
+                                 }
+                              ],
+                              "frozen" : false
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "name" : "Jahresgehalt",
+         "weight" : 1.0
+      },
+      {
+         "class" : "State",
+         "distribution" : {
+            "class" : "Distribution",
+            "name" : "ConditionalProbabilityTable",
+            "table" : [
+               [
+                  "0-20000",
+                  "Eigentumswohnung",
+                  "0.0"
+               ],
+               [
+                  "0-20000",
+                  "Einfamilienhaus",
+                  "0.035353535353535345"
+               ],
+               [
+                  "0-20000",
+                  "Mehrfamilienhaus",
+                  "0.0"
+               ],
+               [
+                  "0-20000",
+                  "Villa",
+                  "0.0"
+               ],
+               [
+                  "0-20000",
+                  "keiner",
+                  "0.9646464646464646"
+               ],
+               [
+                  "100000-120000",
+                  "Eigentumswohnung",
+                  "0.13636363636363635"
+               ],
+               [
+                  "100000-120000",
+                  "Einfamilienhaus",
+                  "0.5"
+               ],
+               [
+                  "100000-120000",
+                  "Mehrfamilienhaus",
+                  "0.13636363636363635"
+               ],
+               [
+                  "100000-120000",
+                  "Villa",
+                  "0.18181818181818182"
+               ],
+               [
+                  "100000-120000",
+                  "keiner",
+                  "0.04545454545454546"
+               ],
+               [
+                  "120000-140000",
+                  "Eigentumswohnung",
+                  "0.12500000000000003"
+               ],
+               [
+                  "120000-140000",
+                  "Einfamilienhaus",
+                  "0.75"
+               ],
+               [
+                  "120000-140000",
+                  "Mehrfamilienhaus",
+                  "0.0"
+               ],
+               [
+                  "120000-140000",
+                  "Villa",
+                  "0.12500000000000003"
+               ],
+               [
+                  "120000-140000",
+                  "keiner",
+                  "0.0"
+               ],
+               [
+                  "20000-40000",
+                  "Eigentumswohnung",
+                  "0.1948051948051948"
+               ],
+               [
+                  "20000-40000",
+                  "Einfamilienhaus",
+                  "0.05844155844155843"
+               ],
+               [
+                  "20000-40000",
+                  "Mehrfamilienhaus",
+                  "0.006493506493506491"
+               ],
+               [
+                  "20000-40000",
+                  "Villa",
+                  "0.0"
+               ],
+               [
+                  "20000-40000",
+                  "keiner",
+                  "0.7402597402597403"
+               ],
+               [
+                  "40000-60000",
+                  "Eigentumswohnung",
+                  "0.3043478260869566"
+               ],
+               [
+                  "40000-60000",
+                  "Einfamilienhaus",
+                  "0.20289855072463772"
+               ],
+               [
+                  "40000-60000",
+                  "Mehrfamilienhaus",
+                  "0.043478260869565216"
+               ],
+               [
+                  "40000-60000",
+                  "Villa",
+                  "0.0"
+               ],
+               [
+                  "40000-60000",
+                  "keiner",
+                  "0.4492753623188406"
+               ],
+               [
+                  "60000-80000",
+                  "Eigentumswohnung",
+                  "0.3162393162393162"
+               ],
+               [
+                  "60000-80000",
+                  "Einfamilienhaus",
+                  "0.18803418803418803"
+               ],
+               [
+                  "60000-80000",
+                  "Mehrfamilienhaus",
+                  "0.017094017094017092"
+               ],
+               [
+                  "60000-80000",
+                  "Villa",
+                  "0.0"
+               ],
+               [
+                  "60000-80000",
+                  "keiner",
+                  "0.47863247863247865"
+               ],
+               [
+                  "80000-100000",
+                  "Eigentumswohnung",
+                  "0.2545454545454545"
+               ],
+               [
+                  "80000-100000",
+                  "Einfamilienhaus",
+                  "0.3181818181818182"
+               ],
+               [
+                  "80000-100000",
+                  "Mehrfamilienhaus",
+                  "0.07272727272727272"
+               ],
+               [
+                  "80000-100000",
+                  "Villa",
+                  "0.009090909090909087"
+               ],
+               [
+                  "80000-100000",
+                  "keiner",
+                  "0.34545454545454546"
+               ]
+            ],
+            "dtypes" : [
+               "str",
+               "str",
+               "float"
+            ],
+            "parents" : [
+               {
+                  "class" : "Distribution",
+                  "name" : "ConditionalProbabilityTable",
+                  "table" : [
+                     [
+                        "arbeitend",
+                        "40000-60000",
+                        "0.0"
+                     ],
+                     [
+                        "arbeitend",
+                        "60000-80000",
+                        "0.0"
+                     ],
+                     [
+                        "arbeitend",
+                        "0-20000",
+                        "0.03921568627450981"
+                     ],
+                     [
+                        "arbeitend",
+                        "80000-100000",
+                        "0.0"
+                     ],
+                     [
+                        "arbeitend",
+                        "20000-40000",
+                        "0.9607843137254902"
+                     ],
+                     [
+                        "arbeitend",
+                        "120000-140000",
+                        "0.0"
+                     ],
+                     [
+                        "arbeitend",
+                        "100000-120000",
+                        "0.0"
+                     ],
+                     [
+                        "verbeamtet",
+                        "40000-60000",
+                        "0.13559322033898305"
+                     ],
+                     [
+                        "verbeamtet",
+                        "60000-80000",
+                        "0.33898305084745767"
+                     ],
+                     [
+                        "verbeamtet",
+                        "0-20000",
+                        "0.0"
+                     ],
+                     [
+                        "verbeamtet",
+                        "80000-100000",
+                        "0.4406779661016949"
+                     ],
+                     [
+                        "verbeamtet",
+                        "20000-40000",
+                        "0.033898305084745756"
+                     ],
+                     [
+                        "verbeamtet",
+                        "120000-140000",
+                        "0.016949152542372878"
+                     ],
+                     [
+                        "verbeamtet",
+                        "100000-120000",
+                        "0.033898305084745756"
+                     ],
+                     [
+                        "selbst\u00e4ndig",
+                        "40000-60000",
+                        "0.16853932584269662"
+                     ],
+                     [
+                        "selbst\u00e4ndig",
+                        "60000-80000",
+                        "0.39325842696629215"
+                     ],
+                     [
+                        "selbst\u00e4ndig",
+                        "0-20000",
+                        "0.033707865168539325"
+                     ],
+                     [
+                        "selbst\u00e4ndig",
+                        "80000-100000",
+                        "0.12359550561797751"
+                     ],
+                     [
+                        "selbst\u00e4ndig",
+                        "20000-40000",
+                        "0.07865168539325842"
+                     ],
+                     [
+                        "selbst\u00e4ndig",
+                        "120000-140000",
+                        "0.0"
+                     ],
+                     [
+                        "selbst\u00e4ndig",
+                        "100000-120000",
+                        "0.20224719101123595"
+                     ],
+                     [
+                        "angestellt",
+                        "40000-60000",
+                        "0.18957345971563982"
+                     ],
+                     [
+                        "angestellt",
+                        "60000-80000",
+                        "0.2938388625592417"
+                     ],
+                     [
+                        "angestellt",
+                        "0-20000",
+                        "0.0"
+                     ],
+                     [
+                        "angestellt",
+                        "80000-100000",
+                        "0.3459715639810427"
+                     ],
+                     [
+                        "angestellt",
+                        "20000-40000",
+                        "0.023696682464454975"
+                     ],
+                     [
+                        "angestellt",
+                        "120000-140000",
+                        "0.03317535545023697"
+                     ],
+                     [
+                        "angestellt",
+                        "100000-120000",
+                        "0.11374407582938388"
+                     ],
+                     [
+                        "im Ruhestand",
+                        "40000-60000",
+                        "0.12244897959183675"
+                     ],
+                     [
+                        "im Ruhestand",
+                        "60000-80000",
+                        "0.0"
+                     ],
+                     [
+                        "im Ruhestand",
+                        "0-20000",
+                        "0.020408163265306117"
+                     ],
+                     [
+                        "im Ruhestand",
+                        "80000-100000",
+                        "0.0"
+                     ],
+                     [
+                        "im Ruhestand",
+                        "20000-40000",
+                        "0.8571428571428571"
+                     ],
+                     [
+                        "im Ruhestand",
+                        "120000-140000",
+                        "0.0"
+                     ],
+                     [
+                        "im Ruhestand",
+                        "100000-120000",
+                        "0.0"
+                     ],
+                     [
+                        "kein",
+                        "40000-60000",
+                        "0.0"
+                     ],
+                     [
+                        "kein",
+                        "60000-80000",
+                        "0.0"
+                     ],
+                     [
+                        "kein",
+                        "0-20000",
+                        "1.0"
+                     ],
+                     [
+                        "kein",
+                        "80000-100000",
+                        "0.0"
+                     ],
+                     [
+                        "kein",
+                        "20000-40000",
+                        "0.0"
+                     ],
+                     [
+                        "kein",
+                        "120000-140000",
+                        "0.0"
+                     ],
+                     [
+                        "kein",
+                        "100000-120000",
+                        "0.0"
+                     ]
+                  ],
+                  "dtypes" : [
+                     "str",
+                     "str",
+                     "float"
+                  ],
+                  "parents" : [
+                     {
+                        "class" : "Distribution",
+                        "name" : "ConditionalProbabilityTable",
+                        "table" : [
+                           [
+                              "ablehnen",
+                              "arbeitend",
+                              "0.012658227848101266"
+                           ],
+                           [
+                              "ablehnen",
+                              "verbeamtet",
+                              "0.0"
+                           ],
+                           [
+                              "ablehnen",
+                              "selbst\u00e4ndig",
+                              "0.012658227848101266"
+                           ],
+                           [
+                              "ablehnen",
+                              "angestellt",
+                              "0.0"
+                           ],
+                           [
+                              "ablehnen",
+                              "im Ruhestand",
+                              "0.0"
+                           ],
+                           [
+                              "ablehnen",
+                              "kein",
+                              "0.9746835443037974"
+                           ],
+                           [
+                              "Tarif A",
+                              "arbeitend",
+                              "0.1132075471698113"
+                           ],
+                           [
+                              "Tarif A",
+                              "verbeamtet",
+                              "0.12452830188679248"
+                           ],
+                           [
+                              "Tarif A",
+                              "selbst\u00e4ndig",
+                              "0.16226415094339622"
+                           ],
+                           [
+                              "Tarif A",
+                              "angestellt",
+                              "0.5245283018867924"
+                           ],
+                           [
+                              "Tarif A",
+                              "im Ruhestand",
+                              "0.0"
+                           ],
+                           [
+                              "Tarif A",
+                              "kein",
+                              "0.07547169811320754"
+                           ],
+                           [
+                              "Tarif D",
+                              "arbeitend",
+                              "0.0"
+                           ],
+                           [
+                              "Tarif D",
+                              "verbeamtet",
+                              "0.0"
+                           ],
+                           [
+                              "Tarif D",
+                              "selbst\u00e4ndig",
+                              "0.0"
+                           ],
+                           [
+                              "Tarif D",
+                              "angestellt",
+                              "0.0"
+                           ],
+                           [
+                              "Tarif D",
+                              "im Ruhestand",
+                              "1.0"
+                           ],
+                           [
+                              "Tarif D",
+                              "kein",
+                              "0.0"
+                           ],
+                           [
+                              "Tarif B",
+                              "arbeitend",
+                              "0.22846441947565543"
+                           ],
+                           [
+                              "Tarif B",
+                              "verbeamtet",
+                              "0.09737827715355805"
+                           ],
+                           [
+                              "Tarif B",
+                              "selbst\u00e4ndig",
+                              "0.16104868913857678"
+                           ],
+                           [
+                              "Tarif B",
+                              "angestellt",
+                              "0.26217228464419473"
+                           ],
+                           [
+                              "Tarif B",
+                              "im Ruhestand",
+                              "0.052434456928838954"
+                           ],
+                           [
+                              "Tarif B",
+                              "kein",
+                              "0.19850187265917604"
+                           ],
+                           [
+                              "Tarif C",
+                              "arbeitend",
+                              "0.13333333333333333"
+                           ],
+                           [
+                              "Tarif C",
+                              "verbeamtet",
+                              "0.0"
+                           ],
+                           [
+                              "Tarif C",
+                              "selbst\u00e4ndig",
+                              "0.026666666666666665"
+                           ],
+                           [
+                              "Tarif C",
+                              "angestellt",
+                              "0.026666666666666665"
+                           ],
+                           [
+                              "Tarif C",
+                              "im Ruhestand",
+                              "0.28"
+                           ],
+                           [
+                              "Tarif C",
+                              "kein",
+                              "0.5333333333333333"
+                           ]
+                        ],
+                        "dtypes" : [
+                           "str",
+                           "str",
+                           "float"
+                        ],
+                        "parents" : [
+                           {
+                              "class" : "Distribution",
+                              "name" : "ConditionalProbabilityTable",
+                              "table" : [
+                                 [
+                                    "maennlich",
+                                    "ablehnen",
+                                    "0.10982658959537571"
+                                 ],
+                                 [
+                                    "maennlich",
+                                    "Tarif A",
+                                    "0.4479768786127168"
+                                 ],
+                                 [
+                                    "maennlich",
+                                    "Tarif D",
+                                    "0.0"
+                                 ],
+                                 [
+                                    "maennlich",
+                                    "Tarif B",
+                                    "0.36705202312138724"
+                                 ],
+                                 [
+                                    "maennlich",
+                                    "Tarif C",
+                                    "0.07514450867052024"
+                                 ],
+                                 [
+                                    "weiblich",
+                                    "ablehnen",
+                                    "0.11581920903954801"
+                                 ],
+                                 [
+                                    "weiblich",
+                                    "Tarif A",
+                                    "0.3107344632768362"
+                                 ],
+                                 [
+                                    "weiblich",
+                                    "Tarif D",
+                                    "0.03954802259887006"
+                                 ],
+                                 [
+                                    "weiblich",
+                                    "Tarif B",
+                                    "0.3954802259887006"
+                                 ],
+                                 [
+                                    "weiblich",
+                                    "Tarif C",
+                                    "0.1384180790960452"
+                                 ]
+                              ],
+                              "dtypes" : [
+                                 "str",
+                                 "str",
+                                 "float"
+                              ],
+                              "parents" : [
+                                 {
+                                    "class" : "Distribution",
+                                    "dtype" : "str",
+                                    "name" : "DiscreteDistribution",
+                                    "parameters" : [
+                                       {
+                                          "maennlich" : 0.4942857142857143,
+                                          "weiblich" : 0.5057142857142857
+                                       }
+                                    ],
+                                    "frozen" : false
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "name" : "Immobilienbesitz",
+         "weight" : 1.0
+      },
+      {
+         "class" : "State",
+         "distribution" : {
+            "class" : "Distribution",
+            "name" : "ConditionalProbabilityTable",
+            "table" : [
+               [
+                  "maennlich",
+                  "Tarif A",
+                  "0.4479768786127168"
+               ],
+               [
+                  "maennlich",
+                  "Tarif B",
+                  "0.36705202312138724"
+               ],
+               [
+                  "maennlich",
+                  "Tarif C",
+                  "0.07514450867052024"
+               ],
+               [
+                  "maennlich",
+                  "Tarif D",
+                  "0.0"
+               ],
+               [
+                  "maennlich",
+                  "ablehnen",
+                  "0.10982658959537571"
+               ],
+               [
+                  "weiblich",
+                  "Tarif A",
+                  "0.3107344632768362"
+               ],
+               [
+                  "weiblich",
+                  "Tarif B",
+                  "0.3954802259887006"
+               ],
+               [
+                  "weiblich",
+                  "Tarif C",
+                  "0.1384180790960452"
+               ],
+               [
+                  "weiblich",
+                  "Tarif D",
+                  "0.03954802259887006"
+               ],
+               [
+                  "weiblich",
+                  "ablehnen",
+                  "0.11581920903954801"
+               ]
+            ],
+            "dtypes" : [
+               "str",
+               "str",
+               "float"
+            ],
+            "parents" : [
+               {
+                  "class" : "Distribution",
+                  "dtype" : "str",
+                  "name" : "DiscreteDistribution",
+                  "parameters" : [
+                     {
+                        "maennlich" : 0.4942857142857143,
+                        "weiblich" : 0.5057142857142857
+                     }
+                  ],
+                  "frozen" : false
+               }
+            ]
+         },
+         "name" : "Versicherungstarif",
+         "weight" : 1.0
+      }
+   ]
+}

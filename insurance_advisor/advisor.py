@@ -18,7 +18,7 @@ class InsuranceAdvisor:
         self.model = None
 
     @staticmethod
-    def load_data(filename):
+    def load_data(filename, prediction=False):
         """Load and transform data from .csv file"""
         data = pd.read_csv(filename)
         data_original = data.copy()
@@ -38,20 +38,29 @@ class InsuranceAdvisor:
 
         data['Kinder'] = data['Kinder'].apply(str)
 
-        if InsuranceAdvisor._prediction_col in data.columns:
+        if not prediction:
+            # Training / Testing
             return data[InsuranceAdvisor._feature_cols], data[InsuranceAdvisor._prediction_col]
         else:
+            # Prediction
             return data_original[InsuranceAdvisor._feature_cols], data[InsuranceAdvisor._feature_cols]
 
     def fit(self, features, prediction, **kwargs):
         """Create a Bayesian network from the given samples"""
         data = pd.concat([features, prediction], axis='columns')
+
         self.model = BayesianNetwork.from_samples(X=data, state_names=data.columns, name="Insurance Advisor", **kwargs)
         self.model.freeze()
 
     def predict(self, features):
         """Get maximum likelihood estimate for each row"""
-        return self.predict_probabilities(features).idxmax(axis='columns').rename(self._prediction_col)
+        return self.predict_probabilities(features).idxmax(axis='columns').rename('Vorhersage {}'.format(self._prediction_col))
+
+    def predict_with_probability(self, features):
+        """Get maximum likelihood estimate and probabilitz for each row"""
+        probabilities = self.predict_probabilities(features)
+        return probabilities.idxmax(axis='columns').rename('Prediction {}'.format(self._prediction_col)),\
+               probabilities.max(axis='columns').rename('Probability')
 
     def predict_probabilities(self, features):
         """Get probabilities of each tarif for each row"""
@@ -81,14 +90,12 @@ class InsuranceAdvisor:
 
         # Create directory and write to file
         os.makedirs('model', exist_ok=True)
-        filename = f'model/advisor-{model_id}.json'
+        filename = 'model/advisor-{}.json'.format(model_id)
         with open(filename, 'w+') as file:
             file.write(self.model.to_json(indent=3))
-        print("Saved to", filename)
-
-        return model_id
+        print("Model id:", model_id)
 
     def load_model(self, model_id):
         """Load a previously saved model"""
-        with open(f'model/advisor-{model_id}.json', 'r') as file:
+        with open('model/advisor-{}.json'.format(model_id), 'r') as file:
             self.model = BayesianNetwork.from_json(file.read())
