@@ -51,6 +51,7 @@ class InsuranceAdvisor:
 
         self.model = BayesianNetwork.from_samples(X=data, state_names=data.columns, name="Insurance Advisor", **kwargs)
         self.model.freeze()
+        print("Training finished")
 
     def predict(self, features):
         """Get maximum likelihood estimate for each row"""

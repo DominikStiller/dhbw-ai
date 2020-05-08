@@ -25,7 +25,7 @@ def evaluate(model_id, test_data):
     prediction_actual = advisor.predict(features)
     print(classification_report(prediction, prediction_actual))
 
-    plot_confusion_matrix(advisor, features, prediction, values_format='d', cmap='Blues', normalize='None')
+    plot_confusion_matrix(advisor, features, prediction, values_format='d', cmap='Blues', normalize=None)
     plt.savefig('confusion_matrix.png')
     print('Confusion matrix saved to "confusion_matrix.png"')
 
