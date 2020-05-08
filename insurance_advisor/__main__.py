@@ -28,7 +28,6 @@ def evaluate(model_id, evaluate_data):
     plot_confusion_matrix(advisor, features, prediction, values_format='d', cmap='Blues')
     plt.savefig('confusion_matrix.png')
     print('Confusion matrix saved to "confusion_matrix.png"')
-    plt.show()
 
 
 def predict(model_id, predict_data):
